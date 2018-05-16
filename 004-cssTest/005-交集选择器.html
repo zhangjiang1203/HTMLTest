@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>交集选择器</title>
+	<style type="text/css">
+	/*交集选择器没有空格*/
+	/*后代选择器有空格*/
+	/*这种写法是ie7开始兼容的*/
+	/*交集选择器一般都是以标签开头，很少的是两个连续使用*/
+		h3.special.zhongyao{
+			color: red;
+		}
+
+	</style>
+</head>
+<body>
+
+    <!-- h3和class的交集选择器 -->
+	<h3>我是标题</h3>
+	<h3 class="special zhongyao">我是标题</h3>
+	<h3 class="special">我是标题</h3>
+	<p class="special">我是段落</p>
+	<p>我是段落</p>
+	<p>我是段落</p>
+	
+</body>
+</html>

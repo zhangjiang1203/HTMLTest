@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<h3>表单提交</h3>
+	<form>
+		<!-- 所有的表单内容 都要写在form标签里面 -->
+		<p>
+			请输入您的姓名:
+			<!-- 添加的文本框 type是添加的类型 -->
+			<input type="text" value="默认的值" name="name" placeholder="占位符提示语"/>
+		</p>
+		<p>
+			请输入您的密码:
+			<input type="password" name="" />
+		</p>
+
+        <!-- radio 单选按钮 name修改为一样就是互斥的按钮 -->
+        <!-- 添加属性 checked 设置默认属性-->
+		<p>
+			请选择你的性别:
+			<input type="radio" name="xingbie" checked="checked">  男
+			<input type="radio" name="xingbie">  女
+			<input type="radio" name="xingbie">  保密
+		</p>
+
+		<p>
+			请选择你的学历:
+			<input type="radio" name="xueli">  幼儿园
+			<input type="radio" name="xueli">  小学
+			<input type="radio" name="xueli">  初中
+			<input type="radio" name="xueli">  高中
+			<input type="radio" name="xueli">  大专
+			<input type="radio" name="xueli">  本科
+			<input type="radio" name="xueli">  硕士
+			<input type="radio" name="xueli">  博士
+			<input type="radio" name="xueli">  保密
+
+		</p>
+		<!-- 复选框虽然不需要互斥，但最好也要有相同的name -->
+
+		<p>
+			请选择你的爱好：
+			<input type="checkbox" name="aihao"> 吃饭
+			<input type="checkbox" name="aihao"> 睡觉
+			<input type="checkbox" name="aihao"> 打豆豆
+		</p>
+
+		<p>
+			请选择你喜欢的颜色:
+			<input type="color" name="color"> 
+		</p>
+
+		<p>
+			请选择你的生日:
+			<input type="date" name="date"> 
+		</p>
+        <!-- select 选项 -->
+		<p>
+			请选择你的籍贯:
+			 <select>
+			 	<option>北京</option>
+			 	<option>上海</option>
+			 	<option>广东</option>
+			 	<option>河南</option>
+			 	<option>河北</option>
+			 	<option>广西</option>
+			 </select>
+		</p>
+        <!-- textarea cols 表示列 rows 表示行 -->
+		<p>
+			签名:
+			<textarea cols="30" rows="10" placeholder="请输入你的签名">
+				添加的默认文字
+			</textarea>
+		</p>
+
+		<p>
+		普通按钮
+		<input type="button" name="name" value="我是一个普通的按钮">
+		</p>
+	    <!-- submit按钮默认的样式为两个提交汉字 -->
+		<p>
+			提交按钮:
+			<input type="submit" value="确定提交">
+		</p>
+
+		<p>
+			重置按钮:
+			<input type="reset" name="重置按钮">
+
+		</p>
+
+
+	</form>
+
+</body>
+</html>

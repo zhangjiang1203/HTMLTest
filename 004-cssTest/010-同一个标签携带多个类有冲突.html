@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+	<style type="text/css">
+		.spec1{
+			color: blue;
+		}
+
+		.spec2{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+    <!-- 同一个标签中有多个类，选择最后添加上的选择器添加上去 -->
+    <!-- 而不管类定义是的顺序，可以为spec2 spec1 都不影响选择器的效果 -->
+    <!-- 下面两个p的颜色都是一样的 -->
+	<p class="spec1 spec2">我是什么颜色？</p>
+	<p class="spec2 spec1">我是什么颜色？</p>
+
+
+</body>
+</html>

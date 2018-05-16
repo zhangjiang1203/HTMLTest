@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+	<style type="text/css">
+		p{
+			color: red !important;
+			font-size: 100px;
+		}
+		#para1{
+		 	color: blue;
+		 	font-size: 50px;
+		}
+
+		.spec{
+			color: yellow;
+		}
+
+		div{
+			color: red !important;
+		}
+		h3{
+			color: green;
+		}
+
+		.div1{
+			color: green !important;
+		}
+
+		.div2{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<!-- !important给一个属性提高权重 -->
+	<!-- k:v !important; 不能忘记分号，不能忘记叹号，不能把important写在外面 -->
+	<!-- !important 提升的是一个属性的权重 并不是一个选择器的权重 -->
+	<!-- 如上所示，只是提升了color的权重，font-size还是#para1的权重比较高 -->
+	<p id="para1" class="spec">我是什么颜色？</p>
+
+    <!-- 通过继承来的属性不能通过 !important 来提升属性的权重 -->
+	<div>
+		<h3>继承可以提升权重吗? 不可以</h3>
+	</div>
+
+	<div class="div1">
+		<div class="div2">
+			<div>
+				<span>我就是测试一下显示的数据</span>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

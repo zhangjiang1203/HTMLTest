@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+	<style type="text/css">
+		div{
+			width: 0px;
+			height: 0px;
+			/*按要素拆开 分别取去实现*/
+			/*border-width: 10px;*/
+			/*border-color: red green blue yellow;*/
+			/*border-style: dashed solid dotted ;*/
+			/*按方向*/
+			/*border-top: 10px solid red;
+			border-right: 10px solid red;
+			border-left: 10px solid red;
+			border-bottom: 10px solid red;
+*/			/*上面是个border的写法等价于*/
+			border:40px solid white;
+			border-bottom: none;
+			border-top-color: blue;
+
+			transition: all 0.5s ease 0s;
+
+			/*利用border制作一个三角形*/
+		}
+
+		div:hover{
+			transform: rotate(180deg);
+		}
+	</style>
+	
+</head>
+<body>
+	<!-- border属性能够被拆开，有两大种的拆开方式 -->
+	<!-- 1.按要素 2.按方向 -->
+	<!--  -->
+
+	<div>
+		<!-- 我就是一个文字 -->
+	</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>类选择器</title>
+	<!-- class 属性和id非常相似，任何的标签都可以有class属性 -->
+	<!-- class 属性可以重复，但是id标签不可以重复 -->
+	<!-- 使用的时候用.class 去调用 -->
+	<!-- 同一个标签可能同时属于多个类，用空格隔开 -->
+	<style type="text/css">
+		.teshu{
+			color:red;
+		}
+
+		.zhongyao{
+			text-decoration: underline;
+		}
+
+		.ziti{
+			font-size: 50px;
+		}
+		.color{
+			color: blue;
+		}
+
+		.underline{
+			text-decoration: underline;
+		}
+		.border{
+			border: 5px solid green;
+		}
+	</style>
+</head>
+<body>
+	<p>类选择器的使用</p>
+	<!-- 这个标题同时有两个类名，两个类名同时作用在这个h3标签上 -->
+	<h3 class="teshu zhongyao">我是一个h3</h3>
+	<h3 class="zhongyao">我是一个h3</h3>
+	<h3>我是一个h3</h3>
+    <p class="teshu">我是一个段落</p>
+    <p>我是一个段落</p>
+    <p>我是一个段落</p>
+
+    <p class="color border" id="hezi">我是盒子</p>
+
+    <!-- 添加样式段落 -->
+    <p class="ziti color">
+    	这就是一个段落只是你要看明白我要表达的意思，现在我来告诉你你要做什么显示，还要添加的路径
+    </p>
+
+	<p class="color underline">
+		这就是一个段落只是你要看明白我要表达的意思，现在我来告诉你你要做什么显示，还要添加的路径
+	</p>
+
+	<p class="ziti underline">
+		这就是一个段落只是你要看明白我要表达的意思，现在我来告诉你你要做什么显示，还要添加的路径
+	</p>
+
+	<!-- 一般来说 css层面不用id属性 大量的用class属性 id是给js用的 -->
+
+	<!-- script type="text/javascript">
+		var box = document.getElementById('hezi');
+		var a = 0;
+		setInterval(function() {
+			a+=1;
+			box.style.marginLeft = a + 'px';
+		},30)
+	</script>
+ -->
+</body>
+</html>
