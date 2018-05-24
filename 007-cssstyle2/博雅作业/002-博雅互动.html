@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>document</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			padding-top: 58px;
+		}
+		/*窗口导航条悬浮
+          添加相对定位显示在最上边
+          添加左边距和上边距
+		*/
+		.header{
+			background-color: #191C3C;
+			height: 58px;
+			width: 100%;
+			position: fixed;
+			left: 0px;
+			top: 0px;
+		}
+
+		.inner_c{
+			width: 1000px;
+            margin: 0 auto;
+		}
+
+		.header .inner .logo{
+			float: left;
+		}
+
+		.header .inner .nav{
+			float: left;
+			margin-left: 40px;
+		}
+
+		.header .inner ul{
+           list-style:none;
+		}
+
+		.header .inner ul li{
+			float: left;
+			/*height: 58px;*/
+			width: 100px;
+			/*line-height: 58px;*/
+			text-align: center;
+			border-left: 1px solid #252947;
+		}
+
+		.header .inner ul li.last{
+			border-right: 1px solid #252947;
+		}
+
+		.header .inner ul li a{
+			display: block;
+			font-size: 14px;
+            height: 58px;
+            width: 100px;
+            line-height: 58px;
+			text-align: center;
+			text-decoration: none;
+			color: #818496;
+			background-color: #191D3A;
+		}
+		.header .inner ul li a.current{
+			color: #E2E4ED;
+			background-color: #252947;
+		}
+
+		.header .inner ul li a:hover{
+			color: #E2E4ED;
+			background-color: #252947;
+		}
+
+		.header .inner .joinus{
+			float:left;
+			padding-top: 12px;
+			padding-left: 48px; 
+		}
+		/*banner*/
+		.banner{
+			height: 465px;
+			background: url(images/banner.jpg) top center no-repeat;
+			position: relative;
+			left: 0;
+			top: 0;
+		}
+        /*绝对定位设置盒子居中*/
+		.banner .circle{
+			width: 120px;
+			height: 16px;
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			margin-left: -60px;
+		}
+		.banner .circle ul{
+			list-style: none;
+		}
+
+		.banner .circle ul li{
+			float: left;
+			width: 12px;
+			height: 12px;
+			margin-right: 15px;
+			background-color: blue;
+			border-radius: 50%;
+		}
+
+		.banner .circle ul li.current{
+			background-color: green;
+		}
+
+		.banner .circle ul li.last{
+			margin-right: 0px;
+		}
+
+
+        /*content*/
+		.content .newsvideo{
+			padding-top: 50px;
+			height: 229px;
+			border-bottom: 1px solid #DBE1E7;
+			position: relative;
+		}
+
+		.content .newsvideo ul{
+			list-style: none;
+		}
+
+		.content .newsvideo .product li{
+			float: left;
+			width: 218px;
+			margin-right: 40px;
+		}
+		.content .newsvideo .product li.last{
+			float: left;
+			margin-right: 0px;
+		}
+
+		.content .newsvideo .product li p img{
+			width: 218px;
+			height: 130px;
+		}
+
+		.content .newsvideo .product li h3{
+			height: 38px;
+			line-height: 38px;
+			text-align: center;
+			font-size: 14px;
+		}
+
+		.content .newsvideo .product li p.djbf{
+			text-align: center;
+			line-height: 16px;
+		}
+
+		.content .newsvideo .product li p.djbf a{
+			text-decoration: none;
+			font-size: 12px;
+			color: #38B774;
+			background-image: url(images/sanjiaoxing.png);
+			background-repeat: no-repeat;
+			background-position: right 5px;
+			padding-right: 12px;
+		}
+
+		/*设置banner显示的圆点*/
+		.content .newsvideo .circle{
+			height: 12px;
+			width: 118px;
+			position: absolute;
+			bottom: -6px;
+			left: 50%;
+			margin-left: -59px;
+			background-color: white;
+
+		}
+		.content .newsvideo .circle li{
+			float: left;
+			height: 12px;
+			width: 12px;
+			margin-right: 14px;
+			background-color: blue;
+			border-radius: 50%;
+		}
+
+		.content .newsvideo .circle li.current{
+			margin-left: 14px;
+			background-color: green;
+		}
+
+
+        /*设置底部的新闻和招聘信息*/
+        .content .bottom{
+        	height: 364px;
+        	background-image: url(images/indexmainbg.jpg);
+        	background-repeat: none;
+        	background-position: top,center;
+        	margin-top: 50px;
+        }
+
+        .content .bottom .information .bottomsize{
+        	height: 310px;
+        	width: 500px;
+        }
+        /*添加子绝父相定位，设置显示的图片显示*/
+        .content .bottom .information .news{
+        	float: left;
+        	background-image: url(images/bynewsbg.jpg);
+        	background-repeat: none;
+        	background-position: top,center;
+        	position: relative;
+        }
+
+        .content .bottom .information .news .more{
+        	position: absolute;
+        	left: 218px;
+        	top: 40px;
+        }
+
+        .content .bottom .information .news ul{
+        	list-style: none;
+        	padding-top: 120px;
+        	padding-left:20px;
+        	padding-right: 20px; 
+        }
+
+        .content .bottom .information .news ul li{
+        	height: 47px;
+        	line-height: 47px;
+        	border-bottom: 1px solid #E0E1E5; 
+        }
+
+        .content .bottom .information .news ul li a{
+        	text-decoration: none;
+        	display: block;
+        }
+
+
+        .content .bottom .information .news ul li a .time{
+        	font-size: 12px;
+        	color: #AFBECF;
+        }
+
+        .content .bottom .information .news ul li a .title{
+        	font-size: 16px;
+        	color: #444866;
+        	margin-left: 15px;
+        }
+
+
+        .content .bottom .information .offer{
+        	float: left;
+        	background-image: url(images/byhrbg3.jpg);
+        	background-repeat: none;
+        	background-position: top,center;
+        	color: white;
+        }
+
+        .content .bottom .information .offer p.zczp1{
+        	padding-left: 80px;
+        	padding-top: 40px;
+        	line-height: 32px;
+        	height: 32px;
+        	font-size: 30px;
+        	position: relative;
+        }
+
+        .content .bottom .information .offer p.zczp1 .morebutton{
+        	/*padding-left: 10px;
+        	padding-top: 10px;*/
+        	position: absolute;
+        	left: 217px;
+        	top: 39px;	
+        }
+
+        .content .bottom .information .offer p.zczp2{
+        	padding-left: 80px;
+        	padding-top: 6px;
+        	line-height: 9px;
+        	height: 9px;
+        	font-size: 12px;
+        }
+
+        .content .bottom .information .offer .zhaopin{
+        	padding-left: 20px;
+        	padding-top: 26px;
+        	height: 14px;
+        	line-height: 14px;
+        	font-size: 20px;
+        }
+
+        .content .bottom .information .offer ul{
+        	list-style: none;
+        	padding-top: 5px;
+        	padding-left:20px;
+        	padding-right: 175px; 
+        }
+
+        .content .bottom .information .offer ul li{
+        	border-bottom: 1px solid #6FDEA3;
+        	height: 40px;
+        	line-height: 40px;
+        	font-size: 16px;
+        }
+
+        .content .bottom .information .offer ul li a{
+        	display: block;
+        	text-decoration: none;
+        	color: white;
+        }
+
+        /*设置底部显示信息*/
+        .footer{
+        	height: 90px;
+        	background-color: #191D3A;
+        	color: #6C6E7E;
+        }
+
+        .footer .stateleft{
+        	float: left;
+        	height: 90px;
+        	line-height: 90px;
+        	font-size: 12px;
+        }
+
+        .footer .statecenter{
+        	float: right;
+        	height: 90px;
+        	line-height: 90px;
+        	font-size: 12px;
+        	background: url(images/zhengfu.png) no-repeat right center;
+        	padding-right: 50px;
+        }
+
+        .footer .stateleft a{
+        	text-decoration: none;
+        	color: #6C6E7E;
+        }
+
+        .backbtn{
+        	position: fixed;
+        	bottom: 71px;
+        	right: 15px;	
+        }
+
+        .backbtn a img{
+        	border-radius: 4px;
+        }
+	</style>
+</head>
+<body>
+    <!-- 导航栏 -->
+	<div class="header">
+		<div class="inner inner_c">
+			<div class="logo">
+			    <a href="#">
+			    	<img src="images/logo.png" alt="博雅logo">
+			    </a>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a class="current" href="#">首页</a></li>
+					<li><a href="#">博雅游戏</a></li>
+					<li><a href="#">博雅新闻</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">客服中心</a></li>
+					<li class="last"><a href="#">投资者关系</a></li>
+				</ul>
+			</div>
+			<div class="joinus">
+				<a href="#">
+					<img src="images/jrwm.png" alt="加入我们">
+				</a>
+			</div>		
+				
+		</div>
+	</div>
+	<!-- 显示的banner -->
+	<div class="banner">
+		<div class="circle">
+			<ul>
+				<li class="current"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li class="last"></li>
+			</ul>
+		</div>
+	</div>
+
+    <!-- 内容广告 -->
+	<div class="content">
+		<div class="newsvideo inner_c">
+			<ul class="product">
+				<li>
+					<p><img src="images/pro1.jpg" alt="展位图"></p>
+					<h3>BPT宣传片</h3>
+					<p class="djbf">
+						<a href="#">点击播放</a>
+					</p>
+				</li>
+				<li>
+					<p><img src="images/pro2.jpg" alt="展位图"></p>
+					<h3>BPT宣传片</h3>
+					<p class="djbf">
+						<a href="#">点击播放</a>
+					</p>
+				</li>
+				<li>
+					<p><img src="images/pro3.jpg" alt="展位图"></p>
+					<h3>BPT宣传片</h3>
+					<p class="djbf">
+						<a href="#">点击播放</a>
+					</p>
+				</li>
+				<li class="last">
+					<p><img src="images/pro4.jpg" alt="展位图"></p>
+					<h3>BPT宣传片</h3>
+					<p class="djbf">
+						<a href="#">点击播放</a>
+					</p>
+				</li>
+			</ul>
+			<ul class="circle">
+				<li class="current"></li>
+				<li></li>
+				<li></li>
+				<li class="last"></li>
+			</ul>
+		</div>
+		<div class="bottom">
+			<div class="information inner_c">
+				<div class="news bottomsize">
+					
+					<a href="" class="more" ><img src="images/leftmorebtn.png" alt="加载更多"></a>
+					
+					<ul>
+						<li>
+							<a href="#">
+								<span class="time">09/23</span>
+								<span class="title">2015博雅国际扑克比赛(BPT)在澳门落幕</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="time">09/01</span>
+								<span class="title">2015 博雅国际扑克大赛重磅来袭</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="time">09/23</span>
+								<span class="title">扑克比赛将在上海进行</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="time">09/23</span>
+								<span class="title">扑克比赛将在上海进行</span>
+							</a>
+						</li>
+					</ul>
+			    </div>
+				<div class="offer bottomsize">
+					<p class="zczp1">
+						<span class="">专场招聘</span>
+						<a href="#" class="morebutton"><img src="images/morebutton.png" alt=""></a>
+					</p>
+					<p class="zczp2">BOYAA JOBS</p>
+					<p class="zhaopin">专场招聘岗位:</p>
+					<ul>
+						<li><a href="#">PHP开发工程师</a></li>
+						<li><a href="#">前端开发工程师</a></li>
+						<li><a href="#">大数据开发工程师</a></li>
+						<li><a href="#">移动端开发工程师</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- 底部 -->
+	<div class="footer">
+		<div class="statement inner_c">
+			<p class="stateleft">
+				<a href="#" class="state">网站地图</a>
+				|
+				<a href="#" class="state">免责声明</a>
+			</p>
+			<p class="statecenter">
+				Copyright © 2004 - 2014 博雅互动(Boyaa Interactive) 粤ICP备05062536 增值电信业务经营许可证:粤B2-20110513
+				<!-- <img src="images/govIcon.gif" alt="政府"> -->
+			</p>
+		</div>
+		
+	</div>	
+
+	<!-- 添加浮动按钮 -->
+	<div class="backbtn">
+		<a href="#">
+			<img src="images/backtop.png" alt="">
+		</a>
+	</div>
+
+</body>
+</html>

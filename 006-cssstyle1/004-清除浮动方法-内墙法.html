@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>清除浮动</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	    *{
+	    	margin: 0px;
+	    	padding: 0px;
+	    }		
+
+	    li{
+	    	float: left;
+	    	height: 40px;
+	    	width: 100px;
+	    	line-height: 40px;
+	    	text-align: center;
+	    	background-color: red;
+	    }	
+	    .cl{
+	    	clear: both;
+	    }    
+	    .h16{
+	    	height: 10px;
+	    }
+	    /*
+	    一个父标签不能被浮动的子标签撑出高度的，浮动的标签脱离了标准流，在标签最底部添加一个盒子，清除浮动，就是让标签重新回归标准流，父标签就有了高度，内容撑高容器 
+	    */
+	</style>
+</head>
+<body>
+	<div>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>Object-C</li>
+			<li>Swift</li>
+		</ul>
+		<!-- 添加的内墙，在内部做一个隔墙 -->
+		<div class="cl h16"></div>
+	</div>
+
+	<div class="box2">
+		<!-- <h3>还可以学到</h3> -->
+		<ul>
+			<li>English</li>
+			<li>C++</li>
+			<li>Java</li>
+			<li>Math</li>
+		</ul>
+	</div>
+
+</body>
+</html>

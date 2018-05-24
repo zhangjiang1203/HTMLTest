@@ -1,0 +1,20 @@
+ 浏览器兼容问题
+第一.IE6,7不支持小于12px的盒子
+    解决办法就是将盒子的字号，设置小(小于盒子的高),比如font-size:0px；
+    IE6留了一个后门，就是只要在css属性前面加上一个下划线，是IE6专用属性，例如_background-color:green,
+    hack 就是使用浏览器提供的后门，去适配浏览器，解决方法就是
+    height:10px;
+    _font-size:0;  设置这两个属性
+第二.IE6 不支持overflow：hidden清除浮动的隐藏功能，解决办法就是添加zoom属性
+    overflow:hidden;
+    _zoom:1;  zoom可以激发haslayout的机制，这个机制就只有IE6有  
+    通过多写一条hack解决问题的属性，这个称为伴生属性
+
+第三.margin的IE6兼容问题  
+    IE6 双倍margin bug问题
+    当出现连续浮动的元素，携带和浮动方向相同的margin(margin-left,margin-right)时，队首的元素，会双倍margin.
+    解决办法：
+      1.使浮动的方向和margin的方向相反。
+      2.使用hack，单独对队首的元素写一半的margin(不推荐使用)
+
+第四.IE6的3像素bug，不用管， 一定是你代码的问题，改代码(代码不标准)      

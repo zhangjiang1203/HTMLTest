@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		 
+	   var num = parseInt(prompt("请输入数字求他的因数:"));
+	   var count = 0;
+	   for (var i = 1; i <=num; i++) {
+	   	  if (num % i == 0) {
+	   	  	count++;
+	   	  	console.log(i);
+	   	  }
+	   }
+	   if (count == 2){
+	   	  console.log("这是一个质数");
+	   }
+	   console.log("一共有" + count + "个因数");
+
+	   for (var i = 0; i <70; i++) {
+	       if (i % 7 != 0 && i % 10 != 7) {
+	       	console.log(i);
+	       }
+	   }
+       
+       for (var i = 100; i < 1000; i++) {
+       	//水仙花算法 输入一个三位数字看看是不是水仙花数字
+		   // var hua = parseInt(prompt("请输入三位数字:"));
+		   var bai = parseInt(i / 100);
+		   var shi = parseInt(i / 10) % 10;
+		   var ge = i % 10;
+		   var he = Math.pow(bai,3) + Math.pow(shi,3) + Math.pow(ge,3);
+		   // console.log(he);
+		   if (he == i ) {
+		   	  console.log('这是个水仙花' + he);
+		   }
+       }
+
+       var sum = 0;
+       for (var i = 0; i <= 100; i++) {
+       	   sum = sum + i;
+       }
+       console.log(sum);
+
+	   	   
+	</script>
+	
+</body>
+</html>

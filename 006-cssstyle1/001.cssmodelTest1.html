@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>document</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	/*
+	浮动有开始有清除
+	添加的标签中div没有高度，撑不起来显示的子标签
+	两个li标签并排显示，不是分行显示
+	解决方法一，给父标签设置高度 ，有高度的盒子才能关住盒子
+	*/
+        div{
+        	height: 40px;
+        }
+
+		li{
+			float: left;
+			width: 90px;
+			height: 40px;
+			background-color: gold;
+			text-align: center;
+			line-height: 40px;
+			list-style: none;
+			margin-right: 5px;
+		}
+	</style>
+</head>
+<body>
+	
+
+	<div>
+		<h3>我们可以学习到</h3>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>Object-C</li>
+			<li>Swift</li>
+		</ul>
+	</div>
+
+	<div>
+		<h3>还可以学到</h3>
+		<ul>
+			<li>English</li>
+			<li>C++</li>
+			<li>Java</li>
+			<li>Math</li>
+		</ul>
+	</div>
+
+</body>
+</html> 

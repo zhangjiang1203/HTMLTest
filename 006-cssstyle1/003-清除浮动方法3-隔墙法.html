@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>清除浮动</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	    *{
+	    	margin: 0px;
+	    	padding: 0px;
+	    }		
+
+	    li{
+	    	float: left;
+	    	height: 40px;
+	    	width: 100px;
+	    	line-height: 40px;
+	    	text-align: center;
+	    	background-color: red;
+	    }
+
+	    .cl{
+	    	clear: both;
+	    	/*也可以在这个类中直接添加*/
+            /*height: 10px;*/	    
+        }
+	    .h10{
+	    	height: 10px;
+	    }
+	    
+	    
+	</style>
+</head>
+<body>
+	<div>
+		<!-- <h3>我们可以学习到</h3> -->
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>Object-C</li>
+			<li>Swift</li>
+		</ul>
+	</div>
+    <!-- 隔墙法添加一个盒子元素，设置其样式
+    clear:both,并添加高度 -->
+	<div class="cl h10"></div>
+
+	<div class="box2">
+		<!-- <h3>还可以学到</h3> -->
+		<ul>
+			<li>English</li>
+			<li>C++</li>
+			<li>Java</li>
+			<li>Math</li>
+		</ul>
+	</div>
+
+</body>
+</html>

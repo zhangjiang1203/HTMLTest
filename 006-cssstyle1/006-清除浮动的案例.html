@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>清除浮动</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	    *{
+	    	margin: 0;
+	    	padding: 0;
+	    }
+
+	    .box1{
+	    	width: 500px;
+	    	height: 200px;
+	    	border: 1px solid #000;
+	    	margin: 100px;
+
+	    }
+	    .box1 ul{
+	        list-style: none;
+
+	    }
+
+	    .box1 ul li {
+	    	overflow: hidden;
+	    	line-height: 40px;
+	    	border-bottom: 1px dashed gray;
+	    }
+
+	    .box1 ul li .title{
+	    	float: left;
+	    }
+
+	    .box1 ul li .date{
+	    	float: right;
+	    }
+		
+	</style>
+</head>
+<body>
+	<div class="box1">
+		<ul>
+			<li>
+				<span class="title">我就是我你知道不</span>
+				<span class="date">2018-09-12</span>
+			</li>
+			<li>
+				<span class="title">我就是我你知道不</span>
+				<span class="date">2018-09-12</span>
+			</li>
+			<li>
+				<span class="title">我就是我你知道不</span>
+				<span class="date">2018-09-12</span>
+			</li>
+		</ul>
+	</div>
+
+</body>
+</html>

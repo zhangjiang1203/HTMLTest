@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>清除浮动</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	    *{
+	    	margin: 0px;
+	    	padding: 0px;
+	    }		
+	    /*height 在网页中很少出现 都是靠内容撑起来高度的*/
+	    ul li {
+	    	float: left; 
+	    	width: 100px;
+	    	height: 40px;
+	    	text-align: center;
+	    	background-color: orange;
+	    	list-style: none;
+	    }
+
+	    .box2{
+	    	/*清除浮动显示*/
+	    	/*clear就是清除，both指的是左浮动，右浮动都要清除的意思，清除别人对我的影响*/
+	    	/*clear的缺陷，margin失效了*/
+	    	clear: both;
+	    }
+	</style>
+</head>
+<body>
+	<div>
+		<!-- <h3>我们可以学习到</h3> -->
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>Object-C</li>
+			<li>Swift</li>
+		</ul>
+	</div>
+
+	<div class="box2">
+		<!-- <h3>还可以学到</h3> -->
+		<ul>
+			<li>English</li>
+			<li>C++</li>
+			<li>Java</li>
+			<li>Math</li>
+		</ul>
+	</div>
+
+</body>
+</html>

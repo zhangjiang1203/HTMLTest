@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		console.log('欢迎');
+        hy('你好','zhangjiang','hhaha');
+        // 函数参数类型可以不一致
+		function hy(a,b,c){
+			console.log(a);
+			console.log(b);
+			alert(c);
+		}
+
+        for (var i = 1; i < 10; i++) {
+        	console.log(fib(i));
+        }
+
+		function fib(n){
+			if (n <=2) {
+				return 1;
+			}else{
+			    return fib(n-1) + fib(n-2);
+			}
+		}
+	</script>
+	
+</body>
+</html>

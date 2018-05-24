@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>清除浮动</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	    *{
+	    	margin: 0px;
+	    	padding: 0px;
+	    }		
+
+	    li{
+	    	float: left;
+	    	height: 40px;
+	    	width: 100px;
+	    	line-height: 40px;
+	    	text-align: center;
+	    	background-color: red;
+	    	list-style: none;
+	    	
+	    }
+
+	    .box1{
+	    	overflow: hidden;
+	    	margin-bottom: 10px;
+	    }
+
+	    /*
+	    overflow:hidden 本意是内容溢出边框就隐藏掉
+	    但是还有其他的作用：
+	    一个父标签不能被浮动的子标签撑出高度，但是加上overflow:hidden之后那么父标签就能被子标签撑出高度了;而且margin这个属性可以使用，不会像使用clear:both方法margin失效;
+	    */
+	     
+	    
+	</style>
+</head>
+<body>
+
+	<div class="box1">
+		<!-- <h3>我们可以学习到</h3> -->
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>Object-C</li>
+			<li>Swift</li>
+		</ul>
+	</div>
+ 
+	<div class="box2">
+		<!-- <h3>还可以学到</h3> -->
+		<ul>
+			<li>English</li>
+			<li>C++</li>
+			<li>Java</li>
+			<li>Math</li>
+		</ul>
+	</div>
+
+</body>
+</html>
