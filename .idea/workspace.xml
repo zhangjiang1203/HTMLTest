@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/010-前端基本功/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/010-前端基本功/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010-前端基本功/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/010-前端基本功/css/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -43,8 +40,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/010-前端基本功/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="110" column="17" lean-forward="true" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+            <state relative-caret-position="319">
+              <caret line="101" column="17" lean-forward="true" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -182,16 +179,15 @@
       <workItem from="1526291813780" duration="6000" />
       <workItem from="1526345844931" duration="1311000" />
       <workItem from="1527053972033" duration="5000" />
-      <workItem from="1527139706666" duration="10268000" />
+      <workItem from="1527139706666" duration="11290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20867000" />
+    <option name="totallyTimeSpent" value="21889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2132" y="37" width="1344" height="820" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20089285" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -441,8 +437,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/010-前端基本功/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="110" column="17" lean-forward="true" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        <state relative-caret-position="319">
+          <caret line="101" column="17" lean-forward="true" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
         </state>
       </provider>
     </entry>
