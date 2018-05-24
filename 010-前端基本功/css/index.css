@@ -1,0 +1,115 @@
+
+/*头部导航开始 开始自定义显示*/
+.headernav{
+    height:30px;
+    width: 100%;
+    background-color: #f1f1f1;
+    line-height: 30px;
+
+}
+
+
+.headernav .dt{
+    padding: 0 25px 0 10px;
+    position: relative;
+    /*background-color: #6FDEA3;*/
+}
+
+
+.dt i{
+    font: 400 15px/15px '宋体';
+    height: 7px;
+    overflow: hidden;
+    position: absolute;
+    right: 5px;
+    top: 12px;
+    width: 15px;
+}
+
+.dt s{
+    position: absolute;
+    left: 2px;
+    top: -8px;
+
+}
+
+.fr ul li{
+    float: left;
+    padding: 0 10px;
+}
+
+.fr ul li.line{
+    height: 12px;
+    width: 1px;
+    background-color: #ddd;
+    margin-top: 7px;
+    padding: 0px;
+}
+
+.fr ul .showPhone{
+    padding: 0 25px;
+}
+
+
+/*添加手机图片*/
+.fr ul li .phone{
+    background: url(../images/sprite.png) no-repeat ;
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+}
+/*头部导航结束*/
+
+/*头部导航图开始*/
+.topbanner{
+    background-color: #8a25c6;
+}
+
+.topbanner .topclose{
+    position: relative;
+}
+
+.topbanner .w .close{
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    width: 19px;
+    height: 19px;
+    background: url(../images/close.png) no-repeat;
+}
+
+.topbanner .w a:hover{
+    /*修改背景的显示位置*/
+    background-position: bottom;
+}
+
+
+/*头部导航图结束*/
+.logo{
+    float: left;
+    width: 360px;
+    height: 75px;
+    padding-top: 25px;
+    background-color: #f00;
+    background: url(../images/logo.png) no-repeat 25px;
+
+}
+
+.search{
+    float: left;
+    width: 538px;
+    height: 75px;
+    padding-top: 25px;
+    background-color: purple;
+
+}
+
+.shopcar{
+    float: right;
+    width: 139px;
+    height: 34px;
+    background-color: blue;
+    margin: 25px 65px 0 0;
+}
