@@ -1,4 +1,3 @@
-
 /*头部导航开始 开始自定义显示*/
 .headernav{
     height:30px;
@@ -10,7 +9,7 @@
 
 
 .headernav .dt{
-    padding: 0 25px 0 10px;
+    padding: 0 20px 0 10px;
     position: relative;
     /*background-color: #6FDEA3;*/
 }
@@ -87,29 +86,323 @@
 
 
 /*头部导航图结束*/
-.logo{
+.topnav .logo{
     float: left;
     width: 360px;
     height: 75px;
     padding-top: 25px;
-    background-color: #f00;
-    background: url(../images/logo.png) no-repeat 25px;
+    background-color: #ff0000;
+    background: url(../images/logo.png) no-repeat 0 25px;
+    position: relative;
+}
+
+.topnav .logo .jdtitle{
+    display: block;
+    width: 270px;
+    height: 60px;
+    text-indent: -2000em;
 
 }
 
-.search{
+.topnav .logo .jdgif{
+
+    width: 180px;
+    height: 80px;
+    /*margin-top: 10px;*/
+    position: absolute;
+    left:  168px;
+    top: 10px;
+    background: url(../images/dong.gif);
+}
+
+.topnav .search{
     float: left;
     width: 538px;
-    height: 75px;
+    height: 35px;
     padding-top: 25px;
-    background-color: purple;
+    /*background-color: purple;*/
 
 }
 
-.shopcar{
+.topnav .search .searchtxt{
+    width: 450px;
+    height: 32px;
+    border: 2px solid #B61D1D;
+    padding-left: 4px;
+    color: #666;
+    font: 14px/32px "microsoft yahei";
+    float: left;
+}
+
+.topnav .search .searchbtn{
+    height: 36px;
+    width: 80px;
+    background-color: #B61D1D;
+    color: white;
+    font: 16px/36px "microsoft yahei";
+    float: left;
+    cursor: pointer;
+}
+
+.topnav .shopcar{
     float: right;
-    width: 139px;
+    width: 96px;
     height: 34px;
-    background-color: blue;
     margin: 25px 65px 0 0;
+    padding-left: 43px;
+    border: 2px solid #dfdfdf;
+    line-height: 34px;
+    position: relative;
 }
+
+.topnav .shopcar span{
+
+    width: 16px;
+    height: 14px;
+}
+
+.topnav .shopcar span.icon1{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background: url(../images/sprite.png) no-repeat -1px -59px;
+}
+.topnav .shopcar span.icon2{
+    margin-left: 10px;
+    font: 400 13px/13px simsun;
+}
+.topnav .shopcar span.icon3{
+    position: absolute;
+    right: 35px;
+    top: -5px;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    background-color: #C81623;
+    color: #fff;
+    border-radius: 8px 8px 7px 0;
+}
+
+.topnav .introduce{
+    float: left;
+    width: 538px;
+    height: 30px;
+    /*background-color: #C81623;*/
+}
+
+.topnav .introduce ul li{
+    float: left;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.topnav .introduce ul li .current{
+    color: #C81623;
+}
+
+.content{
+    height: 180px;
+    background-color: #f5f5f5;
+}
+
+
+/*开始底部设置*/
+.jdfooter{
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+
+.jdfooter .service {
+    border-bottom: 1px solid #dedede;
+}
+
+.jdfooter .service .slogan{
+    height: 54px;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.jdfooter .service .slogan span{
+    width: 302px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: 0px;
+}
+
+.jdfooter .service .slogan span.slogan1{
+    margin-left: -608px;
+}
+.jdfooter .service .slogan span.slogan2{
+    margin-left: -304px;
+}
+.jdfooter .service .slogan span.slogan4{
+    margin-left: 304px;
+}
+
+.jdfooter .contact {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #dedede;
+    overflow: hidden;
+}
+
+.jdfooter .contact dl{
+    width: 198px;
+    float: left;
+    padding: 20px 0;
+}
+
+.jdfooter .contact dl dt,.jdfooter .w .coverage .dt{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    font-weight: bolder;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.jdfooter .contact dl dd{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    line-height: 22px;
+    color: #666;
+}
+
+.jdfooter .contact .coverage{
+    float: right;
+    width: 200px;
+    height: 150px;
+    margin: 20px 10px;
+    background: url(../images/china2.png) no-repeat 0 0;
+}
+
+.jdfooter .contact .coverage .dt{
+    text-align: center;
+}
+
+.jdfooter .contact .coverage .dd{
+    line-height: 22px;
+    font: 12px/22px "微软雅黑";
+    text-indent: 2em;
+    padding-top: 10px;
+}
+.jdfooter .contact .coverage .dd p{
+    text-align: right;
+
+}
+
+.jdfooter .contact .coverage .dd p a{
+    text-align: right;
+    color: #666;
+    font: 12px/22px "微软雅黑";
+}
+
+/*设置copyright*/
+.jdfooter .copyright {
+    text-align: center;
+    color: #999;
+}
+
+.jdfooter .copyright .copyinfo1 {
+    padding: 15px 15px 15px 0;
+}
+
+.jdfooter .copyright .copyinfo1 a{
+    padding: 0 8px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    line-height: 14px;
+}
+
+.jdfooter .copyright .copyinfo1 a.last{
+    padding-right: 0;
+    border-right: none;
+}
+
+.jdfooter .copyright .copyinfo2 {
+    line-height: 22px;
+    padding-bottom: 20px;
+
+}
+
+.jdfooter .copyright .copyinfo2 a {
+    padding:0 8px;
+    border-right: 1px solid #ccc;
+
+}
+
+.jdfooter .copyright .copyinfo2 a.last {
+    padding-right: 0;
+    border-right: none;
+
+}
+
+.jdfooter .copyright .copyinfo2 a.icona {
+    padding-left: 30px;
+
+}
+
+
+.jdfooter .copyright .copyinfo2 .icona i {
+    width: 15px;
+    height: 10px;
+    display: inline-block;
+    background: url("../images/china2.png") no-repeat 0 0;
+}
+
+.jdfooter .copyright .copyinfo2 .icona .flag1 {
+    background-position: -109px -155px;
+    height: 12px;
+}
+
+.jdfooter .copyright .copyinfo2 .icona .flag2 {
+    background-position: -128px -155px;
+}
+
+.jdfooter .copyright .copyinfo2 .icona .flag3{
+    background-position: -148px -155px;
+}
+
+.jdfooter .copyright .copyinfo2 .icona .flag4 {
+    background-position: -168px -155px;
+}
+
+.jdfooter .copyright .copyinfo3 {
+    padding-bottom: 40px;
+}
+
+.jdfooter .copyright .copyinfo3 a{
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+    margin: 0 3px;
+    background: url(../images/china2.png)  no-repeat 0 0;
+}
+
+.jdfooter .copyright .copyinfo3 a.integrity1{
+    background-position: -205px -148px;
+}
+.jdfooter .copyright .copyinfo3 a.integrity2{
+    background-position: -205px -111px;
+}
+.jdfooter .copyright .copyinfo3 a.integrity3{
+    background-position: -205px -74px;
+}
+.jdfooter .copyright .copyinfo3 a.integrity4{
+    background-position: -205px -37px;
+}
+.jdfooter .copyright .copyinfo3 a.integrity5{
+    background-position: -205px 0px;
+}
+.jdfooter .copyright .copyinfo3 a.integrity6{
+    background-position: 0 -155px;
+}
+/*结束底部设置*/
+
+
+
+
+
+
+
