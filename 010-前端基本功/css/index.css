@@ -4,16 +4,13 @@
     width: 100%;
     background-color: #f1f1f1;
     line-height: 30px;
-
 }
-
 
 .headernav .dt{
     padding: 0 20px 0 10px;
     position: relative;
     /*background-color: #6FDEA3;*/
 }
-
 
 .dt i{
     font: 400 15px/15px '宋体';
@@ -86,7 +83,7 @@
 
 
 /*头部导航图结束*/
-.topnav .logo{
+.topsearch .logo{
     float: left;
     width: 360px;
     height: 75px;
@@ -96,7 +93,7 @@
     position: relative;
 }
 
-.topnav .logo .jdtitle{
+.topsearch .logo .jdtitle{
     display: block;
     width: 270px;
     height: 60px;
@@ -104,7 +101,7 @@
 
 }
 
-.topnav .logo .jdgif{
+.topsearch .logo .jdgif{
 
     width: 180px;
     height: 80px;
@@ -115,7 +112,7 @@
     background: url(../images/dong.gif);
 }
 
-.topnav .search{
+.topsearch .search{
     float: left;
     width: 538px;
     height: 35px;
@@ -124,7 +121,7 @@
 
 }
 
-.topnav .search .searchtxt{
+.topsearch .search .searchtxt{
     width: 450px;
     height: 32px;
     border: 2px solid #B61D1D;
@@ -134,7 +131,7 @@
     float: left;
 }
 
-.topnav .search .searchbtn{
+.topsearch .search .searchbtn{
     height: 36px;
     width: 80px;
     background-color: #B61D1D;
@@ -144,7 +141,7 @@
     cursor: pointer;
 }
 
-.topnav .shopcar{
+.topsearch .shopcar{
     float: right;
     width: 96px;
     height: 34px;
@@ -155,23 +152,23 @@
     position: relative;
 }
 
-.topnav .shopcar span{
+.topsearch .shopcar span{
 
     width: 16px;
     height: 14px;
 }
 
-.topnav .shopcar span.icon1{
+.topsearch .shopcar span.icon1{
     position: absolute;
     left: 20px;
     top: 10px;
     background: url(../images/sprite.png) no-repeat -1px -59px;
 }
-.topnav .shopcar span.icon2{
+.topsearch .shopcar span.icon2{
     margin-left: 10px;
     font: 400 13px/13px simsun;
 }
-.topnav .shopcar span.icon3{
+.topsearch .shopcar span.icon3{
     position: absolute;
     right: 35px;
     top: -5px;
@@ -183,23 +180,59 @@
     border-radius: 8px 8px 7px 0;
 }
 
-.topnav .introduce{
+.topsearch .introduce{
     float: left;
     width: 538px;
     height: 30px;
     /*background-color: #C81623;*/
 }
 
-.topnav .introduce ul li{
+.topsearch .introduce ul li{
     float: left;
     padding-right: 10px;
     padding-top: 5px;
 }
 
-.topnav .introduce ul li .current{
+.topsearch .introduce ul li .current{
     color: #C81623;
 }
 
+/*顶部导航条设置*/
+.jdnav{
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #C81623;
+}
+
+.jdnav .w .allmark{
+    float: left;
+    background-color: #C81623;
+    height: 44px;
+    width: 140px;
+}
+
+.jdnav .w .itemnav{
+    float: left;
+    background-color: yellow;
+    height: 44px;
+    width: 500px;
+}
+
+.jdnav .w .adarea{
+    float: right;
+    height: 40px;
+    width: 190px;
+    background: url(../images/adarea.gif) no-repeat ;
+}
+
+.jdnav .w .adarea a{
+    display: block;
+    height: 40px;
+}
+
+
+
+/*中间正文*/
 .content{
     height: 180px;
     background-color: #f5f5f5;
