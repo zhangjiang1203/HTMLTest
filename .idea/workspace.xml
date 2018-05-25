@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/010-前端基本功/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/010-前端基本功/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010-前端基本功/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/010-前端基本功/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/010-前端基本功/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="109">
+              <caret line="86" column="10" lean-forward="true" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -178,12 +175,12 @@
       <workItem from="1526345844931" duration="1311000" />
       <workItem from="1527053972033" duration="5000" />
       <workItem from="1527139706666" duration="11290000" />
-      <workItem from="1527211157246" duration="21144000" />
+      <workItem from="1527211157246" duration="21184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43033000" />
+    <option name="totallyTimeSpent" value="43073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2080" y="59" width="1344" height="820" extended-state="0" />
@@ -465,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/010-前端基本功/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        <state relative-caret-position="109">
+          <caret line="86" column="10" lean-forward="true" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
