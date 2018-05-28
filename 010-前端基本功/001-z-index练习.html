@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>z-index</title>
+    <style type="text/css">
+        /*第一种*/
+        /*.items{*/
+            /*margin-top: 100px;*/
+            /*float: left;*/
+            /*width: 150px;*/
+            /*height: 200px;*/
+            /*border: 1px solid green;*/
+            /*margin-left: -1px;*/
+        /*}*/
+        /*!*只改变其中的一个的定位方式*!*/
+        /*.items:hover{*/
+            /*border: 1px solid red;*/
+            /*position: relative;*/
+
+        /*}*/
+        /*第二种*/
+        .items{
+            margin-top: 100px;
+            float: left;
+            width: 150px;
+            height: 200px;
+            border: 1px solid green;
+            margin-left: -1px;
+            position: relative;
+        }
+        /*只改变其中的一个的定位方式*/
+        .items:hover{
+            border: 1px solid red;
+            z-index: 1;
+
+        }
+        /*如果都有了相对定位，改变其z-index的值*/
+
+    </style>
+</head>
+<body>
+
+<div class="items"></div>
+<div class="items"></div>
+<div class="items"></div>
+<div class="items"></div>
+<div class="items"></div>
+<div>
+    <img src="images/slider1.jpg" alt="">
+</div>
+
+</body>
+</html>

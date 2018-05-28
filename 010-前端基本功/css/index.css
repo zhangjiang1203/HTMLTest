@@ -9,7 +9,6 @@
 .headernav .dt{
     padding: 0 20px 0 10px;
     position: relative;
-    /*background-color: #6FDEA3;*/
 }
 
 .dt i{
@@ -195,6 +194,7 @@
 
 .topsearch .introduce ul li .current{
     color: #C81623;
+
 }
 
 /*顶部导航条设置*/
@@ -208,14 +208,85 @@
     float: left;
     background-color: #C81623;
     height: 44px;
-    width: 140px;
+    width: 160px;
+    /*比较父亲显示的高度*/
+    position: relative;
+    z-index: 1000;
+    /*显示浮动 的可见性*/
+    overflow: visible;
 }
+
+.jdnav .w .allmark .dd{
+    background-color: #C81623;
+    height: 44px;
+    width: 140px;
+    margin-top: 2px;
+
+}
+
+.jdnav .w .allmark .dd a{
+    display: block;
+    height: 44px;
+    font: 400 14px/44px "微软雅黑";
+    color: white;
+    /*a没有宽度，不会撑开盒子*/
+    padding-left: 10px;
+}
+
+.jdnav .w .allmark .dt{
+    width: 160px;
+    height: 465px;
+    background-color: #C81623;
+}
+
+.jdnav .w .allmark .dt .godnav {
+    height: 30px;
+}
+
+.jdnav .w .allmark .dt .godnav h3{
+    float: left;
+}
+
+.jdnav .w .allmark .dt .godnav span{
+    float: right;
+    display: block;
+    margin-right: 10px;
+    color: white;
+    font: 400 12px/30px "宋体";
+}
+
+.jdnav .w .allmark .dt .godnav h3 a{
+    display: block;
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
 
 .jdnav .w .itemnav{
     float: left;
-    background-color: yellow;
     height: 44px;
-    width: 500px;
+    /*width: 700px;*/
+
+}
+
+.jdnav .w .itemnav li {
+    float: left;
+    padding:0 20px;
+}
+.jdnav .w .itemnav li a{
+    display: block;
+    height: 44px;
+    /*line-height: 44px;*/
+    font: 14px/44px "微软雅黑";
+    overflow: hidden;
+}
+
+.jdnav .w .itemnav li.current {
+    float: left;
+    /*padding-left: 25px;*/
+    background: url(../images/new.jpg) no-repeat right top;
 }
 
 .jdnav .w .adarea{
@@ -227,21 +298,217 @@
 
 .jdnav .w .adarea a{
     display: block;
+    /*宽度继承，高度不继承*/
     height: 40px;
 }
 
+.banner604{
+    position: relative;
+}
+
+.banner604 a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 453px;
+    background: url(../images/banner.jpg) no-repeat top center;
+}
+
+.main{
+    position: relative;
+}
+
+.main .slider{
+    width: 750px;
+    height: 453px;
+    float: left;
+    margin:12px 0 0 180px;
+    position: relative;
+}
+
+.main .slider a img{
+    /*display: block;*/
+    width: 750px;
+    height: 453px;
+}
+
+.main .slider .arrow{
+    width:750px;
+    height: 62px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -31px;
+}
+
+.main .slider .circle{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -65px;
+    width: 130px;
+}
+
+.main .slider .circle li{
+    color: white;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    float: left;
+    background-color: #3e3e3e;
+    text-align: center;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+
+.main .slider .circle li.current{
+    margin-left: 0;
+    border-radius: 50%;
+    background-color: #C81623;
+
+}
+
+.main .slider .arrow a{
+    display: inline-block;
+    width: 28px;
+    height: 62px;
+    font: 500 18px/62px "宋体";
+    color: white;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.main .slider .arrow a.arrow-1{
+    float: left;
+}
+
+.main .slider .arrow a.arrow-2{
+    float: right;
+}
+
+.main .slider .arrow a.arrow-2:hover,.main .slider .arrow a.arrow-2:hover{
+    background: rgba(0,0,0,0.4);
+}
+
+.main .news .jd-news{
+    height: 200px;
+    /*background-color: red;*/
+}
+
+.main .news .jd-news ul{
+    border-top: 1px dashed #e4e4e4;
+    border-bottom: 1px dashed #e4e4e4;
+    /*background-color: #6FDEA3;*/
+}
+
+.main .news .jd-news ul li{
+    padding: 6px 10px 0 10px;
+    line-height: 26px;
+    height: 26px;
+    width: 100%;
+
+}
+
+.main .news .jd-news ul li a{
+    display: block;
+    height: 26px;
+}
+
+.main .news .jd-news ul li a span{
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+.main .news .jd-news .title,.main .news .jd-service .title{
+    height: 40px;
+    color: #666;
+}
+
+.main .news .jd-news .title h3,.main .news .jd-service .title h3{
+    float: left;
+    margin-left: 10px;
+    font: 16px/40px '微软雅黑';
+    line-height: 40px;
+}
+
+.main .news .jd-news .title a{
+    display: block;
+    float: right;
+    line-height: 40px;
+    width: 60px;
+    text-align: center;
+}
+
+
+.main .news .jd-service{
+    height: 253px;
+}
+.main .news .jd-service .list{
+    border-top: 1px dashed #e4e4e4;
+
+}
+
+
+.main .news .jd-service .list ul li{
+    float: left;
+    width: 66px;
+    height: 69px;
+    border: 1px solid #e4e4e4;
+    margin: -1px 0 0 -1px;
+}
+.main .news .jd-service .list ul li a{
+    display: block;
+    height: 69px;
+    position: relative;
+    text-align: center;
+}
+
+.main .news .jd-service .list ul li a i{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -10px;
+    background:url(../images/icon_lifeserv.png) no-repeat -28px 0;
+}
+
+.main .news .jd-service .list ul li a.icon11
+,.main .news .jd-service .list ul li a.icon5
+,.main .news .jd-service .list ul li a.icon6{
+    background: url(../images/song.png) no-repeat right top;
+}
+
+.main .news .jd-service .list ul li a span{
+    width: 66px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -33px;
+}
+
+
+.main .news{
+    float: right;
+    width: 268px;
+    height: 451px;
+    border: 1px solid #e4e4e4;
+    margin-top: 12px;
+}
 
 
 /*中间正文*/
-.content{
-    height: 180px;
-    background-color: #f5f5f5;
+.todays{
+    position: relative;
 }
 
 
 /*开始底部设置*/
 .jdfooter{
-    background-color: #f5f5f5;
+    /*background-color: #f5f5f5;*/
     overflow: hidden;
 }
 
