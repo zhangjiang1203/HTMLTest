@@ -8,6 +8,99 @@
     <link rel="stylesheet" href="css/index.css">
     <!--设置标题左边显示的图片-->
     <link rel="shortcut icon" href="favicon.ico">
+    <script type="text/javascript">
+        window.onload = function () {
+            //显示或者隐藏两个箭头
+            var slider = document.getElementById('jd_slider');
+            var arrow = document.getElementById('jd_arrow');
+            slider.onmouseover = function () {
+                arrow.style.display = "block";
+            }
+            slider.onmouseout = function () {
+                arrow.style.display = 'none';
+            }
+
+            //切换图片按钮
+            var image = document.getElementById('jd_bannerImage');
+            var li1 = document.getElementById('jd_banner1');
+            var li2 = document.getElementById('jd_banner2');
+            var li3 = document.getElementById('jd_banner3');
+            var li4 = document.getElementById('jd_banner4');
+            var li5 = document.getElementById('jd_banner5');
+            var li6 = document.getElementById('jd_banner6');
+            li1.onmouseover = function () {
+                image.src = 'images/11.jpg';
+                li1.className = 'current';
+            }
+            li1.onmouseout = function() {
+                li1.className = '';
+            }
+
+            li2.onmouseover = function () {
+                image.src = 'images/22.jpg';
+                li2.className = 'current';
+            }
+            li2.onmouseout = function(){
+                li2.className = '';
+            }
+
+            li3.onmouseover = function () {
+                image.src = 'images/33.jpg';
+                li3.className = 'current';
+            }
+            li3.onmouseout = function(){
+                li3.className = '';
+            }
+
+            li4.onmouseover = function () {
+                image.src = 'images/44.jpg';
+                li4.className = 'current';
+            }
+            li4.onmouseout = function(){
+                li4.className = '';
+            }
+
+            li5.onmouseover = function () {
+                image.src = 'images/55.jpg';
+                li5.className = 'current';
+            }
+            li5.onmouseout = function(){
+                li5.className = '';
+            }
+
+            li6.onmouseover = function () {
+                image.src = 'images/66.jpg';
+                li6.className = 'current';
+            }
+            li6.onmouseout = function(){
+                li6.className = '';
+            }
+            //清除顶部的banner
+            var banner = document.getElementById('jd_banner');
+            var close = document.getElementById('jd_close');
+            close.onclick = function () {
+                banner.style.display = 'none';
+            }
+
+            //点击登录按钮弹出模态窗口
+            var loginbtn = document.getElementById('jd_login');
+            //控制的，模态盒子
+            var mask = document.getElementById('jd_mask');
+            var loginview = document.getElementById('jd_loginbox');
+            //关闭模态窗口的按钮
+            var closebtn = document.getElementById('jd_close_login');
+            loginbtn.onclick = function () {
+                mask.style.display = 'block';
+                loginview.style.display = 'block';
+            }
+
+            closebtn.onclick = function () {
+                mask.style.display = 'none';
+                loginview.style.display = 'none';
+            }
+            
+        }
+    </script>
 
 
 </head>
@@ -25,7 +118,7 @@
         <div class="fr">
             <ul>
                 <li>
-                    <a href="#">你好，请登录</a>&nbsp; &nbsp;
+                    <a id="jd_login" href="#">你好，请登录</a>&nbsp; &nbsp;
                     <a href="#" class="col-red">免费注册</a>&nbsp;
                 </li>
                 <li class="line"></li>
@@ -66,13 +159,28 @@
     </div>
 
 </div>
+<!--添加头部登录mask图层-->
+<div id="jd_mask" class="mask"></div>
+<div id="jd_loginbox" class="loginbox">
+    <span id="jd_close_login" class="close_login">×</span>
+    开始登录界面，看你的显示效果
+</div>
+
+
 <!--头部banner -->
-<div class="topbanner">
+<div class="topbanner" id="jd_banner">
     <div class="w topclose">
         <img src="images/topbanner.jpg" alt="顶部banner图">
-        <a href="http://www.baidu.com" class="close" ></a>
+        <a id="jd_close" href="javascrip:;" class="close" ></a>
     </div>
 </div>
+
+<!--隐藏元素中，使用Display和Visiblity-->
+<!--1.Display:none  隐藏不占用位置-->
+<!--2.Visiblity:hidden 隐藏占用位置，只是隐藏了元素，位置还是存在的-->
+<!--overflow：隐藏超出的部分-->
+
+
 <!-- 头部logo -->
 <div class="topsearch w clearfix">
     <div class="logo">
@@ -220,20 +328,20 @@
 </div>
 
 <div class="w main clearfix">
-    <div class="slider">
-        <a href=""><img src="images/slider1.jpg" alt="" /></a>
+    <div id="jd_slider" class="slider">
+        <a  href=""><img id='jd_bannerImage' src="images/slider1.jpg" alt="" /></a>
         <!-- 左右滑动按钮 -->
-        <div class="arrow">
+        <div id="jd_arrow" class="arrow">
             <a href="javascript:;" class="arrow-1"><</a>
             <a href="javascript:;" class="arrow-2">></a>
         </div>
         <ul class="circle">
-            <li class="current">1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
+            <li id="jd_banner1" class="current">1</li>
+            <li id="jd_banner2">2</li>
+            <li id="jd_banner3">3</li>
+            <li id="jd_banner4">4</li>
+            <li id="jd_banner5">5</li>
+            <li id="jd_banner6">6</li>
         </ul>
     </div>
     <div class="news">
@@ -343,12 +451,26 @@
 
         </div>
     </div>
-
 </div>
 
 <!--中部内容-->
-<div class="w todays">
-    sfsdfsfsfdsfsfdfs
+<div class="w todays clearfix">
+    <div class="night">
+        <div class="night-l fl">
+            <img src="images/night.jpg" alt="加载活动">
+        </div>
+        <div class="night-r fr">
+            <ul>
+                <li><a href="#"><img src="images/1.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/2.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/3.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/4.jpg" alt=""></a></li>
+            </ul>
+            <!-- 添加的左右切换按钮 -->
+            <a href="javascript:;" class="arrow-1"><</a>
+            <a href="javascript:;" class="arrow-2">></a>
+        </div>
+    </div>
 </div>
 
 <!--底部开始-->

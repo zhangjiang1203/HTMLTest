@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#demo{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id="demo"></div>
+	<button id="btn-width">变宽</button>
+	<button id="btn-height">变高</button>
+	<button id="btn-color">颜色</button>
+	<button id="btn-random">圆角</button>
+	<script type="text/javascript">
+		var obj = document.getElementById('demo');
+		var btn1 = document.getElementById('btn-width');
+		var btn2 = document.getElementById('btn-height');
+		var btn3 = document.getElementById('btn-color');
+		var btn4 = document.getElementById('btn-random');
+		// 事件三要素
+		// 1.事件源 2 事件 3 事件处理程序
+		// 事件源.事件 = function(){函数要执行的}
+		// btn.onclick = function() {
+		// 	obj.style.width = '400px';
+		// }
+        // 鼠标悬停
+		btn1.onmouseover = function () {
+        	obj.style.width = '600px';
+        }
+        // 鼠标移除
+        btn1.onmouseout = function(){
+        	obj.style.width = '200px';
+        }
+
+        // 鼠标悬停
+		btn2.onmouseover = function () {
+        	obj.style.height = '600px';
+        }
+        // 鼠标移除
+        btn2.onmouseout = function(){
+        	obj.style.height = '200px';
+        }
+
+		// 鼠标悬停
+		btn3.onmouseover = function () {
+        	obj.style.backgroundColor = 'red';
+        }
+        // 鼠标移除
+        btn3.onmouseout = function(){
+        	obj.style.backgroundColor = 'skyblue';
+        }
+
+		// 鼠标悬停
+		btn4.onmouseover = function () {
+        	obj.style.borderRadius = '100px';
+        }
+        // 鼠标移除
+        btn4.onmouseout = function(){
+        	obj.style.borderRadius = '50px';
+        }
+
+
+   //      btn.hideFocus = function () {
+			// obj.style.width = '200px'
+   //      }
+	</script>
+    <!-- 页面加载完毕之后，采取执行函数体里面的js部分 -->
+    <!-- 这句话可以放在页面的任何地方  -->
+	<!--js是一种弱数据类型-->
+	window.inload = function(){
+
+    }
+	
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度换肤</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background: url(images/1.jpg) top center;
+        }
+        .box{
+            height: 300px;
+            text-align: center;
+            width: 80%;
+            margin: 50px 10% 0 10% ;
+            background-color: rgba(255,255,255,0.3);
+            padding-top: 50px;
+        }
+
+        .box img{
+            width: 150px;
+        }
+
+    </style>
+
+    <script type="text/javascript">
+        //入口函数，页面加载完之后才会去执行js
+        window.onload = function () {
+            // var body = document.getElementsByName("body");
+            var image1 = document.getElementById('image1');
+            var image2 = document.getElementById('image2');
+            var image3 = document.getElementById('image3');
+            image1.onclick = function () {
+                document.body.style.backgroundImage = "url(images/1.jpg)";
+                console.log("开始执行1")
+            }
+            image2.onclick = function () {
+                console.log("开始执行2")
+                document.body.style.background = "url(images/2.jpg) top center";
+            }
+            image3.onclick = function () {
+                console.log("开始执行3")
+                document.body.style.background = "url(images/3.jpg) top center";
+            }
+        }
+    </script>
+</head>
+<body>
+<div id='back_class' class="box">
+    <img id="image1" src="images/1.jpg" alt="">
+    <img id="image2" src="images/2.jpg" alt="">
+    <img id="image3" src="images/3.jpg" alt="">
+</div>
+
+</body>
+</html>

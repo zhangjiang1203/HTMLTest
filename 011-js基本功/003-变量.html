@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>变量及其作用域</title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+	var num = 1;
+	function fn(){
+		console.log(num);
+		result = 30;
+		console.log(result)
+	}
+	fn();
+	console.log(result)
+	// 全局变量
+	// 1.在最外层声明的变量
+	// 2.在函数体内部没有用var声明的变量(隐式的全局变量)
+	// 局部变量
+	// 在函数体内部声明的变量
+	// 事件三要素
+	// 1.事件源 2.事件 3.事件处理程序
+	// 事件源.事件 = function(){事件处理程序}
+</script>	
+	
+</body>
+</html>
