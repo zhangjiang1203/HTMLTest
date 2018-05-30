@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            border: 0 none;
+        }
+        div{
+            width: 258px;
+            height: 40px;
+            margin: 100px auto;
+            background-color: #6FDEA3;
+            /*border: 1px solid gray;*/
+        }
+        div input{
+            width: 208px;
+            height: 40px;
+            border: none;
+            outline-style: none;
+            padding-left: 8px;
+            float: left;
+            background: url(images/left.jpg) no-repeat;
+
+        }
+
+        div button{
+            width: 42px;
+            height: 40px;
+            border: none;
+            float: left;
+            /*去除点击时的浮框*/
+            outline-style: none;
+            background: url(images/right.jpg) no-repeat;
+            cursor: pointer;
+
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            $('txt').onfocus = function () {
+                if ($('txt').value == "请输入…"){
+                    $('txt').value = "";
+                }
+            }
+            $('txt').onblur = function () {
+                $('txt').value = '请输入…';
+            }
+
+            $('btn').onclick = function () {
+                //获取输入框内容
+                console.log($('txt').value);
+            }
+
+        //    this指向调用者自己
+        }
+    </script>
+
+</head>
+<body>
+
+<div class="search">
+    <input type="text" id="txt" value="请输入…">
+    <button id="btn" ></button>
+</div>
+
+</body>
+</html>

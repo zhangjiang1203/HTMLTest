@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        div{
+            margin: 100px auto;
+            /*width: 400px;*/
+            hieght: 40px;
+            font: 200 14px/40px '宋体';
+            text-align: center;
+        }
+
+        div input{
+            width: 200px;
+            height: 18px;
+            outline-style: none;
+        }
+
+        div span{
+            font: 200 12px/40px '宋体';
+            border: 1px solid #ccc;
+            width: 150px;
+            height: 20px;
+            display: inline-block;
+            visibility: hidden;
+            text-align: left;
+            line-height: 20px;
+            color: #999;
+            padding-left: 20px;
+        }
+
+        .right{
+            color: #5eff5e;
+            background: url(images/right.png) no-repeat #dfffdf 4px 3px;
+            border: 1px solid #acffac;
+
+        }
+        .wrong{
+            background: url(images/wrong.png) no-repeat #ffdcd0 4px 3px;
+            color: #ff6b39;
+            border: #ff6b39;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            $('txt').onfocus = function() {
+                if (this.value == '请输入成绩0-150之间的数字') {
+                    this.value = "";
+                }
+            }
+
+            //自动获得焦点
+            $('txt').focus();
+
+            //鼠标悬停输入框上面，自动全选
+            $('txt').onmouseover = function() {
+                this.select();
+            }
+
+            $('txt').onblur = function () {
+                if (this.value == '') {
+                    $('result').style.visibility = 'visible';
+                    $('result').className = 'wrong';
+                    $('result').innerHTML = "内容不能为空";
+                }else if (isNaN(this.value)){
+                    $('result').style.visibility = 'visible';
+                    $('result').className = 'wrong';
+                    $('result').innerHTML = "请输入数字";
+
+                }else if (this.value > 150 || this.value < 0){
+                    $('result').style.visibility = 'visible';
+                    $('result').className = 'wrong';
+                    $('result').innerHTML = "请输入0-150以内的数字";
+                } else {
+                    $('result').style.visibility = 'visible';
+                    $('result').className = 'right';
+                    $('result').innerHTML = "输入正确";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="box">
+    语文成绩:<input type="text" id="txt" value="请输入成绩0-150之间的数字" />
+    <span id="result">请输入成绩</span>
+</div>
+
+</body>
+</html>

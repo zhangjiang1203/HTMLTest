@@ -98,11 +98,18 @@
                 mask.style.display = 'none';
                 loginview.style.display = 'none';
             }
-            
+
+            // 设置生活服务显示的背景图片
+            function $(id) {
+                return document.getElementById(id);
+            }
+            //批量修改生活服务中显示的背景图片
+            for (var i = 1 ;i <= 12; i++){
+                var id = "service_icon" + i;
+                $(id).style.backgroundPosition = "-26px " +(-(i-1) * 25) + "px"
+            }
         }
     </script>
-
-
 </head>
 <body>
 <!--头部导航 -->
@@ -376,74 +383,74 @@
                 <ul>
                     <li>
                         <a href="javascript:;">
-                            <i class='icon1'></i>
+                            <i id="service_icon1" class='icon1'></i>
                             <span>话费</span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;">
-                            <i class='icon2'></i>
+                            <i id="service_icon2" class='icon2'></i>
                             <span>机票</span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;">
-                            <i class='icon3'></i>
+                            <i id="service_icon3" class='icon3'></i>
                             <span>电影票</span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;">
-                            <i class='icon4'></i>
+                            <i id="service_icon4" class='icon4'></i>
                             <span>游戏</span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;" class="icon5">
-                            <i class='icon5'></i>
-                            <span>话费</span>
+                            <i id="service_icon5" class='icon5'></i>
+                            <span>企业购</span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;" class="icon6">
-                            <i class='icon6'></i>
-                            <span>话费</span>
+                            <i id="service_icon6" class='icon6'></i>
+                            <span>加油卡</span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;">
-                            <i class='icon7'></i>
-                            <span>话费</span>
+                            <i id="service_icon7" class='icon7'></i>
+                            <span>电影票</span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;">
-                            <i class='icon8'></i>
-                            <span>话费</span>
+                            <i id="service_icon8" class='icon8'></i>
+                            <span>火车票</span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;">
-                            <i class='icon9'></i>
-                            <span>话费</span>
+                            <i id="service_icon9" class='icon9'></i>
+                            <span>众筹</span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;">
-                            <i class='icon10'></i>
-                            <span>话费</span>
+                            <i id="service_icon10" class='icon10'></i>
+                            <span>理财</span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;" class="icon11">
-                            <i class='icon11'></i>
-                            <span>话费</span>
+                            <i id="service_icon11" class='icon11'></i>
+                            <span>礼品卡</span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;">
-                            <i class='icon12'></i>
-                            <span>话费</span>
+                            <i id="service_icon12" class='icon12'></i>
+                            <span>白条</span>
                         </a>
                     </li>
                 </ul>

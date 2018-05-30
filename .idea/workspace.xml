@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/011-js基本功/004-js初体验.html" beforeDir="false" afterPath="$PROJECT_DIR$/011-js基本功/004-js初体验.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-js基本功/005-函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-js基本功/006-函数控制盒子.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-js基本功/007-js运算符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-js基本功/点击隐藏文字/clicktohiddenword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-js基本功/表单验证/validateForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-js基本功/鼠标更换图片/mousechangeImage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/010-前端基本功/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,29 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/010-前端基本功/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="238" column="27" selection-start-line="238" selection-start-column="20" selection-end-line="238" selection-end-column="27" />
+            <state relative-caret-position="2331">
+              <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#4118#4124#0" expanded="true" />
+                <element signature="e#4125#4131#0" expanded="true" />
+                <element signature="e#4188#4194#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="changeskin.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/011-js基本功/百度换肤/changeskin.html">
+      <file leaf-file-name="validateForm.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/011-js基本功/表单验证/validateForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="438">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
@@ -46,42 +49,17 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/010-前端基本功/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-743">
-              <caret line="71" column="10" lean-forward="true" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
-              <folding>
-                <element signature="e#4059#4172#0" />
-                <element signature="e#4209#4318#0" />
-                <element signature="e#4339#4400#0" />
-                <element signature="e#4424#4464#0" />
-                <element signature="e#4488#4606#0" />
-                <element signature="e#4638#4746#0" />
-                <element signature="e#4765#4876#0" />
-                <element signature="e#4897#4957#0" />
-                <element signature="e#5010#5162#0" />
-                <element signature="e#5211#5319#0" />
-                <element signature="e#5426#5538#0" />
-                <element signature="e#5561#5662#0" />
-                <element signature="e#5688#5883#0" />
-                <element signature="e#5918#5952#0" />
-              </folding>
+            <state relative-caret-position="466">
+              <caret line="514" column="22" selection-start-line="514" selection-start-column="22" selection-end-line="514" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/010-前端基本功/css/base.css">
+      <file leaf-file-name="007-js运算符.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/011-js基本功/007-js运算符.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="004-js初体验.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/011-js基本功/004-js初体验.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="546">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,6 +83,11 @@
       <find>999</find>
       <find>全部</find>
       <find>z-index</find>
+      <find>&lt;i</find>
+      <find>icon</find>
+      <find>icon1</find>
+      <find>service_icon</find>
+      <find>jd-service</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,10 +108,16 @@
         <option value="$PROJECT_DIR$/010-前端基本功/001-z-index练习.html" />
         <option value="$PROJECT_DIR$/011-js基本功/001-js体验.html" />
         <option value="$PROJECT_DIR$/011-js基本功/百度换肤/changeskin.html" />
-        <option value="$PROJECT_DIR$/010-前端基本功/index.html" />
         <option value="$PROJECT_DIR$/010-前端基本功/css/base.css" />
         <option value="$PROJECT_DIR$/010-前端基本功/css/index.css" />
         <option value="$PROJECT_DIR$/011-js基本功/004-js初体验.html" />
+        <option value="$PROJECT_DIR$/011-js基本功/005-函数.html" />
+        <option value="$PROJECT_DIR$/011-js基本功/006-函数控制盒子.html" />
+        <option value="$PROJECT_DIR$/011-js基本功/鼠标更换图片/mousechangeImage.html" />
+        <option value="$PROJECT_DIR$/011-js基本功/点击隐藏文字/clicktohiddenword.html" />
+        <option value="$PROJECT_DIR$/011-js基本功/表单验证/validateForm.html" />
+        <option value="$PROJECT_DIR$/011-js基本功/007-js运算符.html" />
+        <option value="$PROJECT_DIR$/010-前端基本功/index.html" />
       </list>
     </option>
   </component>
@@ -183,7 +172,12 @@
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="011-js基本功" type="462c0819:PsiDirectoryNode" />
-              <item name="百度换肤" type="462c0819:PsiDirectoryNode" />
+              <item name="表单验证" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="京东网页" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +190,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Custom" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,14 +236,16 @@
       <workItem from="1527467746564" duration="18705000" />
       <workItem from="1527556307571" duration="7994000" />
       <workItem from="1527575453208" duration="5975000" />
+      <workItem from="1527644061843" duration="15250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75747000" />
+    <option name="totallyTimeSpent" value="90997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1620" y="32" width="1385" height="943" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19494584" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -277,68 +273,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/002-htmllearn/004-定义列表.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002-htmllearn/006-div布局.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/003-homeworkbase/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/003-homeworkbase/musicpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002-htmllearn/001-htmlbase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002-htmllearn/004-linkbase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/003-homeworkbase/tourimages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/003-homeworkbase/starpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/001-htmlmodel/001-knowHTML.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/001-htmlmodel/001-knowHTML.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/001-htmlmodel/001-knowHTML.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -519,45 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/010-前端基本功/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="238" column="27" selection-start-line="238" selection-start-column="20" selection-end-line="238" selection-end-column="27" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/010-前端基本功/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-743">
-          <caret line="71" column="10" lean-forward="true" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
-          <folding>
-            <element signature="e#4059#4172#0" />
-            <element signature="e#4209#4318#0" />
-            <element signature="e#4339#4400#0" />
-            <element signature="e#4424#4464#0" />
-            <element signature="e#4488#4606#0" />
-            <element signature="e#4638#4746#0" />
-            <element signature="e#4765#4876#0" />
-            <element signature="e#4897#4957#0" />
-            <element signature="e#5010#5162#0" />
-            <element signature="e#5211#5319#0" />
-            <element signature="e#5426#5538#0" />
-            <element signature="e#5561#5662#0" />
-            <element signature="e#5688#5883#0" />
-            <element signature="e#5918#5952#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -567,15 +462,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/011-js基本功/004-js初体验.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
+        <state relative-caret-position="462">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/011-js基本功/005-函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/011-js基本功/鼠标更换图片/images/01big.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/011-js基本功/鼠标更换图片/images/01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/011-js基本功/百度换肤/changeskin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="318">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/京东网页/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/011-js基本功/鼠标更换图片/mousechangeImage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/011-js基本功/006-函数控制盒子.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/011-js基本功/点击隐藏文字/clicktohiddenword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/011-js基本功/表单验证/validateForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/011-js基本功/007-js运算符.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/010-前端基本功/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="514" column="22" selection-start-line="514" selection-start-column="22" selection-end-line="514" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/010-前端基本功/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2331">
+          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+          <folding>
+            <element signature="e#4118#4124#0" expanded="true" />
+            <element signature="e#4125#4131#0" expanded="true" />
+            <element signature="e#4188#4194#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

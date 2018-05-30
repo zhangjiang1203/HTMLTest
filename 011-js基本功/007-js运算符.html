@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        window.onload = function () {
+            var a = 10,b = 20,c = 30;
+            ++a;
+            a++;
+            console.log(a)
+            e = ++a+(++b)+(c++)+a++;
+            console.log(e)
+
+            function $(id) {return document.getElementById(id)}
+            $('btn').onclick = function () {
+                //获得表单的值
+                if ($('txt').value == "刘德华")
+                alert('恭喜你，中奖了');
+                else
+                    alert("您还没有中奖");
+            }
+
+            for (var i = 0 ;i < 100;i+=2){
+                document.write('<hr width='+i+'%'+'/>')
+            }
+        }
+    </script>
+</head>
+<body>
+
+<input type="text" id="txt" value="请输入..."> <button id="btn">查询</button>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function custom() {
+        alert("自定义的函数");
+    }
+    // custom();
+
+    var fun1 = function () {
+        alert('声明函数变量');
+    }
+    // fun1()
+
+    // f1();
+    // console.log(b);
+    // console.log(c);
+    // //a 没有定义 出现undefine
+    // console.log(a);
+    // function f1() {
+    //     //b c 在这里声明是全局变量
+    //     var a = b = c = 9;
+    //     console.log(a);
+    //     console.log(b);
+    //     console.log(c);
+    // }
+
+    //变量提升，这个的输出就是undefine，
+    //函数体内部，声明变量，会把该声明提升到函数体的最顶端，值提升变量声明，不赋值
+    // var num = 10;
+    // fun2();
+    // function fun2() {
+    //     console.log(num);
+    //     var num = 20;
+    // }
+
+    //上面的代码相当于之下的函数块
+    // function fun3() {
+    //     var num;
+    //     console.log(num);
+    //     num = 20;
+    // }
+
+    //函数中的形参和实参的数量
+    function fun3(a,b,c) {
+        console.log(fun3.length);
+        console.log(arguments.length);
+        if (fun3.length == arguments.length){
+            console.log(a+b+c);
+        } else {
+            console.error('对不起，您的参数不匹配，正确的参数个数为：'+fun3.length);
+        }
+    }
+
+    fun3(1,4,9,3);
+
+</script>
+
+</body>
+</html>

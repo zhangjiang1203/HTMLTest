@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>改变图片</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body,
+        div,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        hr,
+        p,
+        blockquote,
+        dl,
+        dt,
+        dd,
+        ul,
+        ol,
+        li,
+        pre,
+        form,
+        fieldset,
+        legend,
+        button,
+        input,
+        textarea,
+        select,
+        option,
+        table,
+        tr,
+        th,
+        td,
+        span,
+        i,
+        em,
+        audio,
+        video,
+        img,
+        section,
+        article,
+        a,
+        font {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            vertical-align: baseline;
+            background: transparent;
+            word-wrap: break-word;
+            box-sizing: border-box;
+        }
+
+
+        div{
+            width: 352px;
+            height: 433px;
+    		position: absolute;
+    		top: 50%;
+            left: 50%;
+            margin: -215px 0 0 -175px;
+            border:1px solid gray;
+    	}
+        /*行内元素转换成块级元素*/
+        div #bigimg{
+            width: 350px;
+            display: block;
+            height: 360px;
+        }
+
+        div ul{
+            list-style: none;
+            display: block;
+            border-top: 1px solid gray;
+
+        }
+
+        div ul li {
+            float: left;
+            width: 70px;
+            height: 70px;
+        }
+
+        /*div ul li a img{
+        	height: 75px;
+        	width: 75px;
+        }*/
+    </style>
+
+    <script type="text/javascript">
+        function changeimage(obj) {
+            var target = document.getElementById('bigimg');
+            target.src = 'images/'+ obj + 'big.jpg'
+
+        }
+    </script>
+</head>
+<body>
+
+<div class="box">
+	<img id="bigimg" src="images/01big.jpg">
+    <ul>
+        <li onmouseover="changeimage('01');">
+            <a href="javascrip:;">
+        		<img src="images/01.jpg">
+        	</a>
+        </li>
+        <li onmouseover="changeimage('02');">
+        	<a href="javascrip:;">
+        		<img src="images/02.jpg">
+        	</a>
+        </li>
+        <li onmouseover="changeimage('03');">
+        	<a href="javascrip:;">
+        		<img src="images/03.jpg">
+        	</a>
+        </li>
+        <li onmouseover="changeimage('04');">
+        	<a href="javascrip:;">
+        		<img src="images/04.jpg">
+        	</a>
+        </li>
+        <li onmouseover="changeimage('05');">
+        	<a href="javascrip:;">
+        		<img src="images/05.jpg">
+        	</a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

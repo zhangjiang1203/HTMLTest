@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+    	div{
+    		width: 100px;
+    		height: 100px;
+    		background-color: red;
+    		display: none;
+            margin: 20px;
+    	}
+    </style>
+
+    <script type="text/javascript">
+    	function showBox(obj){
+    		var target = document.getElementById(obj);
+    		target.style.display = 'block';
+
+    	}
+    </script>
+</head>
+<body>
+<button onclick="showBox('demo1');">显示第一个盒子</button>
+<button onclick="showBox('demo2');">显示第二个盒子</button>
+<button onclick="showBox('demo3');">显示第三个盒子</button>
+<button onclick="showBox('demo4');">显示第四个盒子</button>
+<div id="demo1">1</div>
+<div id="demo2">2</div>
+<div id="demo3">3</div>
+<div id="demo4">4</div>
+
+</body>
+</html>
