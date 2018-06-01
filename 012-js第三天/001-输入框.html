@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .search{
+            width: 400px;
+            height: 40px;
+            /*border: 1px solid #ccc;*/
+            margin: 100px auto;
+            position: relative;
+        }
+
+        .search input{
+            width: 200px;
+            height: 30px;
+        }
+        
+        .search label{
+            font-size: 12px;
+            color: #ccc;
+            position: absolute;
+            left: 20px;
+            top: 10px;
+            cursor: text;
+        }
+
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            //检测表达输入内容oninput
+            //onpropertychange 这个函数是为了适配IE6，7，8
+            $('txt').oninput = $('txt').onpropertychange = function () {
+                if (this.value == ''){
+                    $('label').style.display = 'block';
+                } else {
+                    $('label').style.display = 'none';
+                }
+
+            }
+
+            $('txt').output = function () {
+                $('label').style.display = 'block';
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="search">
+
+    <input type="text" id="txt">
+    <!--添加for属性中关联到另一个标签的id，当点击光标的时候回到input里面-->
+    <label for="txt" id="label">必败的国际大牌</label>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .demo{
+            background-color: red;
+            color: #fff;
+        }
+
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+            position: relative;
+            margin-top: 10px;
+        }
+        .box div{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            function list() {
+                var lists = document.getElementsByTagName('button');
+                for (var i= 0,len = lists.length;i<len;i++ ){
+                    //添加的一个私有的自定义属性，只有button可以使用
+                    lists[i].index = i;
+                    lists[i].className = '';
+
+                    lists[i].onclick = function () {
+                        list();
+                        this.className = 'demo';
+                        // console.log(this.index);
+                        hiddendiv()
+                        var tagid = 'show' + (this.index+1);
+                        console.log(tagid);
+                        $(tagid).style.display = 'block';
+                    }
+
+                    lists[i].onmouseover = function () {
+                        list();
+                        this.className = 'demo';
+                        // console.log(this.index);
+                        hiddendiv()
+                        var tagid = 'show' + (this.index+1);
+                        console.log(tagid);
+                        $(tagid).style.display = 'block';
+                    }
+                }
+            }
+            list();
+
+            //隐藏所有的显示表格
+            function hiddendiv() {
+                var divlist = $('box').getElementsByTagName('div');
+                for (var i = 0,len = divlist.length; i < len ; i++) {
+                    divlist[i].style.display = 'none';
+                }
+            }
+
+            //修改显示的box的颜色
+            var divlist = $('box').getElementsByTagName('div');
+            for (var i = 0,len = divlist.length; i < len ; i++) {
+                divlist[i].style.backgroundColor = 'rgba('+20*i+',' + i * 1+',' + i * 8 + ',1)';
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+
+<button>我就是按钮</button>
+<button>我就是按钮</button>
+<button>我就是按钮</button>
+<button>我就是按钮</button>
+<button>我就是按钮</button>
+<button>我就是按钮</button>
+<button>我就是按钮</button>
+<button>我就是按钮</button>
+
+<div id="box" class="box">
+
+    <div id="show1">1</div>
+    <div id="show2">2</div>
+    <div id="show3">3</div>
+    <div id="show4">4</div>
+    <div id="show5">5</div>
+    <div id="show6">6</div>
+    <div id="show7">7</div>
+    <div id="show8">8</div>
+
+</div>
+
+</body>
+</html>
