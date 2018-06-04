@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .box{
+            height: 100px;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            var one = document.getElementById('one');
+            //nextSibling在IE6 7 8 有效，在其他浏览器上没有效果
+            //先写正常浏览器 在写ie678
+            var div = one.nextElementSibling || one.nextSibling;
+            div.style.backgroundColor = 'red';
+
+            var myshow = one.parentNode;
+            myshow.style.backgroundColor = 'pink';
+
+            var parent = document.getElementById('myClass').parentElement;
+            parent.style.backgroundColor = 'blue';
+
+        //    childNodes 选出全部的孩子
+        //    他是标准属性，返回指定元素的子元素集合，包括HTML节点、所有属性、文本节点
+        //    火狐 谷歌等高版本会把换行也看做是子节点
+        //    利用nodeType == 1时才是元素节点，来获取元素结点
+        //    children 选取所有的孩子,只有元素节点，在ie678中包含注释节点
+        }
+
+
+    </script>
+</head>
+<body>
+
+<div class="box">
+    <span id="myClass"></span>
+</div>
+
+<ul>
+    <li>123</li>
+    <li id="one">34577</li>
+    <li>34577</li>
+    <li>34577</li>
+    <li>34577</li>
+    <li>34577</li>
+    <li>34577</li>
+    <li>34577</li>
+    <li>34577</li>
+    <li>34577</li>
+</ul>
+
+</body>
+</html>

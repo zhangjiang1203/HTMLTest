@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            var div = document.createElement('div');
+            var demo = document.getElementById('demo');
+            var children = demo.children;
+        //  添加孩子 放入盒子的最后面
+            demo.appendChild(div);
+        //  insertBefore(插入节点，参照节点),放入到参照节点之前
+        //  如果第二个参数为null 则默认添加到新生成的盒子放到最后面
+            var test = document.createElement('div');
+            demo.insertBefore(test,children[0]);
+        //  移除节点
+            demo.removeChild(test);
+
+        //  克隆节点 cloneNode()
+        //  括号里面可以设置参数，如果里面是true 深层复制，除了复制本盒子，还复制子节点
+        //  如果为false 浅层复制，只复制本节点，不复制子节点
+            var duble = children[0].cloneNode()
+
+
+
+        }
+    </script>
+</head>
+<body>
+<!--新建节点 插入节点 删除节点 克隆节点-->
+<!--var div = document.createElement('li')-->
+<div id="demo" class="oldbox">
+    <div class="xiong"></div>
+
+</div>
+
+</body>
+</html>

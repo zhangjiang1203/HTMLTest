@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            var list = [1,3,5];
+            list.push(7,8);//把7 8 放到数组最后面
+            console.log(list);
+            list.unshift(9,12,13);//从数组前面添加数据
+            console.log(list);
+            // pop删除最后一个元素，返回删除的元素
+            // shift 删除第一个元素，并返回第一个元素的值
+            var txt = ['aa','bb','cc'];
+            console.log(txt.join('-'));//
+            console.log(txt);
+        //    字符串转化为数组
+            var name = '1,3,4,5,6';
+            console.log(name.split(','));
+
+            function getMyClassName(className) {
+                if (document.getElementsByClassName){
+                    return document.getElementsByClassName(className);
+                } else {
+                    //IE6,7,8不支持上面的用法，添加自定义返回数组
+                    var classArr = [];
+                    var alllist = document.body.getElementsByClassName("*");
+                    for (var i = 0,len = alllist.length; i < len ; i++) {
+                        //类名可能有多个，分开判断
+                        var txtArr = alllist[i].split(' ');
+                        for (var j = 0; j < txtArr.length ; j++) {
+                            if (txtArr[j].className == className) {
+                                classArr.push(alllist[i]);
+                            }
+
+                        }
+
+                    }
+                    return classArr;
+                }
+
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="demo"></div>
+<div class="demo"></div>
+<div></div>
+<div></div>
+<div class="demo"></div>
+<div></div>
+<div></div>
+<div class="demo"></div>
+<div></div>
+<div></div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background: url(../011-js基本功/百度换肤/images/2.jpg) no-repeat ;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            var sele = $('sele');
+            sele.onchange = function () {
+                console.log(this.value);
+                switch (this.value){
+                    case 'value1':
+                        document.body.style.backgroundImage = 'url(../011-js基本功/百度换肤/images/1.jpg)';
+                        break;
+                    case 'value2':
+                        document.body.style.backgroundImage = 'url(../011-js基本功/百度换肤/images/2.jpg)';
+                        break;
+                    case 'value3':
+                        document.body.style.backgroundImage = 'url(../011-js基本功/百度换肤/images/3.jpg)';
+                        break;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+<select name="" id="sele">
+    <option value="value1">小熊</option>
+    <option value="value2">纯色</option>
+    <option value="value3">图案</option>
+</select>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三角设置问题</title>
+    <style>
+        .damao{
+            width: 200px;
+            height: 100px;
+            padding-top: 100px;
+            margin: 100px;
+            /*border: red;*/
+            border-radius: 10px;
+            background-color: red;
+            position: relative;
+        }
+        .damao .ermao{
+            position: absolute;
+            width: 0;
+            height: 0;
+            left: 50%;
+            top: -60px;
+            margin-left: -30px;
+            border-width: 30px;
+            border-color: transparent transparent red transparent;
+            border-style: dashed dashed solid dashed;
+        }
+    </style>
+</head>
+<body>
+
+<div class="damao">
+    <div class="ermao"></div>
+</div>
+
+</body>
+</html>

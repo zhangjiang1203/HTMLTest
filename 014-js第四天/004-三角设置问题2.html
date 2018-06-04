@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        i{
+            position: relative;
+            margin: 100px;
+            display: block;
+        }
+        em ,span{
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-width: 5px;
+            border-color: transparent transparent transparent red;
+            border-style: dashed dashed dashed solid;
+            width: 0;
+            height: 0;
+        }
+
+        span{
+            left: -2px;
+            border-left-color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+<i>
+    <em></em>
+    <span></span>
+</i>
+
+</body>
+</html>

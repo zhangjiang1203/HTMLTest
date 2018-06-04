@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 278px;
+            height: 181px;
+            margin: 100px auto;
+            border: 1px solid #CCDDEF;
+        }
+
+        .box .title{
+            padding-left: 16px;
+            padding-top: 5px;
+            line-height: 35px;
+            height: 35px;
+            color: rgb(9,104,184);
+            font-weight: bold;
+        }
+
+        .box .content{
+            padding-left: 70px;
+            height: 50px;
+            margin: 5px 19px;
+            background: url(images/astroIcon.png) no-repeat 0 0;
+        }
+
+
+        .box .desc {
+            padding: 10px 19px 0 19px;
+            font-size: 14px;
+
+        }
+
+        .box .content #sele{
+            width: 140px;
+            height: 20px;
+            display: inline-block;
+
+        }
+        .box .content .detail p{
+            font-size: 14px;
+            height: 30px;
+            line-height: 30px;
+            float: left;
+
+        }
+        .box .content .detail .yunshibg{
+            height: 13px;
+            float: left;
+            width: 80px;
+            margin-top: 8px;
+            margin-left: 10px;
+            background: url(images/yunshi.png) no-repeat left top;
+        }
+
+        .box .content .detail .yunshi{
+            height: 13px;
+            float: left;
+            width: 16px;
+            background: url(images/yunshi.png) no-repeat left bottom;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            $('sele').onchange = function () {
+                $('astrobg').style.backgroundPosition = '0px ' + '-' +parseInt(this.value)*50 + 'px'
+                switch (this.value){
+                    case '0':
+                        $('yunshi_id').style.width = '16px';
+                        break;
+                    case '1':
+                        $('yunshi_id').style.width = '64px';
+                        break;
+                    case '2':
+                        $('yunshi_id').style.width = '16px';
+                        break;
+                    case '3':
+                        $('yunshi_id').style.width = '48px';
+                        break;
+                    case '4':
+                        $('yunshi_id').style.width = '64px';
+                        break;
+                    case '5':
+                        $('yunshi_id').style.width = '32px';
+                        break;
+                    case '6':
+                        $('yunshi_id').style.width = '48px';
+                        break;
+                    case '7':
+                        $('yunshi_id').style.width = '90px';
+                        break;
+                    case '8':
+                        $('yunshi_id').style.width = '64px';
+                        break;
+                    case '9':
+                        $('yunshi_id').style.width = '48px';
+                        break;
+                    case '10':
+                        $('yunshi_id').style.width = '16px';
+                        break;
+                    case '11':
+                        $('yunshi_id').style.width = '32px';
+                        break;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="box">
+
+    <div class="title">
+        星座运势
+    </div>
+
+    <div id="astrobg" class="content">
+        <select name="" id="sele">
+            <option selected="selected" value="0">白羊座(03.21-04.19)</option>
+            <option value="1">金牛座(04.20-05.20)</option>
+            <option value="2">双子座(05.21-06.21)</option>
+            <option value="3">巨蟹座(06.22-07.22)</option>
+            <option value="4">狮子座(07.23-08.22)</option>
+            <option value="5">处女座(08.23-09.22)</option>
+            <option value="6">天秤座(09.23-10.23)</option>
+            <option value="7">天蝎座(10.24-11.22)</option>
+            <option value="8">射手座(11.23-12.21)</option>
+            <option value="9">摩羯座(12.22-01.19)</option>
+            <option value="10">水瓶座(01.20-02.18)</option>
+            <option value="11">双鱼座(02.19-03.20)</option>
+        </select>
+        <div class="detail">
+            <p>今日运势:</p>
+            <div class="yunshibg">
+                <div id="yunshi_id" class="yunshi"></div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="desc">
+        <p>工作上有去外地的行动，也会有一些新的学习培训机会，也有外地的朋友给到一些工作机会的信息，好...
+             <a href="http://data.astro.qq.com/dayastro/93/93520/index.shtml" target="_blank">[详细]</a>
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动态生成标签</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #box{
+            width: 730px;
+            height: 454px;
+            margin: 100px auto;
+            border:1px solid #38B774;
+            position: relative;
+        }
+
+        #box ul {
+            list-style: none;
+            position: absolute;
+            bottom: 8px;
+            height: 20px;
+
+
+        }
+
+        #box ul li {
+            float: left;
+            height: 20px;
+            width: 20px;
+            border-radius: 10px;
+            margin-left: 2px;
+            background-color: red;
+            text-align: center;
+            line-height: 20px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+
+    </style>
+    
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            var list = document.createElement('ul');
+            $('box').appendChild(list);
+            //添加li标签
+            var imageArr = ['1','2','3','4','5'];
+            list.style.width = imageArr.length * 22 + "px";
+            list.style.left = 50 + "%";
+            list.style.marginLeft = -imageArr.length * 22 / 2 + 'px';
+            for (var i = 0; i < imageArr.length ; i++) {
+                var lis = document.createElement('li');
+                lis.index = i+1;
+                lis.onmouseover = function () {
+                    this.style.backgroundColor = '#fff';
+                    this.style.color = 'red';
+                    $('showimage').src = '../010-前端基本功/images/' + this.index +this.index +'.jpg'
+                };
+                lis.onmouseout = function () {
+                    this.style.backgroundColor = 'red';
+                    this.style.color = '#fff';
+                };
+
+                lis.innerHTML = (i+1).toString();
+                list.appendChild(lis);
+            }
+        } 
+    </script>
+</head>
+<body>
+
+<div id="box">
+    <img id="showimage" src="../010-前端基本功/images/11.jpg" alt="">
+
+</div>
+
+</body>
+</html>
