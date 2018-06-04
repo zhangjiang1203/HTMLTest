@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            var circle = document.createElement('div');
+            circle.className = 'circle';
+            $('scroll').appendChild(circle);
+            var lis = $('ul').children;
+            alert(lis.length);
+        }
+    </script>
+</head>
+<body>
+
+<div class="box" id="scroll">
+    <div  class="slider">
+        <ul id="ul">
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

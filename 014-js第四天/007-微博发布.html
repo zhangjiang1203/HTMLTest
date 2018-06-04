@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微博发布</title>
+    <style>
+        #area{
+            margin: 100px auto;
+            width: 500px;
+            height: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        #area textarea{
+            width: 350px;
+            height: 200px;
+            resize: none;
+        }
+        ul{
+            list-style: none;
+        }
+        #area #content li{
+            margin-left: 40px;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        #area #content li .delbtn{
+            float: right;
+            top: 0px;
+            right: 0px;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+
+            $('addcontent').onclick = function () {
+                var message = $('message').value;
+                if (message == '') {
+                    alert('输入不能为空');
+                    return false;//终止函数执行
+                }
+                var li = document.createElement('li');
+                li.innerHTML = message;
+                //插入到第一个元素
+                $('content').insertBefore(li,$('content').children[0]);
+                $('message').value = '';
+
+            //    li上添加删除按钮
+                var delbtn = document.createElement('button');
+                delbtn.innerHTML = '删除';
+                delbtn.className = 'delbtn';
+                li.appendChild(delbtn);
+                //删除按钮的点击事件
+                var delbtns = $('content').getElementsByTagName('button');
+                for (var i = 0; i < delbtns.length ; i++) {
+                    delbtns[i].onclick = function () {
+                        $('content').removeChild(this.parentNode);
+                    }
+                }
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+
+<div id="area" class="box">
+    微博发布: <textarea name="" id="message" cols="10" rows="10"></textarea>  <button id="addcontent">开始发布</button>
+    <!--添加微博显示的内容-->
+    <ul id="content">
+
+    </ul>
+</div>
+
+</body>
+</html>
