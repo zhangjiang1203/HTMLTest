@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时器</title>
+    <script>
+        window.onload = function () {
+            var num = 1;
+            var box = document.getElementById('box');
+            setInterval(fun,1000);
+            function fun() {
+                num++;
+                box.innerHTML = num;
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+1
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>date例子</title>
+    <style>
+        #demo{
+            width: 400px;
+            height: 200px;
+            border: 1px solid #333;
+            margin: 100px auto;
+            padding-left: 150px;
+        }
+
+        #demo p{
+            text-align: left;
+
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            var date = new Date();
+            if (date.getHours() <= 6){
+                $('demo').children[0].innerHTML = '早上好，早睡早起身体好';
+            } else if (date.getHours() <= 9) {
+                $('demo').children[0].innerHTML = '上午好，工作时间不能犯困哦';
+            }else if (date.getHours() <= 12){
+                $('demo').children[0].innerHTML = '中午好，赶紧去吃饭吧';
+            } else if (date.getHours() <= 18){
+                $('demo').children[0].innerHTML = '晚上好，不要太疲劳哦';
+            } else {
+                $('demo').children[0].innerHTML = '晚上记得好好休息';
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="demo">
+    <p>今天的天气不错</p>
+</div>
+</body>
+</html>

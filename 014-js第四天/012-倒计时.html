@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>倒计时</title>
+    <script>
+        window.onload = function () {
+            var starttime = new Date('2018/10/1 12:00:00');
+            setInterval(function () {
+                var endtime = new Date();
+                //    两个时间的秒数差值
+                var ms = parseInt(-endtime.getTime() + starttime.getTime())/1000;
+                var days = parseInt(ms/3600/24);
+                var hour = parseInt(ms/3600%24);
+                var min = parseInt(ms/60%60);
+                var sec = parseInt(ms%60);
+                days<10 ? days = '0'+days:days;
+                hour<10 ? hour = '0'+hour:hour;
+                min<10 ? min = '0'+min:min;
+                sec<10 ? sec = '0'+sec:sec;
+                var box = document.getElementById('demo');
+                box.innerHTML = days+"天"+hour+'小时'+min+'分'+sec+'秒'
+            },1000)
+
+        }
+    </script>
+</head>
+<body>
+
+<div id="demo">
+
+</div>
+
+</body>
+</html>

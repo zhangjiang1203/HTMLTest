@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        #box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #5eff5e;
+            margin: 100px auto;
+        }
+
+        #box p{
+            color: #333;
+            height: 75px;
+            line-height: 75px;
+            text-align: center;
+        }
+        #box span{
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            background-color: #5eff5e;
+            text-align: center;
+            line-height: 100px;
+            font-size: 60px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            var pmark = $('box').children[0];
+            var spanmark = $('box').children[1];
+
+            var date = new Date();
+            var weeks = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
+            pmark.innerHTML = date.getFullYear() + "-" + (date.getMonth() + 1) + '-' + date.getDate()
+                + ' ' + weeks[date.getDay()];
+            spanmark.innerHTML = date.getDate();
+        }
+
+    </script>
+</head>
+<body>
+
+<div id="box">
+    <p>2019-10-20 星期五</p>
+    <span>17</span>
+</div>
+
+</body>
+</html>
