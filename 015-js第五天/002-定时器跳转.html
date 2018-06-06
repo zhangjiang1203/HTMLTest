@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时器跳转</title>
+    <script>
+        window.onload = function () {
+            var count = 5;
+            var speed = 1000;
+            //settimeout函数只会执行一次，每次执行完成之后再次调用该函数继续执行
+            var box = document.getElementById('box');
+            setTimeout(goIndexPage,speed);
+            function goIndexPage() {
+                count--;
+                box.innerHTML = "<a href='http://www.baidu.com'>本页面将在"+count+'秒钟之后跳转到页面</a>'
+                if (count < 0){
+                    //跳转界面显示
+                    window.location.href = 'http://www.baidu.com/';
+                } else {
+                    //argument.callee 就是函数本身
+                    setTimeout(arguments.callee,speed);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+
+
+</div>
+</body>
+</html>

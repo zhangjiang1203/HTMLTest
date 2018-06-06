@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时器面试问题</title>
+    <script>
+        //javascript是单线程执行的，也就是无法同事执行多段代码，当某一段代码正在执行的时候，
+        // 所有后续的任务都必须等待，形成一个队列，一旦当前任务执行完毕，再从队列中取出下一个任务，这也被称为阻塞式执行
+        // 如果代码中设定了一个setTimeOut，那么浏览器便会在合适的时间，将代码插入任务队列，如果这个时间设置为0，就代表
+        // 立即立即插入队列，但不是立即执行，仍然要等待前面的代码执行完毕，所以setTimeout并不能保证执行的时间，是否及时执行
+        // 取决于JavaScript线程是拥挤还是空闲
+        var num = 10;
+        alert(1);
+        num = 20;
+        setTimeout('alert(num)',0);
+        alert(3);
+        num = 30;
+        // 其中设置的settimeout的值是30 ,就是在所有的任务执行完成之后才会执行settimeout
+        // a&&b
+        // 如果a为假 则返回a
+        // 如果a为真 则返回b
+        // a || b
+        // 如果a为假 则返回b
+        // 如果a为真 则返回a
+    //
+    </script>
+</head>
+<body>
+<!--定时器注意的问题-->
+
+</body>
+</html>

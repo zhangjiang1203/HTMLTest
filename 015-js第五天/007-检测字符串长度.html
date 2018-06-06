@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>检测字符串长度</title>
+    <script>
+        //基本的字符编码范围在0-127 一个汉字占两个字节
+        var txt = 'what are you 弄啥嘞';
+        console.log(txt.length);
+        function getStringLength(txt) {
+            var len = 0;
+            var c = 0;
+            for (var i = 0;i < txt.length;i++){
+                if (txt.charCodeAt(i) < 128){
+                    c = 1;
+                } else {
+                    c = 2;
+                }
+                len += c;
+            }
+            console.log(len);
+        }
+        getStringLength(txt);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

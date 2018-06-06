@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动关闭广告</title>
+    <style>
+        img{
+            position: absolute;
+            top: 0;
+        }
+        #left{
+            left: 0;
+        }
+        #right{
+            right: 0;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+
+            function hidden(id) {
+                $(id).style.display = 'none';
+                console.log(arguments.callee);
+            }
+
+            function show(id) {
+                $(id).style.display = 'block';
+                console.log(arguments.callee);
+            }
+
+            setTimeout(hiddenAD,5000);
+            function hiddenAD() {
+                hidden('left');
+                hidden('right');
+            }
+        }
+    </script>
+</head>
+<body>
+
+<img src="images/1.gif" alt="" id="left">
+<img src="images/2.gif" alt="" id="right">
+
+</body>
+</html>

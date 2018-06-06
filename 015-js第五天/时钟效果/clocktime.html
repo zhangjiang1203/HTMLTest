@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时钟</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .clock{
+            width: 600px;
+            height: 600px;
+            margin: 100px auto;
+            background: url(images/clock.jpg) no-repeat;
+            position: relative;
+        }
+        .clock div{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .hour{
+            background: url(images/hour.png) no-repeat center center;
+        }
+        .min{
+            background: url(images/minute.png) no-repeat center center;
+        }
+        .sec{
+            background: url(images/second.png) no-repeat center center;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            settime();
+            function settime() {
+                var date = new Date();
+                //获取到每个的时间的具体时间
+                var ms = date.getMilliseconds();//现在的毫秒数
+                var second = date.getSeconds() + ms / 1000;
+                var minute = date.getMinutes() + second / 60;
+                var hour = date.getHours() % 12 + minute / 60;
+                console.log('获取的时：'+hour+ ' 分：' + minute + ' 秒：'+ second);
+                //计算角度值
+                var angleS = second/60*360;
+                var angleM = minute/60*360;
+                var angleH = hour%12/12*360;
+
+                // $('h').style.webkitTransform = 'rotate('+angleH+'deg)'
+                // $('m').style.webkitTransform = 'rotate('+angleM+'deg)'
+                // $('s').style.webkitTransform = 'rotate('+angleS+'deg)'
+
+                $('h').style.transform = 'rotate('+angleH+'deg)'
+                $('m').style.transform = 'rotate('+angleM+'deg)'
+                $('s').style.transform = 'rotate('+angleS+'deg)'
+            }
+            setInterval(settime,30);
+        //    时间大 就是步进的方式 时间小就是连续前进的方式
+        }
+    </script>
+
+</head>
+<body>
+
+<div class="clock">
+    <div id="h" class="hour"></div>
+    <div id="m" class="min"></div>
+    <div id="s" class="sec"></div>
+</div>
+
+</body>
+</html>

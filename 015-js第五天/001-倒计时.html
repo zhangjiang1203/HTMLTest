@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            var timer = null;
+            function $(id) {return document.getElementById(id);}
+            var count = 10;
+            $('button').onclick = function () {
+                //每次点击前清除定时器
+                clearInterval(timer);
+                //this在函数中表示调用者或者函数本身，在函数嵌套中 两个函数中的this不同，可以使用id直接去获取或者
+                //把this的值保存在一个变量中
+                var that = this;
+                this.innerHTML = '还剩余('+count+")秒";
+                this.disabled = true;
+                $('text').disabled = true;
+                timer = setInterval(function () {
+                    count--;
+                    that.innerHTML = '还剩余('+count+")秒"
+                    if (count <= 0){
+                        that.innerHTML = '重新发送短信';
+                        count = 10;
+                        $('text').disabled = false;
+                        that.disabled = false;
+                        clearInterval(timer);
+                    }
+                },1000)
+            }
+
+        //    关闭定时器
+        //    clearInterval(定时器名称)
+        }
+    </script>
+</head>
+<body>
+<input id="text" type="text">
+<button id="button">点击发送短信</button>
+</body>
+</html>
