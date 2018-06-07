@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            var text1 = $('div1').innerHTML;
+            var text2 = $('div2').innerHTML;
+
+            $('btn1').onclick = function () {
+
+                // console.log(text1 + text2);
+                $('showTest').innerHTML = text1.concat(text2);
+            }
+            //    slice(起始位置，结束位置)，截取的字符串不包括结束位置
+            //    结束位置可以不用传，默认是到结尾
+            //    传入负数，表示从右往左取  -1 表示取最后一个
+            $('btn2').onclick = function () {
+                $('showTest').innerHTML = text1.slice(3,5);
+            }
+
+            //substr截取字符串 起始位置 和 取值长度
+            //如果取值长度没有传，默认是到结尾
+            //substr(-1)少用，ie678报错
+            //取值最后一个添加substr(str.length-1,1);
+            $('btn3').onclick = function () {
+                $('showTest').innerHTML = text1.substr(3,6);
+            }
+
+        }
+    </script>
+</head>
+<body>
+
+<div id="div1">my name is zhangsan</div>
+<div id="div2">what's your name?</div>
+<button id="btn1">concat()</button>
+<button id="btn2">slice()</button>
+<button id="btn3">substr()</button>
+<br />
+<span id="showTest"></span>
+
+</body>
+</html>

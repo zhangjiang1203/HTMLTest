@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>保留小数点</title>
+    <script>
+        window.onload = function () {
+            var num = 1234.89723432 + "";
+            //先获取到小数点的位置 在此基础上添加.
+            var xiao = num.substr(0,num.indexOf('.')+3);
+            console.log(xiao);
+
+        //    toFixed(num) 取小数点后几位，
+            var PI = 3141592654.89787
+            console.log(PI.toFixed(3));
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

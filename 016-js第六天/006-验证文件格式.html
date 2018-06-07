@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证文件格式</title>
+    <script>
+        window.onload = function () {
+            var file = document.getElementById('File');
+            file.onchange = function () {
+                var path = this.value;
+                console.log(typeof path);
+                let arr = path.split('\\');
+                //获取文件的后缀名
+                var filepre = path.substr(path.indexOf('.')).toUpperCase();
+                console.log('文件后缀名: ' + filepre);
+                console.log('获取最后的文件名：'+arr.pop());
+            //    根据文件名全部转换为大写或者小写去匹配字符
+                if (filepre == '.JPG' || filepre == '.PNG'){
+                    console.log('格式正确');
+                } else {
+                    console.log('格式错误');
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+<input type="file" name="请选择文件" id="File">
+
+</body>
+</html>

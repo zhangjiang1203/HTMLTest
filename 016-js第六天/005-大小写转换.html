@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大小写转换</title>
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            $('submit').onclick = function () {
+                $('big').innerHTML = $('txt').value.toUpperCase();
+                $('small').innerHTML = $('txt').value.toLowerCase();
+            }
+
+        }
+    </script>
+    
+</head>
+<body>
+
+<h1 id="big">这是大标题</h1>
+<p id="small">这是个小标题</p>
+<input type="text" id="txt">
+<button id="submit">submit</button>
+</body>
+</html>
