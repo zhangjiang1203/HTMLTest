@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/016-js第六天/001-字符串查找.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/016-js第六天/002-网址的编码和解码.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/016-js第六天/003-字符串处理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/016-js第六天/004-保留小数点位数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/016-js第六天/005-大小写转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/016-js第六天/006-验证文件格式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/016-js第六天/007-无限滚动小盒子.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/016-js第六天/008-匀速运动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/016-js第六天/009-缓动动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/016-js第六天/010-焦点动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/016-js第六天/011-左右焦点动画.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/016-js第六天/008-匀速运动.html" beforeDir="false" afterPath="$PROJECT_DIR$/016-js第六天/008-匀速运动.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,17 +23,53 @@
       <file leaf-file-name="007-无限滚动小盒子.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/016-js第六天/007-无限滚动小盒子.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            <state relative-caret-position="908">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="008-匀速运动.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="008-匀速运动.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/016-js第六天/008-匀速运动.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="696">
+              <caret line="45" column="7" lean-forward="true" selection-end-line="45" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="009-缓动动画.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/016-js第六天/009-缓动动画.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="010-焦点动画.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/016-js第六天/010-焦点动画.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="87" column="47" lean-forward="true" selection-end-line="118" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="011-左右焦点动画.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/016-js第六天/011-左右焦点动画.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="006-动态生成标签.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/013-js第三天/006-动态生成标签.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-710">
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -75,9 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/005-cssstyle/008-清除浮动联系.html" />
-        <option value="$PROJECT_DIR$/007-cssstyle2/博雅作业/002-博雅互动.html" />
-        <option value="$PROJECT_DIR$/010-前端基本功/001-z-index练习.html" />
         <option value="$PROJECT_DIR$/011-js基本功/001-js体验.html" />
         <option value="$PROJECT_DIR$/011-js基本功/百度换肤/changeskin.html" />
         <option value="$PROJECT_DIR$/010-前端基本功/css/base.css" />
@@ -126,6 +155,9 @@
         <option value="$PROJECT_DIR$/016-js第六天/006-验证文件格式.html" />
         <option value="$PROJECT_DIR$/016-js第六天/007-无限滚动小盒子.html" />
         <option value="$PROJECT_DIR$/016-js第六天/008-匀速运动.html" />
+        <option value="$PROJECT_DIR$/016-js第六天/009-缓动动画.html" />
+        <option value="$PROJECT_DIR$/016-js第六天/010-焦点动画.html" />
+        <option value="$PROJECT_DIR$/016-js第六天/011-左右焦点动画.html" />
       </list>
     </option>
   </component>
@@ -139,8 +171,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1698" />
-    <option name="y" value="56" />
+    <option name="x" value="1873" />
+    <option name="y" value="23" />
     <option name="width" value="1385" />
     <option name="height" value="943" />
   </component>
@@ -152,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,12 +194,23 @@
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="013-js第三天" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="014-js第四天" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="016-js第六天" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,14 +283,15 @@
       <workItem from="1528246097239" duration="12400000" />
       <workItem from="1528334055923" duration="2493000" />
       <workItem from="1528347442093" duration="9297000" />
+      <workItem from="1528434815688" duration="8785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150669000" />
+    <option name="totallyTimeSpent" value="159454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1698" y="56" width="1385" height="943" extended-state="0" />
+    <frame x="1873" y="23" width="1385" height="943" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19494584" />
@@ -282,27 +325,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/011-js基本功/007-js运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/010-前端基本功/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="519" column="45" lean-forward="true" selection-start-line="519" selection-start-column="45" selection-end-line="519" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="468" column="28" lean-forward="true" selection-start-line="468" selection-start-column="28" selection-end-line="468" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/003-homeworkbase/starpage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -421,13 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
           <caret line="85" column="63" selection-start-line="85" selection-start-column="63" selection-end-line="85" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/013-js第三天/006-动态生成标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -613,17 +628,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/016-js第六天/007-无限滚动小盒子.html">
+    <entry file="file://$PROJECT_DIR$/016-js第六天/008-匀速运动.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        <state relative-caret-position="696">
+          <caret line="45" column="7" lean-forward="true" selection-end-line="45" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/016-js第六天/008-匀速运动.html">
+    <entry file="file://$PROJECT_DIR$/013-js第三天/006-动态生成标签.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="-710">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/016-js第六天/007-无限滚动小盒子.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="908">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/016-js第六天/009-缓动动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/016-js第六天/010-焦点动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="87" column="47" lean-forward="true" selection-end-line="118" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/016-js第六天/011-左右焦点动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
         </state>
       </provider>
     </entry>

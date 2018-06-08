@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>焦点动画</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #box {
+            width: 500px;
+            height: 180px;
+            border: 1px solid #ccc;
+            margin: 100px auto;
+        }
+
+
+        #box #smallbox{
+            width: 490px;
+            height: 170px;
+            border: 1px solid #ccc;
+            margin: 5px auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #box #smallbox ul {
+            list-style: none;
+        }
+
+        #box #smallbox #showimage {
+            width: 500%;
+            height: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        #box #smallbox ul li{
+            float: left;
+        }
+
+        #box #smallbox ul li img{
+            vertical-align: top;
+        }
+
+        #box #smallbox .indexMask{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            width: 125px;
+            height: 20px;
+        }
+        #box #smallbox .indexMask li {
+            float: left;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            margin-right: 5px;
+            background-color: #cccccc;
+            cursor: pointer;
+        }
+        #box #smallbox .indexMask li.current {
+            background-color:blue;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            var ul = document.createElement('ul');
+            ul.className = 'indexMask'
+            var timer = null;
+            var leader = 0,target=0;
+            for (var i = 0; i < 5; i++) {
+                var li = document.createElement('li');
+                li.innerText = i + 1 + "";
+                li.index = i ;
+                i == 0 ? li.className = "current":null;
+                li.onmouseover = function(){
+                    //消除选中的按钮
+                    var children = ul.children;
+                    for (var j = 0; j < children.length ; j++) {
+                        children[j].className = "";
+                    }
+                    this.className = 'current';
+                    target = -this.index*490;
+                }
+                ul.appendChild(li);
+            }
+            $('smallbox').appendChild(ul);
+            setInterval(function () {
+                leader = leader+(target-leader)/10;
+                $('showimage').style.left = leader+'px';
+
+            },30)
+        //    定时器一直开着影响性能
+        }
+    </script>
+</head>
+<body>
+
+<div id="box">
+    <div id="smallbox">
+        <ul id="showimage">
+            <li><img src="images/11.jpg" alt=""></li>
+            <li><img src="images/22.jpg" alt=""></li>
+            <li><img src="images/33.jpg" alt=""></li>
+            <li><img src="images/44.jpg" alt=""></li>
+            <li><img src="images/55.jpg" alt=""></li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>

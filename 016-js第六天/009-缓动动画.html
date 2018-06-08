@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>匀速运动</title>
+    <title>缓动动画</title>
     <style>
         #box{
             width: 100px;
@@ -20,16 +20,16 @@
                 return document.getElementById(id);
             }
 
-            var num = 0;
+            var leader = 0,target = 500;
             var timer = null;
             $('start').onclick = function () {
                 timer = setInterval(function () {
-                    num++;
-                    if (num == 500){
-                        clearInterval(timer);
-                    } else {
-                        $('box').style.left = num + 'px';
-                    }
+                    leader = leader + (target - leader)/50;
+                    // if (num == 500){
+                    //     clearInterval(timer);
+                    // } else {
+                        $('box').style.left = leader + 'px';
+                    // }
                 },20)
             }
         }
