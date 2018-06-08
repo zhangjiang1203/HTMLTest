@@ -59,8 +59,8 @@
       <file leaf-file-name="011-左右焦点动画.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/016-js第六天/011-左右焦点动画.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+            <state relative-caret-position="348">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -283,12 +283,12 @@
       <workItem from="1528246097239" duration="12400000" />
       <workItem from="1528334055923" duration="2493000" />
       <workItem from="1528347442093" duration="9297000" />
-      <workItem from="1528434815688" duration="8785000" />
+      <workItem from="1528434815688" duration="8889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159454000" />
+    <option name="totallyTimeSpent" value="159558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1873" y="23" width="1385" height="943" extended-state="0" />
@@ -665,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/016-js第六天/011-左右焦点动画.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+        <state relative-caret-position="348">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
