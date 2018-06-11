@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/017-网页特效1/001-offsetTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/017-网页特效1/002-筋斗云特效.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/017-网页特效1/003-event事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/017-网页特效1/004-跟随鼠标运动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/017-网页特效1/005-盒子中的距离.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/017-网页特效1/鼠标更换图片/mousechangeImage.html" beforeDir="false" afterPath="$PROJECT_DIR$/017-网页特效1/鼠标更换图片/mousechangeImage.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,29 +19,11 @@
       <file leaf-file-name="mousechangeImage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/017-网页特效1/鼠标更换图片/mousechangeImage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="110" column="58" selection-start-line="110" selection-start-column="58" selection-end-line="110" selection-end-column="58" />
+            <state relative-caret-position="417">
+              <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
               <folding>
                 <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="004-跟随鼠标运动.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/017-网页特效1/004-跟随鼠标运动.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="005-盒子中的距离.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/017-网页特效1/005-盒子中的距离.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="25" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -149,7 +126,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1880" />
+    <option name="x" value="58" />
     <option name="y" value="23" />
     <option name="width" value="1385" />
     <option name="height" value="943" />
@@ -162,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +162,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,26 +240,27 @@
       <workItem from="1528434815688" duration="8889000" />
       <workItem from="1528695356059" duration="13144000" />
       <workItem from="1528710973158" duration="7000" />
+      <workItem from="1528727302269" duration="2096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172709000" />
+    <option name="totallyTimeSpent" value="174805000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1880" y="23" width="1385" height="943" extended-state="0" />
+    <frame x="58" y="23" width="1385" height="943" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19494584" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4269275" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4269275" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -614,7 +592,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/017-网页特效1/004-跟随鼠标运动.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
+        <state relative-caret-position="130">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
@@ -628,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/017-网页特效1/鼠标更换图片/mousechangeImage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="110" column="58" selection-start-line="110" selection-start-column="58" selection-end-line="110" selection-end-column="58" />
+        <state relative-caret-position="417">
+          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
           <folding>
             <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>

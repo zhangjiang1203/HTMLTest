@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <title>改变图片</title>
@@ -23,6 +23,7 @@
             width: 350px;
             height: 360px;
             overflow: hidden;
+            position: relative;
         }
         #box #topbox #bigimg{
             display: block;
@@ -38,6 +39,7 @@
             top: 0;
             display: none;
             background-color: rgba(255,255,0,0.3);
+            cursor: move;
         }
 
         #box ul{
@@ -68,6 +70,16 @@
             left: 360px;
             top: 0;
             display: none;
+            overflow: hidden;
+        }
+
+        #box #bigbox #showimg{
+            position: relative;
+            left: 0;
+            right: 0;
+            width: 800px;
+            height: 800px;
+
         }
     </style>
 
@@ -77,8 +89,9 @@
                 return document.getElementById(id);
             }
             function changeimage(obj) {
-                var target = document.getElementById('bigimg');
-                target.src = 'images/'+ obj + 'big.jpg'
+                $('bigimg').src = 'images/' + obj + 'big.jpg';
+                $('showimg').src = 'images/' + obj + 'big.jpg';
+
             }
 
             var liArr = $('box').getElementsByTagName('li');
@@ -91,38 +104,42 @@
                 }
             }
 
+            var X = 0 ,Y = 0;
             $('topbox').onmousemove = function (event) {
                 var event = event || window.event;
+                X = event.clientX - $('box').offsetLeft - $('mouse').offsetWidth/2.0;
+                Y = event.clientY - $('box').offsetTop - $('mouse').offsetHeight/2.0 ;
+                if (X < 0){
+                    X = 0;
+                } else if (X > $('topbox').offsetWidth - $('mouse').offsetWidth) {
+                    X = $('box').offsetWidth - $('mouse').offsetWidth;
+                }
 
-                // var X = event.clientX - $('box').offsetLeft;
-                // var Y = event.clientY - $('box').offsetTop;
+                if (Y < 0){
+                    Y = 0;
+                } else if (Y > $('topbox').offsetHeight - $('mouse').offsetHeight) {
+                    Y = $('topbox').offsetHeight - $('mouse').offsetHeight;
+                }
 
-                var X = event.clientX - $('box').offsetLeft - $('mouse').offsetWidth/2.0;
-                var Y = event.clientY - $('box').offsetTop - $('mouse').offsetHeight/2.0 ;
-                $('mouse').style.top = Y + 'px';
                 $('mouse').style.left = X + 'px';
-                // console.log($('box').offsetLeft + ' ' + $('box').offsetTop);
+                $('mouse').style.top = Y + 'px';
+
+                //改变大图标显示的位移
+                var scale = $('bigbox').offsetWidth/$('topbox').offsetWidth
+                $('showimg').style.left = -X * scale + 'px';
+                $('showimg').style.top = -Y * scale + 'px';
+
             }
 
-            // var leaderx = 0,leadery = 0;
-            // var targetx = 0,targety = 0;
-            // setInterval(function () {
-            //     leaderx = leaderx + (targetx - leaderx)/10;
-            //     leadery = leadery + (targety - leadery)/10;
-            //     $('mouse').style.top = leadery + 'px';
-            //     $('mouse').style.left = leaderx + 'px';
-            // },10);
-
-            $('bigimg').onmouseover = function () {
+            $('topbox').onmouseover = function () {
                 $('bigbox').style.display = 'block';
                 $('mouse').style.display = 'block';
             }
-
-            $('bigimg').onmouseout = function () {
+            //
+            $('topbox').onmouseout = function () {
                 $('bigbox').style.display = 'none';
                 $('mouse').style.display = 'none';
             }
-
         }
 
     </script>
@@ -136,7 +153,7 @@
     </div>
 
     <div id="bigbox">
-        <img id="showimg" src="" alt="">
+        <img id="showimg" src="images/0001.jpg" alt="">
     </div>
     <ul>
         <li>
