@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>event事件</title>
+    <script>
+        window.onload = function () {
+            //文档中任意位置点击
+            document.onclick = function (event) {
+                //鼠标点击的x 和 y的位置信息
+                //兼容性写法，适配ie678
+                var event = event || window.event;
+                console.log(event.clientX + " " + event.clientY);
+                console.log(event.pageX + " " + event.screenX);
+            //    pageX/Y 以文档为基准点(绝对定位)
+            //    clientX/Y  以可视区域为基准点(相对定位)ie678不认识
+            //    screenX/Y 以电脑屏幕作为基准点，测量
+
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

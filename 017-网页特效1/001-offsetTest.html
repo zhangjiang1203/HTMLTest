@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>offsetTest</title>
+    <style>
+        #box{
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+        }
+    </style>
+    <script>
+        // offsetWidth offsetHeight 拿到box的宽高，包括border padding
+        // offsetWidth= border + padding + width 三者之和
+        // div.style.width 只能得到行内的数值
+        // offsetLeft offsetTop 返回距离上级盒子(带有定位)左边的位置
+        // offsetLeft offsetTop 使用时，如果父级都没有定位则以body为准
+        // offsetLeft 从父亲的padding开始算，父亲的border不算
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            console.log($('box').offsetWidth +"  " + $('box').offsetHeight);
+        }
+    </script>
+</head>
+<body>
+<!--offset获取对象的宽度和高度-->
+<div id="box">
+
+</div>
+
+</body>
+</html>

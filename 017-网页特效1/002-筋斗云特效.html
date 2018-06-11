@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>筋斗云特效</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: black;
+        }
+
+        #box{
+            width: 800px;
+            height: 42px;
+            background: white;
+            margin: 80px auto;
+            position: relative;
+            border-radius: 5px;
+            background: url(images/rss.png) no-repeat right center #fff;
+        }
+        #box #cloud{
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: url(images/cloud.gif) no-repeat ;
+            width: 83px;
+            height: 42px;
+        }
+
+
+        #box ul{
+            list-style: none;
+            height: 42px;
+            position: relative;
+            /*z-index: 10;*/
+        }
+
+        #box ul li{
+            float: left;
+            width: 83px;
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+
+            var leader= 0 ,target = 0;
+            var current = 0;//存放按钮点击的位置信息
+            function $(id) {return document.getElementById(id);}
+            var liarr = $('box').getElementsByTagName('li');
+            for (var i = 0; i < liarr.length ; i++) {
+
+                liarr[i].onmouseover = function () {
+                    target = this.offsetLeft
+                    console.log(this.offsetLeft);
+                }
+
+                liarr[i].onmouseout = function () {
+                    target = current;
+                }
+
+                liarr[i].onclick = function () {
+                    current = this.offsetLeft;
+                }
+            }
+
+            setInterval(function () {
+                leader = leader + (target - leader) / 10;
+                $('cloud').style.left = leader + 'px'
+            },20)
+        }
+
+    //    offset家族
+    //    offsetParent 返回对象的父级(带有定位)
+    //    如果当前元素的父级元素没有进行CSS定位，offsetParent为body
+    //    如果当前元素父级元素有CSS定位，offsetParent为最近的父级元素
+    //    style.left只能获取行内样式，没有行内样式返回为空，而在内嵌样式下获取不到值
+    //    offsetWidth 返回的是数字 style.width返回的是字符串，除了数字还带有单位px
+    //    offsetWidth 只读，style.width 可读写
+    </script>
+</head>
+<body>
+
+<div id="box">
+    <span id="cloud"></span>
+    <ul>
+        <li>首页新闻</li>
+        <li>师资力量</li>
+        <li>企业文化</li>
+        <li>招聘信息</li>
+        <li>公司简介</li>
+        <li>上海校区</li>
+        <li>广州校区</li>
+        <li>活动策划</li>
+    </ul>
+</div>
+
+</body>
+</html>

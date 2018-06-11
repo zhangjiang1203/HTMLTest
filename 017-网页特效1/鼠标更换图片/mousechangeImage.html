@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>改变图片</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        #box{
+            width: 352px;
+            height: 433px;
+            position: relative;
+            /*top: 50%;*/
+            /*left: 50%;*/
+            margin: 100px;
+            border:1px solid gray;
+    	}
+        /*行内元素转换成块级元素*/
+        #box #topbox{
+            width: 350px;
+            height: 360px;
+            overflow: hidden;
+        }
+        #box #topbox #bigimg{
+            display: block;
+            width: 350px;
+            height: 360px;
+        }
+
+        #box #topbox #mouse{
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none;
+            background-color: rgba(255,255,0,0.3);
+        }
+
+        #box ul{
+            list-style: none;
+            display: block;
+            border-top: 1px solid gray;
+            height: 70px;
+
+        }
+
+        #box ul li {
+            float: left;
+            width: 70px;
+            height: 70px;
+        }
+
+        #box ul li a img{
+        	height: 70px;
+        	width: 70px;
+            vertical-align: top;
+        }
+
+        #box #bigbox{
+            width: 500px;
+            height: 500px;
+            border: 1px solid gray;
+            position: absolute;
+            left: 360px;
+            top: 0;
+            display: none;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {
+                return document.getElementById(id);
+            }
+            function changeimage(obj) {
+                var target = document.getElementById('bigimg');
+                target.src = 'images/'+ obj + 'big.jpg'
+            }
+
+            var liArr = $('box').getElementsByTagName('li');
+            for (var i = 0; i < liArr.length ; i++) {
+                 // debugger调试关键字
+                liArr[i].index = i+1;
+                liArr[i].onmouseover = function () {
+                    var src = '0' + this.index;
+                    changeimage(src);
+                }
+            }
+
+            $('topbox').onmousemove = function (event) {
+                var event = event || window.event;
+
+                // var X = event.clientX - $('box').offsetLeft;
+                // var Y = event.clientY - $('box').offsetTop;
+
+                var X = event.clientX - $('box').offsetLeft - $('mouse').offsetWidth/2.0;
+                var Y = event.clientY - $('box').offsetTop - $('mouse').offsetHeight/2.0 ;
+                $('mouse').style.top = Y + 'px';
+                $('mouse').style.left = X + 'px';
+                // console.log($('box').offsetLeft + ' ' + $('box').offsetTop);
+            }
+
+            // var leaderx = 0,leadery = 0;
+            // var targetx = 0,targety = 0;
+            // setInterval(function () {
+            //     leaderx = leaderx + (targetx - leaderx)/10;
+            //     leadery = leadery + (targety - leadery)/10;
+            //     $('mouse').style.top = leadery + 'px';
+            //     $('mouse').style.left = leaderx + 'px';
+            // },10);
+
+            $('bigimg').onmouseover = function () {
+                $('bigbox').style.display = 'block';
+                $('mouse').style.display = 'block';
+            }
+
+            $('bigimg').onmouseout = function () {
+                $('bigbox').style.display = 'none';
+                $('mouse').style.display = 'none';
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+
+<div id="box">
+    <div id="topbox">
+        <img id="bigimg" src="images/01big.jpg">
+        <div id="mouse"></div>
+    </div>
+
+    <div id="bigbox">
+        <img id="showimg" src="" alt="">
+    </div>
+    <ul>
+        <li>
+            <a href="javascrip:;">
+                <img src="images/01.jpg">
+            </a>
+        </li>
+        <li>
+        	<a href="javascrip:;">
+        		<img src="images/02.jpg">
+        	</a>
+        </li>
+        <li>
+        	<a href="javascrip:;">
+        		<img src="images/03.jpg">
+        	</a>
+        </li>
+        <li>
+        	<a href="javascrip:;">
+        		<img src="images/04.jpg">
+        	</a>
+        </li>
+        <li>
+        	<a href="javascrip:;">
+        		<img src="images/05.jpg">
+        	</a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

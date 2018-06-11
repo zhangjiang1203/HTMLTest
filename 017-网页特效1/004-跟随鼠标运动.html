@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跟随鼠标运动</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #box #gifimage{
+            width: 80px;
+            height: 80px;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+
+            document.onclick = function (event) {
+                var event = event || window.event;
+                targetx = event.clientX - $('gifimage').offsetWidth/2.0;
+                targety = event.clientY - $('gifimage').offsetHeight/2.0 ;
+            }
+
+            document.onmousemove = function (event) {
+                var event = event || window.event;
+                targetx = event.clientX - $('gifimage').offsetWidth/2.0;
+                targety = event.clientY - $('gifimage').offsetHeight/2.0 ;
+            }
+
+            var leaderx = 0,leadery = 0;
+            var targetx = 0,targety = 0;
+            setInterval(function () {
+                leaderx = leaderx + (targetx - leaderx)/10;
+                leadery = leadery + (targety - leadery)/10;
+                $('gifimage').style.top = leadery + 'px';
+                $('gifimage').style.left = leaderx + 'px';
+            },50);
+
+        }
+    </script>
+</head>
+<body>
+
+<div id="box">
+    <img id="gifimage" src="images/img.jpg" alt="">
+</div>
+
+</body>
+</html>

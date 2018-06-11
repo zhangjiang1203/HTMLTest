@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子中的距离</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #box{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            margin: 50px ;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+
+            $('box').onclick = function (event) {
+                var event = event || window.event;
+                var X = event.clientX - this.offsetLeft;
+                var Y = event.clientY - this.offsetTop;
+                this.innerHTML = X + " " + Y;
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+
+</div>
+</body>
+</html>
