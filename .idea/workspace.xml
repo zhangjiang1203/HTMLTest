@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/017-网页特效1/鼠标更换图片/mousechangeImage.html" beforeDir="false" afterPath="$PROJECT_DIR$/017-网页特效1/鼠标更换图片/mousechangeImage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/017-网页特效1/006-跟随滚动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/017-网页特效1/007-水平滚动条.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,14 +18,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mousechangeImage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mousechangeImage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/017-网页特效1/鼠标更换图片/mousechangeImage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+            <state relative-caret-position="291">
+              <caret line="99" column="37" lean-forward="true" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
               <folding>
                 <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="006-跟随滚动.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/017-网页特效1/006-跟随滚动.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4494">
+              <caret line="214" column="53" lean-forward="true" selection-start-line="214" selection-start-column="53" selection-end-line="214" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="007-水平滚动条.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/017-网页特效1/007-水平滚动条.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="005-盒子中的距离.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/017-网页特效1/005-盒子中的距离.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="25" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -62,8 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/011-js基本功/鼠标更换图片/mousechangeImage.html" />
-        <option value="$PROJECT_DIR$/011-js基本功/点击隐藏文字/clicktohiddenword.html" />
         <option value="$PROJECT_DIR$/011-js基本功/表单验证/validateForm.html" />
         <option value="$PROJECT_DIR$/011-js基本功/007-js运算符.html" />
         <option value="$PROJECT_DIR$/012-js第三天/002-数组的使用.html" />
@@ -113,6 +140,8 @@
         <option value="$PROJECT_DIR$/017-网页特效1/005-盒子中的距离.html" />
         <option value="$PROJECT_DIR$/017-网页特效1/004-跟随鼠标运动.html" />
         <option value="$PROJECT_DIR$/017-网页特效1/鼠标更换图片/mousechangeImage.html" />
+        <option value="$PROJECT_DIR$/017-网页特效1/007-水平滚动条.html" />
+        <option value="$PROJECT_DIR$/017-网页特效1/006-跟随滚动.html" />
       </list>
     </option>
   </component>
@@ -126,10 +155,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="23" />
+    <option name="x" value="1663" />
+    <option name="y" value="64" />
     <option name="width" value="1385" />
-    <option name="height" value="943" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -241,14 +270,15 @@
       <workItem from="1528695356059" duration="13144000" />
       <workItem from="1528710973158" duration="7000" />
       <workItem from="1528727302269" duration="2096000" />
+      <workItem from="1528764337915" duration="8306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174805000" />
+    <option name="totallyTimeSpent" value="183111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="23" width="1385" height="943" extended-state="0" />
+    <frame x="1663" y="64" width="1385" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19494584" />
@@ -282,27 +312,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/010-前端基本功/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="85" column="63" selection-start-line="85" selection-start-column="63" selection-end-line="85" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/014-js第四天/001-ie6关于margin负值问题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/014-js第四天/002-ie6中的层级问题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/014-js第四天/003-三角设置问题.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -499,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/017-网页特效1/003-event事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/011-js基本功/京东网页/images/slider1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -592,10 +594,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/017-网页特效1/004-跟随鼠标运动.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="189">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017-网页特效1/003-event事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017-网页特效1/鼠标更换图片/mousechangeImage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="99" column="37" lean-forward="true" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/017-网页特效1/005-盒子中的距离.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -604,13 +626,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/017-网页特效1/鼠标更换图片/mousechangeImage.html">
+    <entry file="file://$PROJECT_DIR$/017-网页特效1/007-水平滚动条.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
-          <folding>
-            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="146">
+          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017-网页特效1/006-跟随滚动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4494">
+          <caret line="214" column="53" lean-forward="true" selection-start-line="214" selection-start-column="53" selection-end-line="214" selection-end-column="53" />
         </state>
       </provider>
     </entry>

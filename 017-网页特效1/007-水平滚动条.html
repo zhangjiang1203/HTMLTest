@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #box{
+            width: 400px;
+            height: 8px;
+            background-color: gray;
+            margin: 100px auto;
+            position: relative;
+        }
+        #box #back{
+            height: 100%;
+            width: 0;
+            background-color: blue;
+        }
+        #box #bar{
+            height: 20px;
+            width: 10px;
+            background-color: blue;
+            position: absolute;
+            left: 0;
+            top: -6px;
+        }
+
+        #content{
+            position: absolute;
+            left: 10px;
+            bottom: 100px;
+            width: 400px;
+            height: 200px;
+            border: 1px solid gray;
+        }
+
+        #content div{
+            width: 100%;
+            height: 30px;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {
+                return document.getElementById(id);
+            }
+            var leftValue = 0;
+            $('bar').onmousedown = function (event) {
+                var event = event || window.event;
+                leftValue = event.clientX - this.offsetLeft;
+                document.onmousemove = function (event) {
+                    //取消选中
+                    var event = event || window.event;
+                    var movevalue = event.clientX  - leftValue;
+                    console.log('开始的值' + movevalue);
+                    if (movevalue <0){
+                        movevalue = 0;
+                    } else if (movevalue > $('box').offsetWidth - $('bar').offsetWidth){
+                        movevalue =  $('box').offsetWidth - $('bar').offsetWidth;
+                    }
+                    console.log('结束的值' + movevalue);
+                    $('bar').style.left = movevalue + 'px';
+                    $('back').style.width = movevalue + 'px';
+                    $('dis').innerHTML = '移动的距离' + movevalue + 'px';
+                    var value = 100*movevalue/($('box').offsetWidth - $('bar').offsetWidth);
+                    $('per').innerHTML = '移动的百分比' + parseInt(value) +'%';
+                    window.getSelection ? window.getSelection().removeAllRanges() : document.getSelection().empty();
+
+                }
+
+                document.onmouseup = function () {
+                    //弹起鼠标不做任何操作
+                    document.onmousemove = null;
+                }
+            }
+
+        }
+    </script>
+</head>
+<body>
+
+<div id="box">
+    <div id="back"></div>
+    <div id="bar"></div>
+</div>
+
+<div id="content">
+    <div id="per"></div>
+    <div id="dis"></div>
+</div>
+
+</body>
+</html>
