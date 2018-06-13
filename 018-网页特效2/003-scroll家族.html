@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            height: 3000px;
+        }
+
+    </style>
+    <script>
+        //offset 自己的偏移
+        //scroll 滚动的偏移
+        //scrollTop  被卷去的头部 滑动网页的时候网页隐藏在屏幕上方的距离
+        //scrollLeft 被卷去的左部 滑动网页的时候网页隐藏在屏幕左方的距离
+
+        window.onload = function () {
+            //窗口滚动
+            window.onscroll = function(){
+            //没有申明 <!DOCTYPE html>的浏览器用 document.body.scrollTop
+            //IE和火狐浏览器用 document.documentElement.scrollTop);
+            //最新浏览器用 window.pageYOffset获取滚动的高度
+
+
+            //兼容性写法获取scrollTop ,0保证不识别的浏览器有值
+                var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+                document.title = scrollTop;
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -31,9 +31,18 @@
             /*background-color: pink;*/
         }
 
+        #box .progressback {
+            width: 8px;
+            height: 100%;
+            background-color: #ccc;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
         #box #progressbox {
             width: 8px;
-            height: 100px;
+            height: 100%;
             background-color: red;
             position: absolute;
             right: 0;
@@ -44,6 +53,13 @@
     <script>
         window.onload = function () {
             function $(id) {return document.getElementById(id);}
+
+            //计算滚动条的高度
+            var scrollheight = $('box').offsetHeight*$('box').offsetHeight/$('innerbox').offsetHeight;
+            if (scrollheight > $('box').offsetHeight){
+                scrollheight = $('box').offsetHeight;
+            }
+            $('progressbox').style.height = scrollheight + 'px';
 
             $('progressbox').onmousedown = function (event) {
                 var event = event || window.event;
@@ -214,6 +230,7 @@
             不论是看正版还是盗版的读者，能够在公众期支持大主宰，一张推荐，一个收藏，都至关重要。
             所以，请大家将票票投给大主宰，今天推荐票多的话，就三更喔我们一起加油吧！）</p>
     </div>
+    <div class="progressback"></div>
     <div id="progressbox"></div>
 </div>
 </body>

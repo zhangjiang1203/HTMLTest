@@ -41,8 +41,14 @@
             background-color: red;
             line-height: 40px;
         }
+        #dongbox #showbox p{
+            float: left;
+        }
 
-
+        #dongbox #showbox a{
+            text-decoration: none;
+            float: right;
+        }
 
         #dongbox #blankbox{
             width: 100%;
@@ -58,6 +64,32 @@
             $('showbtn').onclick = function () {
                 $('dongbox').style.display = 'block';
             }
+
+            $('closebtn').onclick = function () {
+                $('dongbox').style.display = 'none';
+            }
+
+            //拖动显示的位置
+            $('showbox').onmousedown = function (event) {
+                var event = event || window.event;
+                //点击是时的位置信息 - 移动盒子的setleft - 移动盒子的宽度一半
+                var leftValue = event.clientX - $('dongbox').offsetLeft - $('dongbox').offsetWidth/2;
+                var topValue = event.clientY - $('dongbox').offsetTop - $('dongbox').offsetHeight/2;
+                document.onmousemove = function (event) {
+                    var event = event || window.event;
+                    var changex = event.clientX - leftValue;
+                    var changey = event.clientY - topValue;
+
+                    $('dongbox').style.top = changey + 'px';
+                    $('dongbox').style.left = changex + 'px';
+
+                    window.getSelection ? window.getSelection().removeAllRanges() : document.getSelection().empty();
+                }
+
+                document.onmouseup = function () {
+                    document.onmousemove = null;
+                }
+            }
         }
     </script>
 </head>
@@ -69,7 +101,7 @@
 <div id="dongbox">
     <div id="showbox">
         <p>注册信息(可以拖拽)</p>
-        <button id="closebtn">开始注册</button>
+        <a id="closebtn" href="">【关闭】</a>
     </div>
     <div id="blankbox"></div>
 </div>
