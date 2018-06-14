@@ -30,7 +30,7 @@
         }
 
         #box #smallbox #showimage {
-            width: 500%;
+            width: 600%;
             height: 100%;
             position: relative;
             top: 0;
@@ -87,6 +87,7 @@
                     }
                     this.className = 'current';
                     animate($('showimage'),-this.index*490);
+                    page = indexli = this.index;
                 }
                 ul.appendChild(li);
             }
@@ -115,10 +116,35 @@
             
             //添加自动滚动动画
             var timer = null;
+            var page = 0,indexli = 0;
             timer = setInterval(autoplay,3000);
-            
             function autoplay() {
+                page++;
+                if (page >= liArr.length){
+                    $('showimage').style.left = 0;
+                    page = 1;
+                }
+                animate($('showimage'),-page*490);
 
+                //修改滚动标签
+                indexli++;
+                for (var i = 0; i < ul.children.length ; i++) {
+                    ul.children[i].className = '';
+                }
+
+                if (indexli >= liArr.length-1) {
+                    indexli = 0;
+                }
+                ul.children[indexli].className = 'current';
+            }
+
+            //鼠标经过和离开定时器修改
+            $('smallbox').onmouseover = function () {
+                clearInterval(timer);
+            }
+
+            $('smallbox').onmouseout = function () {
+                timer = setInterval(autoplay,3000);
             }
 
         }
