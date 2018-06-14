@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击隐藏</title>
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+        }
+        body{
+            height: 2000px;
+        }
+
+        #mask{
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color:gray;
+            display: none;
+        }
+
+        #show{
+            width: 400px;
+            height: 400px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin: -200px 0 0 -200px;
+            border: 1px solid red;
+            display: none;
+            background-color: white;
+        }
+
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            $('login').onclick = function (event) {
+                $('mask').style.display = 'block';
+                $('show').style.display = 'block';
+                //隐藏滚动条
+                document.body.style.overflow = 'hidden';
+                //阻止向上冒泡
+                var event = event || window.event;
+                if (event && event.stopPropagation){
+                    event.stopPropagation();
+                } else {
+                    event.cancelBubble = true;
+                }
+            }
+
+            document.onclick = function (event) {
+
+                //判断当前点击的对象
+                //火狐 谷歌 target.id
+                //ie678 event.srcElement.id
+                //获取点击的目标文件
+                var event = event || window.event;
+                //兼容性写法 获取对象的ID
+                var targetId = event.target ? event.target.id : event.srcElement.id;
+                if (targetId == 'mask'){
+                    console.log(event.target.id);
+                    $('mask').style.display = 'none';
+                    $('show').style.display = 'none';
+                    //显示滚动条
+                    document.body.style.overflow = 'visible';
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+<button id="login">登录</button>
+<button id="register">注册</button>
+
+<div id="mask"></div>
+<div id="show"></div>
+
+</body>
+</html>

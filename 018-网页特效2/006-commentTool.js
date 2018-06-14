@@ -26,7 +26,7 @@ function scroll() {
 }
 
 
-/*检测可是区域的屏幕宽度和高度*/
+/*检测可视区域的屏幕宽度和高度*/
 function client() {
     if (window.pageXOffset != null){
         //ie9和其他浏览器

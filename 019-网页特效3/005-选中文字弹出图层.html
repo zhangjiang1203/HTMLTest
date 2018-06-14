@@ -2,44 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>弹出图层</title>
     <style>
         *{
-            padding: 0;
+            padding:0;
             margin: 0;
         }
-
-        #showbox{
-            width: 400px;
-            height: 400px;
-            margin: 100px;
-            border: 1px solid gray;
+        #articel{
+            margin: 50px;
+            width: 500px;
         }
 
-        #showbox p{
-            color: #333;
-            line-height: 30px;
-            margin-top: 10px;
+        #select{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            display: none;
         }
-
     </style>
+    <script src="../018-网页特效2/006-commentTool.js" type="text/javascript"></script>
     <script>
         window.onload = function () {
-            //网页总宽度 包含滚动条
-            //offsetWidth : width + padding + border
-            console.log('offsetheight:' + $('showbox').offsetHeight);
-            //网页可视区域宽度
-            //clientWidth : width + padding
-            console.log('clienthegiht:' + $('showbox').clientHeight);
-            //scrollWidth : 大小是盒子内容的大小
-            console.log('scrollheight:' + $('showbox').scrollHeight);
+            function $(id){
+                return document.getElementById(id);
+            }
+            //获取用户选中的内容
+            // window.getSelection();
+            // document.selection
+            $('articel').onmouseup = function (event) {
+                var event = event || window.event;
+                var txt ;
+                if (window.getSelection){
+                    //正常浏览器的用法
+                    //转化为字符串
+                    txt = window.getSelection().toString();
+
+                }else {//ie的写法
+                     txt = document.selection.createRange().text;
+                }
+                //所有字符串都为真 ""为假
+                if (txt){
+                    //获取滚动的高度和鼠标位置高度之和
+                    showbox(event.clientX,event.clientY+scroll().top,txt);
+                }
+
+                console.log(event.clientY+ '  ' +scroll().top);
+            }
+
+
+            document.onmousedown = function (event) {
+                var event = event || window.event;
+                var targetID = event.target ? event.target.id : event.srcElement.id;
+                if (targetID != 'select'){
+                    $('select').style.display = 'none';
+                    $('select').style.height = '100px';
+                }
+            }
+
+            function showbox(mousex,mousey,content) {
+                setTimeout(function () {
+                    $('select').style.display = 'block';
+                    $('select').innerHTML = content;
+                    $('select').style.height = $('select').scrollHeight + 'px';
+                    $('select').style.top = mousey + 'px';
+                    $('select').style.left = mousex + 'px';
+                },200);
+            }
         }
     </script>
-    <script src="../018-网页特效2/006-commentTool.js" type="text/javascript"></script>
 </head>
 <body>
 
-<div id="showbox">
+<span id="select"></span>
+
+<div id="articel">
     <p>
 
 

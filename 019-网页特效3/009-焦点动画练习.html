@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>焦点动画</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #box {
+            width: 500px;
+            height: 180px;
+            border: 1px solid #ccc;
+            margin: 100px auto;
+        }
+
+
+        #box #smallbox{
+            width: 490px;
+            height: 170px;
+            border: 1px solid #ccc;
+            margin: 5px auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #box #smallbox ul {
+            list-style: none;
+        }
+
+        #box #smallbox #showimage {
+            width: 500%;
+            height: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        #box #smallbox ul li{
+            float: left;
+        }
+
+        #box #smallbox ul li img{
+            vertical-align: top;
+        }
+
+        #box #smallbox .indexMask{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            width: 125px;
+            height: 20px;
+        }
+        #box #smallbox .indexMask li {
+            float: left;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            margin-right: 5px;
+            background-color: #cccccc;
+            cursor: pointer;
+        }
+        #box #smallbox .indexMask li.current {
+            background-color:blue;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            //添加滚动小圆点
+            var liArr = $('showimage').children;
+            var ul = document.createElement('ul');
+            ul.className = 'indexMask';
+            for (var i = 0; i < liArr.length ; i++) {
+                var li = document.createElement('li');
+                li.index = i;
+                li.innerHTML = i + 1 + '';
+                li.className = i == 0 ? 'current' : '';
+                li.onmouseover = function(){
+                    //取消选中的li
+                    var indexarr = ul.children;
+                    for (var j = 0; j < indexarr.length; j++) {
+                        indexarr[j].className = '';
+                    }
+                    this.className = 'current';
+                    animate($('showimage'),-this.index*490);
+                }
+                ul.appendChild(li);
+            }
+            $('smallbox').appendChild(ul);
+
+            //复制图片的最后一个节点
+            $('showimage').appendChild($('showimage').children[0].cloneNode(true));
+
+            //添加滚动动画
+            function animate(obj,target) {
+                //先取消定时器
+                clearInterval(obj.timer);
+                //定义动画滚动的速度
+                var speed = obj.offsetLeft < target ? 15 : -15;
+                obj.timer = setInterval(function () {
+                    obj.style.left = obj.offsetLeft + speed + 'px';
+                    var result =  target - obj.offsetLeft
+                    if (Math.abs(result) < 15){
+                        //距离小于指定的speed 直接设置为目标值target
+                        clearInterval(obj.timer);
+                        obj.style.left = target + 'px';
+                    }
+
+                },10)
+            }
+            
+            //添加自动滚动动画
+            var timer = null;
+            timer = setInterval(autoplay,3000);
+            
+            function autoplay() {
+
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+
+<div id="box">
+    <div id="smallbox">
+        <ul id="showimage">
+            <li><img src="images/11.jpg" alt=""></li>
+            <li><img src="images/22.jpg" alt=""></li>
+            <li><img src="images/33.jpg" alt=""></li>
+            <li><img src="images/44.jpg" alt=""></li>
+            <li><img src="images/55.jpg" alt=""></li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>

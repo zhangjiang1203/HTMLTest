@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+        //    冒泡机制
+        //    当一个元素上的事件被触发的时候，比如说鼠标点击了一个按钮，同样的事件将会在哪个元素的所有祖先元素中被触发，
+        //    这一过程被称为事件冒泡，这个事件从原始元素开始一直冒泡到DOM树的最上层
+            function $(id){
+                return document.getElementById(id);
+            }
+            document.onclick = function () {
+                console.log('点击了空白地方');
+            }
+
+            $('clickbtn').onclick = function (event) {
+                console.log('点击了按钮');
+                var event = event || window.event;
+                //标注浏览器和ie浏览器 W3C是 event.stopPropagation()
+                //IE则是使用event.cancelBubble = true;
+                event.stopPropagation();//停止冒泡
+            //    兼容性写法,取消冒泡
+                if (event && event.stopPropagation){
+                    event.stopPropagation();
+                } else {//ie678
+                    event.cancelBubble = true;
+                }
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+
+<button id="clickbtn">点击按钮</button>
+
+</body>
+</html>

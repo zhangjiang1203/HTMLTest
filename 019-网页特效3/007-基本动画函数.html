@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本动画函数</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-top: 20px;
+            position: absolute;
+            left: 0;
+        }
+    </style>
+    <script src="../018-网页特效2/006-commentTool.js" type="text/javascript"></script>
+
+    <script>
+        window.onload = function () {
+            //    动画的基本原理
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            $('start1').onclick = function () {
+
+                animate($('box'));
+            }
+
+            $('start2').onclick = function () {
+                animate($('box'));
+            }
+
+            function animate(obj) {
+                clearInterval(obj.timer);
+                var isFull = true;//每次点击清除定时器，在此位置上开始动画
+                obj.timer = setInterval(function () {
+                    if (obj.offsetLeft + obj.offsetWidth >= client().width){
+                        isFull = false;
+                    } else if (obj.offsetLeft <= 0) {
+                        isFull = true;
+                    }
+
+                    obj.style.left = obj.offsetLeft + (isFull ? 10 : -10) + 'px';
+                    console.log(isFull + " " + obj.offsetLeft);
+                },20)
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+<button id="start1">开始200</button>
+<button id="start2">开始400</button>
+<div id="box"></div>
+
+</body>
+</html>
