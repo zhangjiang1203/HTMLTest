@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js访问css属性的方法</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        #box{
+            margin-top: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+        //    1.利用点语法
+        //    box.style.width  box.style.top
+        //    这个语法的最大缺点是 后面的属性值是不变的 没有办法传递参数的
+        //    2.利用[]访问属性
+        //    语法格式: box.style['width'] box.style['left']
+            function $(id) {return document.getElementById(id);}
+            function getStyle(obj,attr) {
+                if (obj.currentStyle){//ie opera的用法
+                    return obj.currentStyle[attr];
+                } else {//w3c的用法
+                    return window.getComputedStyle(obj,null)[attr];
+                }
+
+            }
+
+            //访问属性
+            console.log(getStyle($('box'),'width'));
+
+        }
+    </script>
+</head>
+<body>
+
+<button id="start1">开始行走1</button>
+<button id="start2">开始行走2</button>
+<div id="box"></div>
+
+</body>
+</html>

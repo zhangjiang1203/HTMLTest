@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>封装基本函数</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        #box{
+            margin-top: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+
+            $('start1').onclick = function () {
+                animation($('box'),200);
+            }
+
+            $('start2').onclick = function () {
+                animation($('box'),400);
+            }
+            //封装缓动动画函数
+            function animation(obj,target) {
+                clearInterval(obj.timer);
+                obj.timer = setInterval(function () {
+                    var step = (target - obj.offsetLeft)/10;
+                    step = step > 0 ? Math.ceil(step) : Math.floor(step);
+                    obj.style.left = obj.offsetLeft + step + 'px';
+                    if (obj.offsetLeft == target){
+                        clearInterval(obj.timer);
+                    }
+                },30)
+            }
+
+        }
+    </script>
+</head>
+<body>
+<button id="start1">开始行走1</button>
+<button id="start2">开始行走2</button>
+<div id="box"></div>
+</body>
+</html>

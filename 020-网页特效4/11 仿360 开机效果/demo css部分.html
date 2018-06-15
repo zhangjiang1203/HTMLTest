@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #box{
+            width: 322px;
+            position: fixed;
+            bottom:0;
+            right:0;
+        }
+        span{
+            position: absolute;
+            top:0;
+            right:0;
+            width:30px;
+            height: 20px;
+            cursor: pointer;
+        }
+    </style>
+    <script src="../commentTool.js" type="text/javascript"></script>
+    <script>
+        window.onload = function () {
+            $('close').onclick = function () {
+                //添加设计的动画效果
+                var myjson = {bottom:-101};
+                customBackAnimate($('box'),myjson,function () {
+                    //先下降101 在向右平移322
+                    customBackAnimate($('box'),{right:-322});
+                });
+                $('')
+            }
+
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+    <span id="close"></span>
+    <div class="hd" id="t">
+        <img src="images/t.jpg" alt=""/>
+    </div>
+    <div class="bd" id="b">
+        <img src="images/b.jpg" alt=""/>
+    </div>
+</div>
+</body>
+</html>
