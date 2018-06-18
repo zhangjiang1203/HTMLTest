@@ -23,13 +23,13 @@
         window.onload = function () {
 
             $('start1').onclick = function () {
-                var  myjson = {width:400,height:450};
-                customAnimate($('box'),myjson);
+                var  myjson = {width:400,height:450,opacity:0.3};
+                customBackAnimate($('box'),myjson,null);
             }
 
             $('start2').onclick = function () {
                 var myjson = {top: 100, left: 100};
-                customAnimate($('box'), myjson);
+                customBackAnimate($('box'), myjson,null);
             }
         }
     </script>
