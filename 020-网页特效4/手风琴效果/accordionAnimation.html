@@ -9,7 +9,7 @@
             margin: 0;
         }
         #box{
-            width: 1200px;
+            width: 1150px;
             height: 460px;
             border: 1px solid #ccc;
             margin: 100px auto;
@@ -42,15 +42,15 @@
                 li.style.backgroundImage = 'url(images/' + (i+1) + '.jpg';
                 li.onmouseover = function () {
                     for (var j = 0; j < children.length ; j++) {
-                        customBackAnimate(children[j],{width:parseInt(allwidth*0.0625)});
+                        customBackAnimate(children[j],{width:100});
                     }
-                    customBackAnimate(this,{width:parseInt(allwidth*0.75)});
+                    customBackAnimate(this,{width:800});
                 }
 
                 li.onmouseout = function () {
                     for (var i = 0; i < children.length ; i++) {
                         var li = children[i];
-                        customBackAnimate(li,{width:parseInt(allwidth*0.2)});
+                        customBackAnimate(li,{width:240});
                     }
                 }
 
