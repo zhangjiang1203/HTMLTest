@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    /*去除图片之间的空隙*/
+    vertical-align: top;
+}
+
+.w-slider{
+    width: 310px;
+    height: 265px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.w-slider .banner {
+    width: 310px;
+    height: 220px;
+}
+
+.w-slider .banner .banner-main{
+    width: 620px;
+    height: 220px;
+}
+
+.w-slider .banner .banner-main .banner-main-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.w-slider .navcon{
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.w-slider .navcon .slider-nav{
+    width: 24px;
+    height: 20px;
+    display:inline-block;
+    /*background-color: blue;*/
+    margin-left: 5px;
+    cursor: pointer;
+    background: url(../images/icon.png) no-repeat -24px -782px;
+    text-indent: -20em;
+    overflow: hidden;
+}
+
+.w-slider .navcon .current{
+    background-position: -24px -762px;
+}
+
+.w-slider .navcon .slider-nav-prev,
+.w-slider .navcon .slider-nav-next{
+    width: 30px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    opacity: 0.8;
+    cursor: pointer;
+    background:url(../images/icon.png) no-repeat 6px top;
+
+}
+
+.w-slider .navcon .slider-nav-prev{
+    left: 0;
+}
+
+.w-slider .navcon .slider-nav-next{
+    right: 0;
+    background-position: -6px -44px;
+
+}

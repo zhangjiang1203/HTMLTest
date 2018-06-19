@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/021-网页特效5/网易轮播图/CSS/cycleBanner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/021-网页特效5/网易轮播图/JavaScript/cycleBanner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/021-网页特效5/网易轮播图/cycleBanner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/020-网页特效4/手风琴效果/accordionAnimation.html" beforeDir="false" afterPath="$PROJECT_DIR$/020-网页特效4/手风琴效果/accordionAnimation.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,24 +18,67 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="accordionAnimation.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/020-网页特效4/手风琴效果/accordionAnimation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.575873">
+      <split-first>
+        <splitter split-orientation="horizontal" split-proportion="0.47350994">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="cycleBanner.css" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/021-网页特效5/网易轮播图/CSS/cycleBanner.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="295">
+                      <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="cycleBanner.html" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/021-网页特效5/网易轮播图/cycleBanner.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="504">
+                      <caret line="24" column="36" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="36" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="cycleBanner.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/021-网页特效5/网易轮播图/JavaScript/cycleBanner.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="472">
+                  <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="commentTool.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/020-网页特效4/commentTool.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-284">
+                  <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -67,9 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/015-js第五天/007-检测字符串长度.html" />
-        <option value="$PROJECT_DIR$/016-js第六天/001-字符串查找.html" />
-        <option value="$PROJECT_DIR$/016-js第六天/002-网址的编码和解码.html" />
         <option value="$PROJECT_DIR$/016-js第六天/003-字符串处理.html" />
         <option value="$PROJECT_DIR$/016-js第六天/004-保留小数点位数.html" />
         <option value="$PROJECT_DIR$/016-js第六天/005-大小写转换.html" />
@@ -118,6 +160,9 @@
         <option value="$PROJECT_DIR$/020-网页特效4/008-封装基本函数多个属性.html" />
         <option value="$PROJECT_DIR$/020-网页特效4/commentTool.js" />
         <option value="$PROJECT_DIR$/020-网页特效4/手风琴效果/accordionAnimation.html" />
+        <option value="$PROJECT_DIR$/021-网页特效5/网易轮播图/cycleBanner.html" />
+        <option value="$PROJECT_DIR$/021-网页特效5/网易轮播图/CSS/cycleBanner.css" />
+        <option value="$PROJECT_DIR$/021-网页特效5/网易轮播图/JavaScript/cycleBanner.js" />
       </list>
     </option>
   </component>
@@ -137,10 +182,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1463" />
-    <option name="y" value="31" />
-    <option name="width" value="1385" />
-    <option name="height" value="877" />
+    <option name="x" value="1440" />
+    <option name="y" value="23" />
+    <option name="width" value="1787" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -161,13 +206,34 @@
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="020-网页特效4" type="462c0819:PsiDirectoryNode" />
+              <item name="021-网页特效5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="020-网页特效4" type="462c0819:PsiDirectoryNode" />
-              <item name="手风琴效果" type="462c0819:PsiDirectoryNode" />
+              <item name="021-网页特效5" type="462c0819:PsiDirectoryNode" />
+              <item name="网易轮播图" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="021-网页特效5" type="462c0819:PsiDirectoryNode" />
+              <item name="网易轮播图" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="021-网页特效5" type="462c0819:PsiDirectoryNode" />
+              <item name="网易轮播图" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="021-网页特效5" type="462c0819:PsiDirectoryNode" />
+              <item name="网易轮播图" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,18 +329,18 @@
       <workItem from="1529024311387" duration="16142000" />
       <workItem from="1529163237623" duration="1043000" />
       <workItem from="1529309593131" duration="5680000" />
-      <workItem from="1529371478731" duration="281000" />
+      <workItem from="1529371478731" duration="11107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245626000" />
+    <option name="totallyTimeSpent" value="256452000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1463" y="31" width="1385" height="877" extended-state="0" />
+    <frame x="1440" y="23" width="1787" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19494584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11863458" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -305,27 +371,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/017-网页特效1/006-跟随滚动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="66" column="57" lean-forward="true" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018-网页特效2/002-html结构访问.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/018-网页特效2/008-scrollTo学习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="62" column="51" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/018-网页特效2/009-浏览器滑动效果.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1029">
@@ -588,17 +633,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/commentTool.js">
+    <entry file="file://$PROJECT_DIR$/020-网页特效4/手风琴效果/accordionAnimation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+        <state relative-caret-position="247">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/手风琴效果/accordionAnimation.html">
+    <entry file="file://$PROJECT_DIR$/021-网页特效5/网易轮播图/cycleBanner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+        <state relative-caret-position="504">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020-网页特效4/commentTool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284">
+          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/021-网页特效5/网易轮播图/CSS/cycleBanner.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/021-网页特效5/网易轮播图/JavaScript/cycleBanner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
         </state>
       </provider>
     </entry>
