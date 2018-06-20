@@ -58,7 +58,7 @@ window.onload = function () {
 
     //按钮的遍历
     var arrs = $('rotate_arrow').children;
-    var speed = true;
+    var speed = true;//控制动画的节奏，动画没有结束之前不能切换按钮
     changeImage();
     for (var k in arrs){
         arrs[k].onclick = function () {
@@ -100,5 +100,7 @@ window.onload = function () {
             })
         }
     }
+    //每个li标签在上面都是绝对定位的标签
+    //动画设置就是设置每个li的位置 大小 层级 透明度
 
 }

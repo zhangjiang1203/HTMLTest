@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型</title>
+    <script>
+         window.onload = function () {
+             //添加原型对这个类进行方法或者属性的拓展
+             //所有的这个类的实例都可以调用这个方法和属性
+             Array.prototype.age = 13;
+             Array.prototype.showName = function () {
+                 //用的共同的父亲
+                 console.log('这就是名字');
+             }
+
+             var arr = [];
+             console.log(arr.age);
+             arr.showName();
+
+             function Person(name, age) {
+                 this.name = name;
+                 this.age = age;
+             }
+             //所有的Person类添加myName方法
+             Person.prototype.myName = function () {
+                 console.log('我的名字'+this.name);
+             }
+             //添加new关键字
+             var demo = new Person('刘德华',55);
+             demo.myName();
+         }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

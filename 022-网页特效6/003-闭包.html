@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            //用一个函数去访问另外一个函数中的内部变量的方式就是闭包
+
+            function test() {
+                var num = 10;
+
+                function infun() {
+                    console.log(num);
+                }
+                return infun;//返回函数体
+            }
+
+            var demo = test();//返回的是infun函数的函数体
+            demo();
+            //每个函数都是一个闭包
+
+            // console.log(num);//num是局部变量，这样访问会出错
+        //    小测试
+            function outerfun() {
+                var a = 0;
+                function innerfun() {
+                    a++;
+                    alert(a);
+                }
+                return innerfun;
+            }
+
+            var demo1 = outerfun();
+            demo1();//输出1
+            demo1();//输出2
+            var demo2 = outerfun();
+            demo2();//输出1
+            demo2();//输出2
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>声明对象</title>
+    <script>
+        window.onload = function () {
+
+             //    var obj = new Object() 声明一个对象
+            //    var obj = {}; 直接声明一个对象
+
+            var obj = {};
+            obj.name = '刘德华';
+            obj.age = 55;
+            obj.showName = function () {
+                console.log('我是'+obj.name);
+            }
+
+            console.log(obj.name + obj.age);//调用属性
+            obj.showName();//调用方法
+
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>闭包参数传递</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        #box{
+            position: absolute;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            //刚开始的写法
+            // $('btn1').onclick = function () {
+            //     move(-5);
+            // }
+            //
+            // $('btn2').onclick = function () {
+            //     move(5);
+            // }
+            //
+            // function move(speed) {
+            //     $('box').style.left = $('box').offsetLeft + speed + 'px';
+            // }
+
+        //    利用函数闭包的写法
+            function blockmove(speed) {
+                return function () {
+                    $('box').style.left = $('box').offsetLeft + speed + 'px';
+                }
+            }
+            $('btn1').onclick = blockmove(-5);
+            $('btn2').onclick = blockmove(5);
+        }
+    </script>
+</head>
+<body>
+<button id="btn1">向左</button>
+<button id="btn2">向右</button>
+
+<div id="box"></div>
+
+</body>
+</html>

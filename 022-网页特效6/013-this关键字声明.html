@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>this关键字声明</title>
+    <script>
+        window.onload = function () {
+            /*
+            * new运算符的作用是创建一个对象实例，这个对象可以是用户自定义的，也可以是带构造函数的一些系统自带的对象
+            * new关键字可以让this 指向新的对象
+
+            * 所谓的构造函数，其实就是一个普通函数，但是内部使用了this变量，对构造函数使用new运算符，就能生成实例，并且this变量
+            * 会绑定在实例对象上
+            * */
+            //构造函数为了和普通函数区别 第一个字母大写
+            function Person(name, age) {
+                this.name = name;
+                this.age = age;
+                this.showName = function () {
+                    console.log('我是'+obj.name);
+                }
+
+                // console.log(obj.name + obj.age);//调用属性
+                // obj.showName();//调用方法
+                return obj;
+            }
+            //调用属性和方法
+            var xiaoming = Person('小明',56);
+            xiaoming.showName();
+            console.log(xiaoming.age);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

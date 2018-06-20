@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tab栏切换闭包传值添加节流</title>
+    <style>
+        *{padding:0;margin: 0;}
+        .box{
+            width: 400px;
+            height: 400px;
+            margin: 100px auto;
+            border: 1px solid pink;
+            overflow: hidden;
+        }
+
+        .box .top{
+            width: 100%;
+            height: 40px;
+        }
+        .box .top span {
+            line-height: 40px;
+            display: inline-block;
+            width: 90px;
+            height: 40px;
+            background-color: #5eff5e;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .box .bottom ul{
+            list-style: none;
+        }
+        .box .bottom ul li {
+            width: 100%;
+            height: 360px;
+            background-color: pink;
+            display: none;
+        }
+
+        .box .top span.current{
+            background-color: pink;
+        }
+
+        .box .bottom .show{
+            display: block;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+
+            function changetab(id) {
+                var spans = $(id).getElementsByTagName("span");
+                var lis = $(id).getElementsByTagName("li");
+                var count = spans.length;
+                //修改其他显示的样式,闭包传值 立即执行 在后面添加小括号
+                for (var i = 0; i < count ; i++) {
+                    var timer = null;
+                    spans[i].onmouseover = function (index) {
+                        return function () {
+                            //添加定时器，鼠标停止的一段时间才会去执行
+                            clearTimeout(timer);
+                            timer = setTimeout(function () {
+                                for (var j = 0; j < count; j++) {
+                                    spans[j].className = '';
+                                    lis[j].className = '';
+                                }
+                                spans[index].className = 'current';
+                                lis[index].className = 'show';
+                            },300)
+                        }
+                    }(i)
+
+                    spans[i].onmouseout = function () {
+                        clearTimeout(timer);
+                    }
+                }
+            }
+            changetab('one');
+            changetab('two');
+            changetab('three');
+        }
+    </script>
+</head>
+<body>
+<div class="box" id="one">
+    <div class="top">
+        <span class="current">新闻</span>
+        <span>体育</span>
+        <span>娱乐</span>
+        <span>科技</span>
+    </div>
+    <div class="bottom">
+        <ul>
+            <li class="show">新闻模块</li>
+            <li>体育模块</li>
+            <li>娱乐模块</li>
+            <li>科技模块</li>
+        </ul>
+    </div>
+</div>
+
+<div class="box" id="two">
+    <div class="top">
+        <span class="current">新闻</span>
+        <span>体育</span>
+        <span>娱乐</span>
+        <span>科技</span>
+    </div>
+    <div class="bottom">
+        <ul>
+            <li class="show">新闻模块</li>
+            <li>体育模块</li>
+            <li>娱乐模块</li>
+            <li>科技模块</li>
+        </ul>
+    </div>
+</div>
+<div class="box" id="three">
+    <div class="top">
+        <span class="current">新闻</span>
+        <span>体育</span>
+        <span>娱乐</span>
+        <span>科技</span>
+    </div>
+    <div class="bottom">
+        <ul>
+            <li class="show">新闻模块</li>
+            <li>体育模块</li>
+            <li>娱乐模块</li>
+            <li>科技模块</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

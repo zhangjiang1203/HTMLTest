@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数版本的对象</title>
+    <script>
+        window.onload = function () {
+
+            function Person(name, age) {
+                var obj = {};
+                obj.name = name;
+                obj.age = age;
+                obj.showName = function () {
+                    console.log('我是'+obj.name);
+                }
+
+                // console.log(obj.name + obj.age);//调用属性
+                // obj.showName();//调用方法
+                return obj;
+            }
+
+            var xiaoming = Person('小明',56);
+            xiaoming.showName();
+            console.log(xiaoming.age);
+
+
+
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

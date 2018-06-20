@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>屏幕缩放事件</title>
+    <script>
+        window.onload = function () {
+            //该函数在ie8等浏览器没触发一次 会执行两次
+            var num = 0;
+            window.onresize = throttle(function () {
+                num++;
+                console.log('开始延迟执行'+ num);
+                document.write('' + document.documentElement.clientWidth || window.innerWidth);
+            },300);
+
+            //在浏览器中设置隔一定的时间再去执行onresize这个函数
+            //每隔delay的时间去执行fn函数
+            function throttle(fn,delay) {
+                var timer = null;
+                return function () {
+                    clearTimeout(timer);
+                    timer = setTimeout(fn,delay);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
