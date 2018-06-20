@@ -2,22 +2,423 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/001-函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/002-变量的作用域.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/003-闭包.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/004-闭包参数传递.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/005-table栏切换闭包样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/006-立即执行函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/007-屏幕缩放事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/008-tab栏切换添加节流.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/009- 对象数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/010-声明对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/011-函数版本的对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/012-this.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/013-this关键字声明.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/022-网页特效6/014-prototype原型.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/021-网页特效5/旋转轮播图/JavaScript/rotatebanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/021-网页特效5/旋转轮播图/JavaScript/rotatebanner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001-htmlmodel/001-knowHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/001-htmlmodel/001-knowHTML.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/001-htmlbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/001-htmlbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/002-baseMarkup.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/002-baseMarkup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/002-无序列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/002-无序列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/003-imageBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/003-imageBase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/003-有序列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/003-有序列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/004-linkbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/004-linkbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/004-定义列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/004-定义列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/005-div.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/005-div.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/006-div布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/006-div布局.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/007-表单提交.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/007-表单提交.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/008-label.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/008-label.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/image/001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/image/001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/image/002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/image/002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-htmllearn/image/003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/002-htmllearn/image/003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/anniu/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/anniu/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/anniu/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/anniu/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/anniu/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/anniu/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/lvyou/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/lvyou/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/lvyou/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/lvyou/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/lvyou/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/lvyou/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/mingxing/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/mingxing/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/mingxing/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/mingxing/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/mingxing/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/mingxing/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/mingxing/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/mingxing/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/mingxing/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/mingxing/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/mingxing/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/mingxing/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/mingxing/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/mingxing/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/mingxing/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/mingxing/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/musicimage/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/musicimage/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/musicimage/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/musicimage/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/images/musicimage/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/images/musicimage/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/musicpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/musicpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/starpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/starpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003-homeworkbase/tourimages.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-HTML/003-homeworkbase/tourimages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/001-cssdemo.css" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/001-cssdemo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/001-cssdemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/001-cssdemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/002-绝对路径.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/002-绝对路径.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/003-类选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/003-类选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/004-后代选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/004-后代选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/005-交集选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/005-交集选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/006-并集选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/006-并集选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/007-通配符.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/007-通配符.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/008-继承性.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/008-继承性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/009-知识点复习.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/009-知识点复习.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/010-同一个标签携带多个类有冲突.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/010-同一个标签携带多个类有冲突.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-cssTest/011-import作用.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/001-cssTest/011-import作用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-cssstyle/001-盒模型.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/002-cssstyle/001-盒模型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-cssstyle/002-盒模型练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/002-cssstyle/002-盒模型练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-cssstyle/003-bordertest.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/002-cssstyle/003-bordertest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-cssstyle/004-块级标签行内标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/002-cssstyle/004-块级标签行内标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-cssstyle/005-行内变为块.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/002-cssstyle/005-行内变为块.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-cssstyle/006-浮动.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/002-cssstyle/006-浮动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-cssstyle/007-作业练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/002-cssstyle/007-作业练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-cssstyle/008-清除浮动联系.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/002-cssstyle/008-清除浮动联系.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-cssstyle/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/002-cssstyle/笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/001.cssmodelTest1.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/001.cssmodelTest1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/002-清除浮动方法2.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/002-清除浮动方法2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/003-清除浮动方法3-隔墙法.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/003-清除浮动方法3-隔墙法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/004-清除浮动方法-内墙法.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/004-清除浮动方法-内墙法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/005-清除浮动方法5.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/005-清除浮动方法5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/006-清除浮动的案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/006-清除浮动的案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/007-作业2.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/007-作业2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/008-作业3.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/008-作业3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/009-作业4.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/009-作业4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/images/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/margin的塌陷问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/margin的塌陷问题.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/浏览器兼容问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/浏览器兼容问题.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-cssstyle1/清除浮动总结.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/003-cssstyle1/清除浮动总结.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/001-复习浮动清除.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/001-复习浮动清除.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/002-行高.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/002-行高.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/003-伪类.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/003-伪类.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/004-超链接的美化.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/004-超链接的美化.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/005-背景图片设置.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/005-背景图片设置.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/anhei.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/anhei.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/bg2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/bg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/bg3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/dibanzhuan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/dibanzhuan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/taobao.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/taobao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/wuyifan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/wuyifan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/yun.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/yun.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/zhangyixing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/zhangyixing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/images/zimubiao.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/images/zimubiao.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/001-博雅互动.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/001-博雅互动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/002-博雅互动.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/002-博雅互动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/backtop.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/backtop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/byhrbg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/byhrbg3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/bynewsbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/bynewsbg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/govIcon.gif" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/govIcon.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/indexmainbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/indexmainbg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/jrwm.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/jrwm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/leftmorebtn.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/leftmorebtn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/morebutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/morebutton.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/pro1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/pro1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/pro2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/pro2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/pro3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/pro3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/pro4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/pro4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/sanjiaoxing.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/sanjiaoxing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-cssstyle2/博雅作业/images/zhengfu.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/zhengfu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/008-cssstyle3/001-cssbutton.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/005-cssstyle3/001-cssbutton.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/008-cssstyle3/002-定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/005-cssstyle3/002-定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/008-cssstyle3/003-测试小练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/005-cssstyle3/003-测试小练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/008-cssstyle3/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/005-cssstyle3/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/008-cssstyle3/images/kaoya.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/005-cssstyle3/images/kaoya.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/008-cssstyle3/定位笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/005-cssstyle3/定位笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/009-js第一天/001-javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/001-js第一天/001-javascript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/009-js第一天/002-javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/001-js第一天/002-javascript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/009-js第一天/003-javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/001-js第一天/003-javascript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/009-js第一天/004-functiontest.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/001-js第一天/004-functiontest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/001-z-index练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/001-z-index练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/33.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/44.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/55.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/66.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/66.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/adarea.gif" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/adarea.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/bike.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/bike.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/china.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/china.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/china2.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/china2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/copyright.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/copyright.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/dong.gif" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/dong.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/icon_lifeserv.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/icon_lifeserv.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/mess.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/mess.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/mess2.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/mess2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/mess3.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/mess3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/mess4.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/mess4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/mess5.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/mess5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/mian.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/mian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/night.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/night.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/slider1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/slider1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/slogen1.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/slogen1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/slogen2.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/slogen2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/slogen3.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/slogen3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/slogen4.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/slogen4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/song.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/song.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/spriteicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/spriteicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/images/topbanner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/images/topbanner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/010-前端基本功/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/002-js第二天/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/001-js体验.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/002-js修改标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/003-变量.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/004-js初体验.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/005-函数.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/006-函数控制盒子.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/007-js运算符.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/.idea/京东网页.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/bike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/china.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/dong.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/icon_lifeserv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/mess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/mess2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/mess3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/mess4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/mess5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/mian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/night.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/slider1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/slogen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/slogen2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/slogen3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/slogen4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/song.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/spriteicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/images/topbanner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/京东网页/仿淘宝层级.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/点击隐藏文字/clicktohiddenword.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/点击隐藏文字/images/left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/点击隐藏文字/images/right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/点击隐藏文字/images/search.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/百度换肤/changeskin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/百度换肤/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/百度换肤/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/百度换肤/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/百度换肤/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/百度换肤/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/百度换肤/images/百度换肤.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/表单验证/images/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/表单验证/images/wrong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/表单验证/validateForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/images/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/images/01big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/images/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/images/02big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/images/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/images/03big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/images/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/images/04big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/images/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/images/05big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/images/尺寸参考.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/011-js第三天/鼠标更换图片/mousechangeImage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/012-js第三天/001-输入框.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/012-js第三天/002-数组的使用.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/012-js第三天/003-全选和反选.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/012-js第三天/004-排他思想.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/013-js第三天/001-tab栏切换.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/013-js第三天/002-下拉菜单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/013-js第三天/003-数组.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/013-js第三天/004-兄弟节点.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/013-js第三天/005-节点的操作.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/013-js第三天/006-动态生成标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/013-js第三天/星座运势/astrolucky.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/013-js第三天/星座运势/images/astroIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/013-js第三天/星座运势/images/yunshi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/001-ie6关于margin负值问题.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/002-ie6中的层级问题.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/003-三角设置问题.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/004-三角设置问题2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/005-动态生成标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/006-设置节点属性.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/007-微博发布.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/008-日期对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/009-日历模块.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/010-date例子.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/011-定时器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/014-js第四天/012-倒计时.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/001-倒计时.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/002-定时器跳转.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/003-自动关闭广告.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/004-小米CSS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/005-定时器问题.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/006-字符串相关.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/007-检测字符串长度.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/images/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/images/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/images/mi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/时钟效果/clocktime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/时钟效果/images/clock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/时钟效果/images/hour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/时钟效果/images/minute.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/015-js第五天/时钟效果/images/second.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/001-字符串查找.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/002-网址的编码和解码.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/003-字符串处理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/004-保留小数点位数.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/005-大小写转换.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/006-验证文件格式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/007-无限滚动小盒子.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/008-匀速运动.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/009-缓动动画.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/010-焦点动画.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/011-左右焦点动画.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/222.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/444.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-JavaScript/016-js第六天/images/555.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/001-offsetTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/002-筋斗云特效.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/003-event事件.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/004-跟随鼠标运动.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/005-盒子中的距离.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/006-跟随滚动.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/007-水平滚动条.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/images/cloud.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/images/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/images/rss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/01big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/02big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/03big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/04big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/05big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/images/尺寸参考.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/017-网页特效1/鼠标更换图片/mousechangeImage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/001-盒子拖动.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/002-html结构访问.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/003-scroll家族.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/004-json小测.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/005-封装自己的scrolltop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/006-commentTool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/006-固定导航栏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/007-跟随广告.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/008-scrollTo学习.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/009-浏览器滑动效果.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/images/aside.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/images/main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/images/nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/018-网页特效2/images/top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/001-client初识.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/002-改变浏览器大小.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/003-简单冒泡机制.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/004-点击空白处隐藏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/005-选中文字弹出图层.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/006-动画原理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/007-基本动画函数.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/008-焦点动画添加定时器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/009-焦点动画练习.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/images/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/images/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/images/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/images/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/019-网页特效3/images/55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/001-取整函数.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/002-缓动动画原理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/003-封装基本函数.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/004-js访问CSS属性的方法.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/005-封装基本函数单个属性.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/006-json遍历.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/008-封装基本函数多个属性.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/009-回调函数.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/010-in操作运算符.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/11 仿360 开机效果/demo css部分.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/11 仿360 开机效果/demo js部分.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/11 仿360 开机效果/images/b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/11 仿360 开机效果/images/t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/commentTool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/手风琴效果/accordionAnimation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/手风琴效果/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/手风琴效果/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/手风琴效果/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/手风琴效果/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/020-网页特效4/手风琴效果/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/CSS/rotateBanner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/JavaScript/commentTool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/JavaScript/rotatebanner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/next_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/prev_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/slidepic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/slidepic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/slidepic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/slidepic4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/slidepic5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/slidepic6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/slidepic7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/slidepic8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/images/slidepic9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/rotateBanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/CSS/cycleBanner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/JavaScript/commentTool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/JavaScript/cycleBanner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/cycleBanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/images/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/images/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/001-函数.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/002-变量的作用域.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/003-闭包.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/004-闭包参数传递.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/005-table栏切换闭包样式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/006-立即执行函数.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/007-屏幕缩放事件.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/008-tab栏切换添加节流.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/009- 对象数据类型.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/010-声明对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/011-函数版本的对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/012-this.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/013-this关键字声明.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/014-prototype原型.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/下拉菜单/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/下拉菜单/img/libg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-前端基本功/022-网页特效6/下拉菜单/下拉菜单.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +431,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="starpage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-HTML/003-homeworkbase/starpage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tourimages.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-HTML/003-homeworkbase/tourimages.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="定位笔记.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-CSS/005-cssstyle3/定位笔记.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="002-变量的作用域.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04-前端基本功/006-网页特效6/002-变量的作用域.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,8 +571,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1782" />
-    <option name="y" value="52" />
+    <option name="x" value="1498" />
+    <option name="y" value="23" />
     <option name="width" value="1500" />
     <option name="height" value="1028" />
   </component>
@@ -165,13 +595,13 @@
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="022-网页特效6" type="462c0819:PsiDirectoryNode" />
+              <item name="04-前端基本功" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="022-网页特效6" type="462c0819:PsiDirectoryNode" />
-              <item name="下拉菜单" type="462c0819:PsiDirectoryNode" />
+              <item name="04-前端基本功" type="462c0819:PsiDirectoryNode" />
+              <item name="006-网页特效6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,6 +618,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04-前端基本功" />
+      <recent name="$PROJECT_DIR$/03-JavaScript" />
+      <recent name="$PROJECT_DIR$/02-CSS" />
+      <recent name="$PROJECT_DIR$/01-HTML" />
       <recent name="$PROJECT_DIR$/011-js基本功" />
     </key>
   </component>
@@ -269,14 +703,16 @@
       <workItem from="1529309593131" duration="5680000" />
       <workItem from="1529371478731" duration="17180000" />
       <workItem from="1529462715041" duration="13054000" />
+      <workItem from="1529482233113" duration="2141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275579000" />
+    <option name="totallyTimeSpent" value="277720000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1782" y="52" width="1500" height="1028" extended-state="0" />
+    <frame x="1498" y="23" width="1500" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.178" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -309,334 +745,334 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/018-网页特效2/images/aside.jpg">
+    <entry file="file://$PROJECT_DIR$/02-CSS/005-cssstyle3/images/icons.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/018-网页特效2/images/main.png">
+    <entry file="file://$PROJECT_DIR$/02-CSS/005-cssstyle3/images/kaoya.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/018-网页特效2/images/top.png">
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/bg3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/018-网页特效2/images/nav.png">
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/bg2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/008-cssstyle3/images/icons.png">
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/008-cssstyle3/images/kaoya.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/007-cssstyle2/images/bg3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/007-cssstyle2/images/bg2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/007-cssstyle2/images/bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/016-js第六天/010-焦点动画.html">
+    <entry file="file://$PROJECT_DIR$/03-JavaScript/016-js第六天/010-焦点动画.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="881">
           <caret line="115" column="6" lean-forward="true" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/012-js第三天/002-数组的使用.html">
+    <entry file="file://$PROJECT_DIR$/03-JavaScript/012-js第三天/002-数组的使用.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/019-网页特效3/008-焦点动画添加定时器.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/019-网页特效3/008-焦点动画添加定时器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="118" column="46" selection-start-line="118" selection-start-column="46" selection-end-line="118" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/019-网页特效3/009-焦点动画练习.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/019-网页特效3/009-焦点动画练习.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="131" column="50" lean-forward="true" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/002-缓动动画原理.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/002-缓动动画原理.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/003-封装基本函数.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/003-封装基本函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="44" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/018-网页特效2/006-commentTool.js">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/018-网页特效2/006-commentTool.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="43" column="20" lean-forward="true" selection-end-line="49" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/006-json遍历.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/006-json遍历.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/009-回调函数.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/009-回调函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="72" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/11 仿360 开机效果/demo js部分.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/11 仿360 开机效果/demo js部分.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/11 仿360 开机效果/demo css部分.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/11 仿360 开机效果/demo css部分.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/010-in操作运算符.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/010-in操作运算符.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/008-封装基本函数多个属性.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/008-封装基本函数多个属性.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/005-封装基本函数单个属性.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/005-封装基本函数单个属性.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/004-js访问CSS属性的方法.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/004-js访问CSS属性的方法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/001-取整函数.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/001-取整函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/手风琴效果/accordionAnimation.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/手风琴效果/accordionAnimation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020-网页特效4/commentTool.js">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/020-网页特效4/commentTool.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-284">
           <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/021-网页特效5/网易轮播图/JavaScript/commentTool.js">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/JavaScript/commentTool.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/021-网页特效5/旋转轮播图/CSS/rotateBanner.css">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/CSS/rotateBanner.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/021-网页特效5/旋转轮播图/JavaScript/rotatebanner.js">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/JavaScript/rotatebanner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
           <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-          <folding>
-            <element signature="e#281#1074#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/021-网页特效5/旋转轮播图/JavaScript/commentTool.js">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/JavaScript/commentTool.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/021-网页特效5/旋转轮播图/rotateBanner.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/021-网页特效5/旋转轮播图/rotateBanner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/021-网页特效5/网易轮播图/CSS/cycleBanner.css">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/CSS/cycleBanner.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/021-网页特效5/网易轮播图/JavaScript/cycleBanner.js">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/JavaScript/cycleBanner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="852">
           <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/021-网页特效5/网易轮播图/cycleBanner.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/021-网页特效5/网易轮播图/cycleBanner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/001-函数.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/001-函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/002-变量的作用域.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/003-闭包.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/003-闭包.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/004-闭包参数传递.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/004-闭包参数传递.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/013-js第三天/001-tab栏切换.html">
+    <entry file="file://$PROJECT_DIR$/03-JavaScript/013-js第三天/001-tab栏切换.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="24" column="38" lean-forward="true" selection-end-line="126" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/005-table栏切换闭包样式.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/005-table栏切换闭包样式.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="92" column="25" lean-forward="true" selection-end-line="156" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/006-立即执行函数.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/006-立即执行函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/007-屏幕缩放事件.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/007-屏幕缩放事件.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/008-tab栏切换添加节流.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/008-tab栏切换添加节流.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="65" column="41" lean-forward="true" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/010-声明对象.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/010-声明对象.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/012-this.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/012-this.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/013-this关键字声明.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/013-this关键字声明.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/014-prototype原型.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/014-prototype原型.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/下拉菜单/下拉菜单.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/下拉菜单/下拉菜单.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-          <folding>
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/009- 对象数据类型.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/009- 对象数据类型.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-网页特效6/011-函数版本的对象.html">
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/011-函数版本的对象.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/022-网页特效6/002-变量的作用域.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-HTML/003-homeworkbase/starpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-HTML/003-homeworkbase/tourimages.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/005-cssstyle3/定位笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-前端基本功/006-网页特效6/002-变量的作用域.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
