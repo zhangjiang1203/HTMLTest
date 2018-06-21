@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+*{ padding:0; margin:0; list-style:none;}
+.all{ width:330px; height:30px; background:url(img/bg.jpg) no-repeat; margin:100px auto; line-height:30px; text-align:center; padding-left:10px; margin-bottom:0;}
+.all ul li{ width:100px; height:30px; background:url(img/libg.jpg); float:left; margin-right:10px; position:relative; cursor:pointer;}
+.all ul ul{ position:absolute; left:0; top:30px; display:none;}
+</style>
+	<script src="../jquery-1.12.4.js"></script>
+	<script>
+		$(function () {
+		    //获取对象
+			var  lis = $('.all>ul>li');
+			lis.mouseenter(function () {
+			    //找到所有的儿子 并且还要是ul
+				$(this).children('ul').show();
+            });
+
+			lis.mouseleave(function () {
+				$(this).children('ul').hide();
+            });
+
+			// 鼠标事件
+			// mouseover:鼠标经过事件 不论鼠标穿过被选元素或者是其子元素，都会触发mouseover事件
+			// mouseout:鼠标离开事件 同上
+
+            // jquery中尽量使用下面的事件，只在被选中的元素上执行
+			// mouseenter:鼠标进入事件 只有在鼠标指针穿过被选元素时，才会触发mouseenter事件
+			// mouseleave:鼠标离开事件 同上
+
+        });
+	</script>
+</head>
+
+<body>
+<div class="all" id="list">
+	<ul>
+		<li>一级菜单
+			<ul>
+				<li>二级菜单</li>
+				<li>二级菜单</li>
+				<li>二级菜单</li>
+			</ul>
+		</li>
+		<li>一级菜单
+			<ul>
+				<li>二级菜单</li>
+				<li>二级菜单</li>
+				<li>二级菜单</li>
+			</ul>
+		</li>
+		<li>一级菜单
+			<ul>
+				<li>二级菜单</li>
+				<li>二级菜单</li>
+				<li>二级菜单</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+</body>
+</html>
+

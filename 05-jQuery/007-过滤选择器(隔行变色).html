@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过滤选择器(隔行变色)</title>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+
+        /*
+        div>(header>ul>li*2>a)+footer>p(+号连接下一个兄弟元素)
+        (div>dl>(dt+dd)*3)+footer>p(括号内为一个组)
+        ul>li[title=item]{hhh $}*5(li$,表示li自增+1)
+        h.item{hhh}*5({}括号内为显示文本)
+        ul>li.item$$$*5(为自增,三个为三位数字)
+        ul>li.item$@3*5(@从3开始自增+1)
+        ul>li.item$@-*5(@-,自减)
+        ul>li.item$@-3*5(@-3,自减最小数字为3)
+        form#search.wide(#为id,.为类)
+        p[title='hello word'](自定义属性)
+        */
+        $(function () {
+            // :even匹配所有索引值为偶数的元素
+           $('li:even').css('backgroundColor','red');
+           // :odd 匹配所有索引值为奇数的元素
+           $('li:odd').css('backgroundColor','blue');
+           //:lt(index)匹配所有小于给定索引值的元素
+           $('li:lt(3)').css('fontSize','32px');
+        });
+
+
+    </script>
+</head>
+<body>
+
+
+<ul>
+    <li>我是第1标签</li>
+    <li>我是第2标签</li>
+    <li>我是第3标签</li>
+    <li>我是第4标签</li>
+    <li>我是第5标签</li>
+    <li>我是第6标签</li>
+    <li>我是第7标签</li>
+    <li>我是第8标签</li>
+    <li>我是第9标签</li>
+    <li>我是第10标签</li>
+    <li>我是第11标签</li>
+    <li>我是第12标签</li>
+</ul>
+</body>
+</html>

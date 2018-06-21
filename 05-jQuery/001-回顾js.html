@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>回顾js</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        div{
+            height: 200px;
+            background-color: red;
+            display: none;
+            margin-top: 10px;
+        }
+
+
+    </style>
+    <script>
+        window.onload = function () {
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            var divs = document.getElementsByTagName('div');
+            $('btn').onclick = function () {
+                //按钮点击事件
+                for (var i = 0; i < divs.length ; i++) {
+                    divs[i].style.display = 'block';
+                    divs[i].innerHTML = '我就是文本';
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<button id="btn">我是按钮</button>
+<div></div>
+<div></div>
+<div></div>
+
+</body>
+</html>

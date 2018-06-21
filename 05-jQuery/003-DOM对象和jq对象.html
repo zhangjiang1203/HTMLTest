@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dom对象和jq对象</title>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+
+        $(function () {
+            //1.DOM对象，使用js的方式取到的元素就是js对象
+            var cloth = document.getElementById('kuzi');
+            cloth.style.backgroundColor = 'red';
+
+            //2.jq对象，使用jq的方式取到的元素就是jq对象
+            var lis = $('li');
+            lis.text('这就是内容');
+
+            //3.js对象不能调用jq对象的方法
+            // var cloth1 = document.getElementById('kuzi');
+            // cloth1.text('js使用jq对象');
+
+            //4.jq对象与js对象的联系，jq对象就是一个存放js对象的伪数组，jq中取出元素就可以调用dom方法
+            //5.jquery对象不能调用dom对象的方法
+            // dom对象转化为jquery对象
+            // 使用$() 包装一下
+
+            $(cloth).text('dom使用js方法')
+            //jquery对象转化成dom对象
+            lis[1].style.backgroundColor = 'green';
+            // lis.get(0)获取lis中的第一个元素
+
+        });
+
+    </script>
+</head>
+<body>
+
+<ul>
+    <li id="kuzi">裤子</li>
+    <li>袜子</li>
+    <li>上衣</li>
+    <li>裤衩</li>
+</ul>
+
+</body>
+</html>

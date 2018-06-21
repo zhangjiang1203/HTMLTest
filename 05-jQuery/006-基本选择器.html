@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本选择器</title>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        // 1.参数是一个function  就是入口函数
+        $(function () {
+            // jQuery设置样式
+            //css(样式名，样式值)
+            $('#three').css('backgroundColor','red');
+
+            $('.green').css('backgroundColor','green');
+
+            // 交集并集选择器
+            $('#three,.green').css('color','yellow');
+
+            $('li.green').css('fontSize','20px');
+
+            // $(s1,s2) 并集选择器
+            // $(s1 s2) 后代选择器
+            // $(s1>s2) 子代选择器
+            // $(s1s2)  交集选择器
+
+
+        });
+
+
+
+    </script>
+</head>
+<body>
+
+<ul>
+    <li>我就是个li标签</li>
+    <li>我就是个li标签</li>
+    <li id="three">我就是个li标签</li>
+    <li>我就是个li标签</li>
+    <li class="green">我就是个li标签</li>
+    <li class="green">我就是个li标签</li>
+    <li>我就是个li标签</li>
+    <li>我就是个li标签</li>
+    <li>我就是个li标签</li>
+    <li>我就是个li标签</li>
+</ul>
+
+</body>
+</html>
