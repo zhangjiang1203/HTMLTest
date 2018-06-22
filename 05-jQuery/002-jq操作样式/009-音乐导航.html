@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音乐导航</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            height: 60px;
+            width: 900px;
+            background-color: black;
+            margin: 0 auto;
+        }
+
+        .box ul{
+            list-style: none;
+        }
+
+        .box ul li{
+            float: left;
+            width: 100px;
+            height: 60px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .box ul li a{
+            width: 100px;
+            height: 60px;
+            position: absolute;
+            line-height: 60px;
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            z-index: 2;
+        }
+
+        .box ul li span{
+            width: 100px;
+            height: 60px;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            background-color: yellow;
+        }
+    </style>
+
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+
+            $('.box li').mouseenter(function () {
+                $(this).children('span').stop().animate({top:0});
+                //播放音乐
+                var  idx = $(this).index();
+                // 让对应的音乐播放，音乐播放的方法时DOM对象，JQuery没有封装音视频的标签方法
+                //每次重新加载
+                $('audio').get(idx).load();
+                $('audio').get(idx).play();
+            }).mouseleave(function () {
+                $(this).children('span').stop().animate({top:60});
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+<div class="box">
+    <ul>
+        <li><a href="#">导航1</a><span></span></li>
+        <li><a href="#">导航2</a><span></span></li>
+        <li><a href="#">导航3</a><span></span></li>
+        <li><a href="#">导航4</a><span></span></li>
+        <li><a href="#">导航5</a><span></span></li>
+        <li><a href="#">导航6</a><span></span></li>
+        <li><a href="#">导航7</a><span></span></li>
+        <li><a href="#">导航8</a><span></span></li>
+        <li><a href="#">导航9</a><span></span></li>
+    </ul>
+    
+    <!--添加音频标签-->
+    <div>
+        <audio src="mp3/1.ogg"></audio>
+        <audio src="mp3/2.ogg"></audio>
+        <audio src="mp3/3.ogg"></audio>
+        <audio src="mp3/4.ogg"></audio>
+        <audio src="mp3/5.ogg"></audio>
+        <audio src="mp3/6.ogg"></audio>
+        <audio src="mp3/7.ogg"></audio>
+        <audio src="mp3/8.ogg"></audio>
+        <audio src="mp3/9.ogg"></audio>
+    </div>
+
+</div>
+
+</body>
+</html>

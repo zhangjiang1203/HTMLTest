@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义动画</title>
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+        }
+
+        #box1,#box2,#box3{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin-top: 30px;
+            position: absolute;
+        }
+
+        #box2{
+            background-color: blue;
+            margin-top: 180px;
+        }
+
+        #box3{
+            background-color: green;
+            margin-top: 330px;
+        }
+    </style>
+
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+
+            //params:要执行动画的css属性，带数字(必选)
+            //speed:动画事件
+            //easing:执行效果，默认为swing(缓动) 可以是linear(匀速)
+            //callback:动画执行完毕之后的回调函数
+            $('#show').click(function () {
+                $('#box1').animate({left:800},1000);
+                $('#box2').animate({left:800},1000,'swing',function () {
+                    console.log('动画执行完毕');
+                });
+                $('#box3').animate({left:800},1000,'linear');
+            });
+
+
+            $('#hidden').click(function () {
+                $('#box1').animate({left:0},1000);
+                $('#box2').animate({left:0},1000,'swing');
+                $('#box3').animate({left:0},1000,'linear');
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<button id="show">显示</button>
+<button id="hidden">隐藏</button>
+
+<div id="box1"></div>
+<div id="box2"></div>
+<div id="box3"></div>
+
+</body>
+</html>

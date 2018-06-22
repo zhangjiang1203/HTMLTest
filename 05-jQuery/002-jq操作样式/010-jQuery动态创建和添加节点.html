@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery动态创建和添加节点</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .box{
+            width: 400px;
+            height: 400px;
+            margin: 100px auto;
+            background-color: blue;
+            color: white;
+
+        }
+    </style>
+
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+
+            //创建jq对象
+            var lis = $('<a href="http://www.baidu.com" target="_blank">百度一下，你就知道</a>')
+            //添加子元素到最后面
+            $('.box').append($('#outter'));
+            //和上面的作用一样 方法不同
+            // $('#outter').appendTo($('.box'));
+
+            //添加到元素到第一个位置
+            // $('.box').prepend(lis);
+            lis.prependTo($('.box'));
+
+            //after() 添加到自己的后面 作为兄弟元素
+            //before() 添加到自己的前面 作为兄弟元素
+
+        });
+    </script>
+</head>
+<body>
+
+<div class="box">
+    <p id="inner">我是内部的p标签</p>
+</div>
+<p id="outter">我是外部的p标签</p>
+
+</body>
+</html>

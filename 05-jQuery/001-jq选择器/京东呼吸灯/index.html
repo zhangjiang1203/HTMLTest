@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东呼吸灯</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 790px;
+            height: 340px;
+            margin: 100px auto;
+            position: relative;
+        }
+        .box ul{
+            list-style: none;
+        }
+        .box ul li{
+            position: absolute;
+            display: none;
+        }
+        .box ul li:first-child{
+            display: block;
+        }
+
+        .box .arrow{
+            display: none;
+        }
+        .box .arrow #left,
+        .box .arrow #right{
+            width: 30px;
+            height: 60px;
+            position: absolute;
+            top: 50%;
+            margin-top: -30px;
+            cursor: pointer;
+            font: 700 30px/60px 'SimSun','宋体';
+            color: #fff;
+            background-color: rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .box .arrow #left:hover,
+        .box .arrow #right:hover{
+            background-color: rgba(0,0,0,0.5);
+        }
+        .box .arrow #left{
+            left: 0;
+        }
+        .box .arrow #right{
+            right: 0;
+        }
+
+    </style>
+
+    <script src="../../jquery-1.12.4.js></script>
+    <script>
+
+        $(function () {
+            $('.box').mouseenter(function () {
+                clearInterval(timer);
+                $('.arrow').css('display','block');
+            });
+
+            $('.box').mouseleave(function () {
+                timer = setInterval(changeimage,2000);
+                $('.arrow').css('display','none');
+            });
+
+            //点击span切换图片
+            var count = 0;
+            var lis = $('.box>ul>li');
+            $('#left').click(function () {
+                count--;
+                if (count == -1){
+                    count = lis.length - 1;
+                }
+                lis.eq(count).fadeIn(1000).siblings().fadeOut(1000);
+            });
+
+            $('#right').click(changeimage);
+
+            var timer = null;
+            timer = setInterval(changeimage,2000);
+            function changeimage() {
+                count++;
+                if (count == lis.length){
+                    count = 0;
+                }
+                lis.eq(count).fadeIn(1000).siblings().fadeOut(1000);
+            }
+        });
+    </script>
+</head>
+<body>
+
+<div class="box">
+    <ul>
+        <li><a href=""><img src="images/1.jpg" alt=""></a></li>
+        <li><a href=""><img src="images/2.jpg" alt=""></a></li>
+        <li><a href=""><img src="images/3.jpg" alt=""></a></li>
+        <li><a href=""><img src="images/4.jpg" alt=""></a></li>
+        <li><a href=""><img src="images/5.jpg" alt=""></a></li>
+        <li><a href=""><img src="images/6.jpg" alt=""></a></li>
+        <li><a href=""><img src="images/7.jpg" alt=""></a></li>
+        <li><a href=""><img src="images/8.jpg" alt=""></a></li>
+    </ul>
+    <div class="arrow">
+        <span id="left">&lt;</span>
+        <span id="right">&gt;</span>
+    </div>
+</div>
+
+
+</body>
+</html>

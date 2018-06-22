@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css操作</title>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+
+            //单个操作
+            // $('li').css('backgroundColor','red')
+            //     .css('color','white');
+
+            //多个操作
+            /*$('li').css({
+                'backgroundColor':'red',
+                'width':'200px',
+                'height':'300px',
+            })*/
+
+            $('li').eq(0).css('fontSize','10px');
+            $('li').eq(1).css('fontSize','20px');
+            $('li').eq(2).css('fontSize','30px');
+            $('li').eq(3).css('fontSize','40px');
+
+            //隐式迭代
+            //设置操作的时候 会给jq内部的所有对象都设置上相同的值
+            //获取的时候：只会返回第一个元素对应的值
+            console.log($('li').css('fontSize'));
+
+        });
+    </script>
+</head>
+<body>
+
+<ul>
+    <li>张三</li>
+    <li>李四</li>
+    <li>王五</li>
+    <li>赵六</li>
+</ul>
+
+</body>
+</html>
