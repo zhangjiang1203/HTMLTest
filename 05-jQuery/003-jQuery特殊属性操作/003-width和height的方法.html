@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>width和height的方法</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid green;
+        }
+    </style>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            // 获取div的宽度和高度
+            console.log($('div').css('width'))
+            //便捷方法，直接获取，width就是获取width的值,不包含padding和border
+            console.log($('div').width())//width
+            console.log($('div').innerWidth())//padding+width
+            console.log($('div').outerWidth())//padding+width+border
+            console.log($('div').outerWidth(true))//padding+width+border+margin
+
+            //获取可是页面的宽度和高度
+            $(window).resize(function () {
+                console.log($(this).width())
+                console.log($(this).height())
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>

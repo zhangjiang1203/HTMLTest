@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>特殊属性</title>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            //获取当前的value的值
+            $('#btn').val();
+            //设置value的值
+            $('#btn').val('洋酒');
+            //获取焦点的时候置空
+
+            $('#btn').focus(function () {
+                if ($(this).val() == '洋酒') {
+                    $(this).val('')
+                }
+            }).blur(function () {
+                if ($(this).val() == '') {
+                    $(this).val('洋酒')
+                }
+            });
+
+        //操作属性值，添加显示的内容
+
+        });
+    </script>
+</head>
+<body>
+
+<input type="text" value="hehe" id="btn">
+
+</body>
+</html>

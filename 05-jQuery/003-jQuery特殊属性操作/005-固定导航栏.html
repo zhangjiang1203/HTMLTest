@@ -34,21 +34,19 @@
         }
     </style>
 
-
-
-    <script src="006-commentTool.js" type="text/javascript"></script>
+    <script src="../jquery-1.12.4.js"></script>
     <script>
-        window.onload = function () {
-            window.onscroll = function () {
-                //获取到滚动的scrolltop
-                var top = scroll().top;
-                console.log(top);
-                if (top < 168){
-                    top = 168;
+        $(function () {
+            $(window).scroll(function () {
+                var scrollTop = $(this).scrollTop();
+                console.log(scrollTop);
+                if (scrollTop < $('#topbanner').height()){
+                    scrollTop = $('#topbanner').height();
                 }
-                $('center').style.top = top - $('topbanner').offsetHeight + 'px';
-            }
-        }
+                $('#center').css('top',scrollTop - $('#topbanner').height())
+            });
+
+        });
     </script>
 </head>
 <body>

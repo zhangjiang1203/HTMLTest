@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清空删除节点</title>
+    <style>
+        div{
+            width: 400px;
+            height: 400px;
+            background-color: pink;
+        }
+
+    </style>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            // $('div').html('');//清除元素的内容，不清空事件
+            // //删除所有子元素
+            // $('div').empty();//清空元素的同时 也清空事件
+            //
+            // $('div').remove();//清除所有的连自己都移除
+
+            // clone() 不传值 就是深复制，jq中没有浅复制
+            //传值为true的时候 也会复制事件，false不会复制事件
+            console.log($('.des').clone());
+
+        });
+    </script>
+</head>
+<body>
+
+<div>
+    <p>11111</p>
+    <p>22222</p>
+</div>
+
+<p class="des">我是外面的描述内容</p>
+
+</body>
+</html>

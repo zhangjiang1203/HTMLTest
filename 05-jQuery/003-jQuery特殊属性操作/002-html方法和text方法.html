@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html方法和text方法</title>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            // innerHTML  innerText
+            console.log($('#div1').html());//显示的<h3>我是一个大标题，</h3>
+            console.log($('#div2').text());//我是一个大标题，
+
+        //    设置标签的时候
+            $('#div1').html('<p>我是显示的文本</p>')//窗口上显示我是显示的文本
+            $('#div2').text('<p>我是显示的文本</p>')//窗口上显示<p>我是显示的文本</p>
+
+        //    html方法会识别html标签，text方法会直接把他当做字符串，并不会识别html标签
+
+        });
+    </script>
+</head>
+<body>
+
+<div id="div1">
+    <h3>我是第一个大标题，</h3>
+</div>
+
+<div id="div2">
+    <h3>我是第二个大标题，</h3>
+</div>
+
+</body>
+</html>
