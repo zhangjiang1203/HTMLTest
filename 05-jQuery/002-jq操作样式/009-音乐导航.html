@@ -59,8 +59,8 @@
                 var  idx = $(this).index();
                 // 让对应的音乐播放，音乐播放的方法时DOM对象，JQuery没有封装音视频的标签方法
                 //每次重新加载
-                $('audio').get(idx).load();
-                $('audio').get(idx).play();
+                $('.box audio').get(idx).load();
+                $('.box audio').get(idx).play();
             }).mouseleave(function () {
                 $(this).children('span').stop().animate({top:60});
             });

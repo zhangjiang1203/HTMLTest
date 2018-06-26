@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>on注册事件的两种方式</title>
+    <style>
+
+    </style>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            //on的两种用法
+            // 1.注册简单事件
+            //新添加的标签也没有点击事件
+            // $('p').on('click',function () {
+            //     console.log('喝喝');
+            // });
+
+            // 2.注册委托事件
+            //box盒子中的所有p标签都有点击事件
+            //不论是之前添加的还是之后添加的都有点击事件
+            $('.box').on('click','p',function () {
+                console.log('内部点击');
+            })
+
+            $('#addBtn').click(function () {
+                $('<p>添加的一个p标签</p>').appendTo($('.box'))
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+<button id="addBtn">开始添加标签</button>
+<div class="box">
+    <p>我就是一个标签</p>
+    <p>我就是一个标签</p>
+    <p>我就是一个标签</p>
+    <p>我就是一个标签</p>
+    <p>我就是一个标签</p>
+</div>
+
+</body>
+</html>

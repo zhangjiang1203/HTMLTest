@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>五角星案例</title>
+    <style>
+
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            height: 40px;
+            width: 200px;
+            overflow: hidden;
+            /*border: 1px solid skyblue;*/
+            margin: 100px auto;
+            text-align: center;
+        }
+        .box ul{
+            list-style: none;
+        }
+
+        .box ul li{
+            float: left;
+            width: 35px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 30px;
+            color: gray;
+        }
+    </style>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        // <!--★-->
+        $(function () {
+            $('.box li').on('mouseenter',function () {
+                //prevAll()前面所有的兄弟
+                // $(this).text('★').prevAll().text('★');
+                // $(this).css('color','blue').prevAll().css('color','blue');
+                // //后面所有的兄弟
+                // $(this).nextAll().text('☆');
+                // $(this).nextAll().css('color','gray');
+
+                //添加end方法，回到上一个调用者
+                $(this).text('★').prevAll().text('★').end().nextAll().text('☆');
+                $(this).css('color','blue').prevAll().css('color','blue').end().nextAll().css('color','gray');
+            })
+
+            // $('li').on('mouseleave',function () {
+            //     $(this).text('☆')
+            //     $(this).css('color','gray');
+            // })
+
+            $('.box').on('mouseleave',function () {
+                //移除所有选中的
+                $('li').text('☆')
+                $('li').css('color','gray');
+                //在做一件事情，找到current，让current和前面的变成实心就行
+                $('li.current').text('★').prevAll().text('★');
+                $('li.current').css('color','blue').prevAll().css('color','blue');
+            })
+
+            //li注册点击事件，记录点击的分数
+            $('.box li').on('click',function () {
+                //给点击的li添加class
+                $(this).addClass('current').siblings().removeClass('current');
+
+            })
+
+        });
+    </script>
+</head>
+<body>
+
+<div class="box">
+    <ul>
+        <li>☆</li>
+        <li>☆</li>
+        <li>☆</li>
+        <li>☆</li>
+        <li>☆</li>
+    </ul>
+</div>
+
+</body>
+</html>

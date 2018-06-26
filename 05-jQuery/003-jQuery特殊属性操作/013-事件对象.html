@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件对象</title>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+
+            // $(document).on('click',function (e) {
+            //     console.log(e);
+            // })
+
+            //注册事件的时候 把最近的值传到事件里面去
+            //on(types,selector,data,callback)
+            //使用on方法的时候，可以给data参数传一个值，可以在事件里面通过e.data获取到这个值
+            var money = 100;
+            $('div').on('click',money,function (e) {
+                console.log(e);
+                console.log('我有'+e.data);
+            });
+
+            money = 0;
+            $('p').on('click',money,function (e) {
+                console.log(e);
+                console.log('我有'+e.data);
+            })
+
+        });
+    </script>
+</head>
+<body>
+
+<div>我是div</div>
+
+<p>我是p元素</p>
+
+</body>
+</html>

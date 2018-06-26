@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>移除事件绑定</title>
+    <style>
+
+    </style>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            //可以注册多个事件 click mouseenter
+            $('p').on('click mouseenter',function () {
+                console.log('开始点击');
+            });
+
+            //解除事件绑定，
+            //off()  移除所有的事件
+            //off('click') 移除指定的事件
+            // $('p').off('click');
+
+
+            // 事件的触发
+            $('#mybtn').click(function () {
+                $('p').trigger('click');//触发p的click事件
+                //或者直接调用事件
+                $('p').click();
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+<button id="mybtn">开始触发函数</button>
+
+<p>我就是来看看你的标签</p>
+<p>我就是来看看你的标签</p>
+<p>我就是来看看你的标签</p>
+<p>我就是来看看你的标签</p>
+<p>我就是来看看你的标签</p>
+<p>我就是来看看你的标签</p>
+
+</body>
+</html>

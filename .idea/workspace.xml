@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/05-jQuery/002-jq操作样式/012-清空删除节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jQuery/002-jq操作样式/013-微博发布.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jQuery/002-jq操作样式/014-弹幕效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/001-js中val用法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/002-html方法和text方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/003-width和height的方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/004-scrollTop和scrollLeft.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/006-滚动返回顶部.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/007-offset和position方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/008-jQuery代理委托事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/009-on注册事件的两种方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/010-事件的执行顺序.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/011-表格删除事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/012-移除事件绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/013-事件对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/014-阻止冒泡和阻止浏览器的默认行为.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/016-五角星案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/017-delay的用法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/018-each属性.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-前端基本功/002-网页特效2/006-固定导航栏.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-前端基本功/002-网页特效2/006-固定导航栏.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jQuery/002-jq操作样式/009-音乐导航.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-jQuery/002-jq操作样式/009-音乐导航.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +29,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="005-固定导航栏.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/005-固定导航栏.html">
+      <file leaf-file-name="014-阻止冒泡和阻止浏览器的默认行为.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/014-阻止冒泡和阻止浏览器的默认行为.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            <state relative-caret-position="294">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="009-音乐导航.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-jQuery/002-jq操作样式/009-音乐导航.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="695">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="015-钢琴版导航条.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/015-钢琴版导航条.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="016-五角星案例.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/016-五角星案例.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="018-each属性.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/018-each属性.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="017-delay的用法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/017-delay的用法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -75,19 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/022-网页特效6/下拉菜单/下拉菜单.html" />
-        <option value="$PROJECT_DIR$/04-前端基本功/001-网页特效1/002-筋斗云特效.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/001-回顾js.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/002-jquery初体验.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/003-DOM对象和jq对象.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/004-隔行变色.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/005-$符号的实质.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/006-基本选择器.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/007-过滤选择器(隔行变色).html" />
-        <option value="$PROJECT_DIR$/05-jQuery/下拉菜单/下拉菜单.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/13-突出展示案例/index.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/008-手风琴案例.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/15-淘宝精品案例/index.html" />
         <option value="$PROJECT_DIR$/05-jQuery/009-index方法详解.html" />
         <option value="$PROJECT_DIR$/05-jQuery/京东呼吸灯/index.html" />
         <option value="$PROJECT_DIR$/05-jQuery/001-jq选择器/002-jquery初体验.html" />
@@ -114,7 +151,6 @@
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/009-滑入滑出动画.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/008-自定义动画.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/手风琴案例/accordion.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/009-音乐导航.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/010-jQuery动态创建和添加节点.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/011-城市选择.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/012-清空删除节点.html" />
@@ -126,6 +162,20 @@
         <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/004-scrollTop和scrollLeft.html" />
         <option value="$PROJECT_DIR$/04-前端基本功/002-网页特效2/006-固定导航栏.html" />
         <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/005-固定导航栏.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/007-offset和position方法.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/006-滚动返回顶部.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/008-jQuery代理委托事件.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/009-on注册事件的两种方式.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/010-事件的执行顺序.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/011-表格删除事件.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/012-移除事件绑定.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/013-事件对象.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/014-阻止冒泡和阻止浏览器的默认行为.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/009-音乐导航.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/015-钢琴版导航条.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/017-delay的用法.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/016-五角星案例.html" />
+        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/018-each属性.html" />
       </list>
     </option>
   </component>
@@ -144,7 +194,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1790" />
     <option name="y" value="23" />
     <option name="width" value="1500" />
@@ -169,17 +219,6 @@
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="04-前端基本功" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="04-前端基本功" type="462c0819:PsiDirectoryNode" />
-              <item name="002-网页特效2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -199,7 +238,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -296,15 +335,16 @@
       <workItem from="1529560688424" duration="684000" />
       <workItem from="1529561672372" duration="9025000" />
       <workItem from="1529628303825" duration="21849000" />
-      <workItem from="1529896183961" duration="10630000" />
+      <workItem from="1529896183961" duration="10683000" />
+      <workItem from="1529990019612" duration="14542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320281000" />
+    <option name="totallyTimeSpent" value="334876000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1790" y="23" width="1500" height="1028" extended-state="1" />
+    <frame x="1790" y="23" width="1500" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.178" />
@@ -338,47 +378,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-jQuery/15-淘宝精品案例/images/lili.jpg" />
-    <entry file="file://$PROJECT_DIR$/05-jQuery/15-淘宝精品案例/images/冬裙.jpg" />
-    <entry file="file://$PROJECT_DIR$/05-jQuery/15-淘宝精品案例/images/呢大衣.jpg" />
-    <entry file="file://$PROJECT_DIR$/05-jQuery/15-淘宝精品案例/images/男包.jpg" />
-    <entry file="file://$PROJECT_DIR$/05-jQuery/15-淘宝精品案例/images/女包.jpg" />
-    <entry file="file://$PROJECT_DIR$/05-jQuery/15-淘宝精品案例/index.html" />
-    <entry file="file://$PROJECT_DIR$/05-jQuery/009-index方法详解.html" />
-    <entry file="file://$PROJECT_DIR$/05-jQuery/京东呼吸灯/index.html" />
-    <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/001-回顾js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/002-jquery初体验.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/003-DOM对象和jq对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/004-隔行变色.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/005-$符号的实质.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/006-基本选择器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -505,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/002-jq操作样式/009-音乐导航.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-jQuery/002-jq操作样式/010-jQuery动态创建和添加节点.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -589,20 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/001-js中val用法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/002-html方法和text方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-前端基本功/002-网页特效2/images/aside.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -632,8 +610,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/005-固定导航栏.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        <state relative-caret-position="487">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/007-offset和position方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/001-js中val用法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/002-html方法和text方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/006-滚动返回顶部.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/008-jQuery代理委托事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/009-on注册事件的两种方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="11" lean-forward="true" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/010-事件的执行顺序.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/011-表格删除事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="203" column="46" lean-forward="true" selection-start-line="203" selection-start-column="46" selection-end-line="203" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/012-移除事件绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/013-事件对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/014-阻止冒泡和阻止浏览器的默认行为.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/002-jq操作样式/009-音乐导航.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/015-钢琴版导航条.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/017-delay的用法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/016-五角星案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/018-each属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>

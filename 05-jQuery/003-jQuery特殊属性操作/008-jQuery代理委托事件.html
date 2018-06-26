@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>代理委托事件</title>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            $('#addBtn').click(function () {
+                $('<p>添加的一个p标签</p>').appendTo($('.box'))
+            });
+            //简单事件，给自己注册事件
+            $('p').click(function () {
+                alert($(this).text());
+            });
+
+            //委托事件,给父元素注册委托事件，由子元素去执行
+            //点击按钮添加的p标签就没有这些点击事件
+            //使用代理委托来给之后添加的p标签也注册点击事件
+            //第一个参数：selector 事件由谁来执行
+            //第二个参数：事件的类型
+            //第三个参数：函数，要做什么
+            $('.box').delegate('p','click',function () {
+                //所有的p标签的点击事件
+                console.log('点击p标签');
+            })
+
+        //    1.动态创建的元素也有事件
+        //    2.批量给指定元素添加事件
+        //    3.delegate只能注册委托事件
+
+        });
+    </script>
+</head>
+<body>
+<button id="addBtn">开始添加标签</button>
+<div class="box">
+    <p>我就是一个标签</p>
+    <p>我就是一个标签</p>
+    <p>我就是一个标签</p>
+    <p>我就是一个标签</p>
+    <p>我就是一个标签</p>
+</div>
+
+</body>
+</html>
