@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$符号冲突</title>
+
+    <script src="$符号冲突.js" ></script>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+        //    由于引入的两个js文件中都有$符号，在下面的使用过程中会出现冲突
+        //    从上到下依次是加载，下面的会把上面的文件中的$符号覆盖掉
+        //    jquery中引入了解决冲突的方法
+        //     jQuery 释放$的控制权
+        //    1.把$符号赋值给了cc，使用cc就可以替代之前$符号的功能
+        //    jquery对象必须要写在下面这个对象上面
+            var cc = $.noConflict();
+
+        //    jquery对象$符号的备胎
+        //   2. 当另一个文件中也有$符号的时候使用jQuery去获取jq对象
+            jQuery(function () {
+
+            });
+
+
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

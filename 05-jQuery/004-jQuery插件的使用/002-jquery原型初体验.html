@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型初体验</title>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            Array.prototype.age = 18;
+            Array.prototype.showAge = function () {
+                console.log(this.age);
+            }
+
+            var arr = new Array()
+            arr.showAge();
+            //jquery插件的实质就是个jquery的原型上增加方法
+        //    jquery添加拓展方法
+            $.fn.sayHi = function () {
+                console.log('中国，你好');
+            }
+
+            $(document).sayHi();
+
+
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

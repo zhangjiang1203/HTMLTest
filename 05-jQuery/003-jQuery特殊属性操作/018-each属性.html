@@ -3,6 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>each方法</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .box{
+            width: 600px;
+            margin: 100px auto;
+        }
+
+        .box ul{
+            list-style: none;
+        }
+
+        .box ul li{
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 10px;
+        }
+    </style>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            //修改背景色
+            for (var i = 0; i < $('li').length; i++) {
+                // $('li').eq(i).css('opacity',(i+1)/10);
+                // console.log($('li')[i]);
+            }
+
+            //使用each方法
+            $('li').each(function (index,element) {
+                $(this).css('opacity',(index+1)/10);
+                $(element).css('opacity',(index+1)/10)
+            });
+
+        });
+    </script>
 </head>
 <body>
 

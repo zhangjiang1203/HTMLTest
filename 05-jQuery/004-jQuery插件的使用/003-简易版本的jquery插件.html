@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简易的jquery插件对象</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+
+        }
+    </style>
+    <script src="../jquery-1.12.4.js"></script>
+    <script src="custom-jquery-bg.js"></script>
+    <script>
+        $(function () {
+            //直接在jquery做封装，使用fn添加拓展方法
+            $('div').bgColor('skyblue');
+
+        });
+    </script>
+
+</head>
+<body>
+<div></div>
+</body>
+</html>

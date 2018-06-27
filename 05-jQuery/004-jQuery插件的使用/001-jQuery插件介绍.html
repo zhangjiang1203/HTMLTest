@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery插件介绍</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+    <script src="../jquery-1.12.4.js"></script>
+    <script src="jquery.color.js"></script>
+    <script src="jquery.lazyload.js"></script>
+    <script>
+        $(function () {
+        //    jQuery常用的三个插件
+        //    1.jquery.color.js,颜色最好用十六进制
+        //      animate不支持颜色的渐变，但是使用了jquery.color.js后就可以使用支持颜色的渐变
+            $('div').animate({backgroundColor:'blue'},3000,function () {
+                console.log('执行完毕');
+            })
+        //    2.jquery.lazyload.js
+        //      懒加载插件使用
+        //      修改src属性，添加lazy类
+        //      在script中调用函数$('.lazy').lazyLoad()
+        //
+
+        //    3.jquery.ui.js
+
+
+        //    bootStrap 响应是UI框架
+
+        });
+    </script>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>
