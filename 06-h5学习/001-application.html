@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>应用程序标签</title>
+    <style>
+        .myProgress{
+            -webkit-appearance: none;
+            background-color:red;
+            height: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<!--数据列表呈现需要一个载体-->
+<!--给input标签添加选择下框-->
+<input type="text" list="optionlist">
+<datalist id="optionlist">
+    <option value="张三"></option>
+    <option value="李四"></option>
+    <option value="王五"></option>
+</datalist>
+
+<br />
+<!--状态指示器-->
+<!--修改的value的范围是，设置其最大值 max-->
+<!--默认最大值是1-->
+<progress class="myProgress" value="10" max="100"></progress>
+
+</body>
+</html>

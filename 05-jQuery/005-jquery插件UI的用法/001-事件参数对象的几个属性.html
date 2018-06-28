@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件参数对象的几种属性</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+
+        p{
+            background-color: pink;
+        }
+
+    </style>
+    <script src="../jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            //e.target:得到的是触发该事件的目标对象，此时是一个DOM对象
+            //e.currentTarget: 得到的是触发该事件的当前对象
+            //e.delegateTarget:得到的是代理对象
+
+            $('div').click(function (e) {
+                console.log(e.target);
+                console.log(e.currentTarget);
+            })
+
+            $('p').click(function (e) {
+                console.log('p被点击了');
+                console.log(e.screenX ,e.screenY);
+            })
+
+        });
+    </script>
+</head>
+<body>
+
+<button>点击我</button>
+<div>
+    <p>我就是一个p</p>
+</div>
+
+</body>
+</html>
