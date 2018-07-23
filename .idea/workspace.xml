@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/07-Ajax学习/01-ajax学习第一天/001-ajax发出请求.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-JavaScript/006-js第四天/007-微博发布.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-JavaScript/006-js第四天/007-微博发布.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-h5学习/001-application.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,13 +17,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="002-jquery初体验.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/002-jquery初体验.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
+      <file leaf-file-name="001-ajax发出请求.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajax学习第一天/001-ajax发出请求.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -69,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05-jQuery/001-jq选择器/下拉菜单/下拉菜单.html" />
         <option value="$PROJECT_DIR$/05-jQuery/001-jq选择器/15-淘宝精品案例/index.html" />
         <option value="$PROJECT_DIR$/05-jQuery/001-jq选择器/13-突出展示案例/index.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/001-css操作.html" />
@@ -120,6 +114,7 @@
         <option value="$PROJECT_DIR$/05-jQuery/005-jquery插件UI的用法/001-事件参数对象的几个属性.html" />
         <option value="$PROJECT_DIR$/06-h5学习/001-application.html" />
         <option value="$PROJECT_DIR$/03-JavaScript/006-js第四天/007-微博发布.html" />
+        <option value="$PROJECT_DIR$/07-Ajax学习/01-ajax学习第一天/001-ajax发出请求.html" />
       </list>
     </option>
   </component>
@@ -165,30 +160,7 @@
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="001-jq选择器" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="002-jq操作样式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="004-jQuery插件的使用" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="06-PHP基础" type="462c0819:PsiDirectoryNode" />
+              <item name="07-Ajax学习" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,11 +279,12 @@
       <workItem from="1530496497599" duration="1829000" />
       <workItem from="1530752003334" duration="2418000" />
       <workItem from="1531893957179" duration="559000" />
+      <workItem from="1532307846968" duration="2949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355463000" />
+    <option name="totallyTimeSpent" value="358412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1774" y="23" width="1500" height="1028" extended-state="0" />
@@ -348,27 +321,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/012-移除事件绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/013-事件对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/002-jq操作样式/009-音乐导航.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/015-钢琴版导航条.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1134">
@@ -624,10 +576,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/002-jquery初体验.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="25">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-PHP基础/05-php和Apache服务配置/001-PHPDemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-PHP基础/05-php和Apache服务配置/002-php输出.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajax学习第一天/001-ajax发出请求.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
