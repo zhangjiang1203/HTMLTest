@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>onload事件</title>
+	<script type="text/javascript">
+		var xhr = new XMLHttpRequest();
+		xhr.open('get', 'http://zhangjiang1.com/ajax-learn/01-ajaxlearn/002-showtime.php');
+		// send中添加请求体
+		xhr.send();
+		xhr.addEventListener('readystatechange',function(){
+			console.log(this.responseText);
+		})
+		// onload事件是HTML5中提供的XMLRequest version 2.0 定义的
+		// 老式的浏览器中会有兼容性问题
+		xhr.onload = function() {
+			console.log(this.readyState);
+			console.log(this.responseText);
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

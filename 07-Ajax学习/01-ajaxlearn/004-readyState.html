@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJax网络请求</title>
+    <script>
+        // readyState几个状态值
+        // 0 初始化，请求代理对象
+        // 1 open方法已经调用，建立一个与服务器端特定接口的连接
+        // 2 已经接收到了响应报文的响应头，拿不到请求体 this.getAllResponseHeaders()
+        // 3
+        // 4
+        var xhr = new XMLHttpRequest();
+        console.log(xhr.readyState);
+
+        xhr.open('GET','http://zhangjiang1.com/ajax-learn/01-ajaxlearn/002-showtime.php');
+        console.log(xhr.readyState);
+
+        xhr.send();
+        console.log(xhr.readyState);
+        xhr.addEventListener('readystatechange',function(){
+            switch (this.readyState){
+                case 2:
+                // 拿到响应报头 没有拿到体
+                // console.log(this.getResponseHeaders()) 获取所有的头
+                console.log(this.getResponseHeader('server'));
+                break;
+                case 3:
+                // 正在下载响应报文的响应体，响应体可能为空，或者下载不完整
+                // 在这里处理响应体不保险
+                console.log(this.responseText);
+                break;
+                case 4:
+                // 下载完成 获取到完整的响应的响应体
+                break;
+            }
+
+        })
+        // xhr.add
+
+        // 5.查看结果
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ajax同步和异步</title>
+	<script type="text/javascript">
+		window.onload = function (){
+
+            console.time('async');
+
+			var xhr = new XMLHttpRequest();
+			// open函数的第三个参数就是设置同步和异步的问题，
+			// 为bool值 ，默认为true就是异步的方式
+			// 为false 就是同步方式 
+			xhr.open('get','http://zhangjiang1.com/ajax-learn/01-ajaxlearn/002-showtime.php',true);
+			xhr.send();
+			xhr.onreadystatechange = function(){
+				if (this.readyState != 4) return;
+				console.log(this.responseText); 
+			}
+			console.timeEnd('async');
+
+
+			console.time('sync');
+			var xhr1 = new XMLHttpRequest();
+			// open函数的第三个参数就是设置同步和异步的问题，
+			// 为bool值 ，默认为true就是异步的方式
+			// 为false 就是同步方式 
+			xhr1.open('get','http://zhangjiang1.com/ajax-learn/01-ajaxlearn/002-showtime.php',false);
+			xhr1.send();
+			// 发送完成之后就已经拿到数据了
+			console.log(this.responseText);
+			console.timeEnd('sync');
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJax网络请求</title>
+    <script>
+        // 涉及到ajax操作的页面，不能使用文件协议访问
+
+        //XMLHTTPRequest
+        // 1.发起网络请求
+        var xhr = new XMLHttpRequest();
+        
+        // 2.添加网址
+        xhr.open('get','http://zhangjiang1.com/ajax-learn/01-ajaxlearn/002-showtime.php');
+        // 3.开始请求,send方法没有返回值，单线程实现，如果是
+        // 返回值，网络请求完成之后才会执行下面的操作
+        xhr.send();
+        // 4.等待响应
+        // 因为客户端不知道服务器何时才会返回数据
+        // 所以ajax API 采用事件的机制(通知的形式)
+        // 不加判断执行了三次，状态改变就会触发
+        xhr.onreadystatechange = function(){
+            //数据变化之后开始刷新数据，会输出 2 3 4 
+            //有五个状态值 0 创建 1 open  2 3 4
+            //这五个值都可以拿到，要看注册的时机位置
+            console.log(xhr.readyState);
+            if (this.readyState != 4)  return;
+            
+            console.log(this);
+            
+        }
+
+        // 5.查看结果
+    </script>
+</head>
+<body>
+
+</body>
+</html>

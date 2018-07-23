@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ajax传递post请求</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			// 添加代码做网络请求
+			var btn = document.getElementById('btn');
+			var username = document.getElementById('account');
+			var password = document.getElementById('password');
+
+
+			btn.onclick = function(){
+				// 获取界面元素 value
+				// 发送post请求
+				// 根据服务器反馈 显示在界面上
+				var xhr = new XMLHttpRequest();
+				xhr.open('POST','http://zhangjiang1.com/ajax-learn/01-ajaxlearn/010-ajax-postlogin.php');
+				// 如果请求体是urlencode格式，必须设置这个请求头
+				xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+				// xhr.send('username=' + username + '&password' + password);
+				// 使用模板字符
+				xhr.send(`username=${username.value}&password=${password.value}`);
+				xhr.onreadystatechange = function(){
+					if (this.readyState != 4) return
+				    console.log(this.responseText);
+				}
+				
+
+
+			}
+
+		}
+	</script>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td>用户名</td>
+			<td><input type="text" id="account"></td>
+		</tr>
+		<tr>
+			<td>密码</td>
+			<td><input type="password" id="password"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><button id="btn">登录</button></td>
+		</tr>
+	</table>
+
+</body>
+</html>

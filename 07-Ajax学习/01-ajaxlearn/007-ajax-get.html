@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ajax发送get请求并传递参数</title>
+	<style type="text/css">
+		li{cursor: :pointer ;}
+	</style>
+	<script >
+
+        window.onload = function(){
+        	var ullist = document.getElementById("userlist");
+			// var lielement = document.createElement('li');
+			// lielement.innerHTML ='哈哈哈';// showdata[i]['name'];
+			// ullist.appendChild(lielement);
+
+			var xhr = new XMLHttpRequest()
+			// 这里仍然是使用URL中的问号传递参数
+			xhr.open('get','http://zhangjiang1.com/ajax-learn/01-ajaxlearn/008-getuserinfo.php')
+			xhr.send()
+
+			xhr.onreadystatechange = function(){
+				if (this.readyState != 4) return
+
+			    var showdata = JSON.parse(this.responseText)
+			    console.log(showdata)
+				for (var i = 0; i < showdata.length; i++) {
+					// 创建li标签
+					
+					var lielement = document.createElement('li');
+					lielement.innerHTML = showdata[i]['name'];
+					lielement.id = showdata[i]['id'];
+					lielement.addEventListener('click',function(){
+						// 开始请求下一个信息
+						var xhr1 = new XMLHttpRequest()
+						xhr1.open('get','http://zhangjiang1.com/ajax-learn/01-ajaxlearn/008-getuserinfo.php?id=' + this.id)
+						xhr1.send()
+						xhr1.onreadystatechange = function(){
+							
+							if (this.readyState != 4) return 
+							// console.log(this.responseText);
+							console.log(JSON.parse(this.responseText));
+						}
+
+					})
+					ullist.appendChild(lielement);
+
+				}		
+			}
+        }	
+	</script>
+</head>
+<body>
+
+<div>
+	<ul id="userlist">
+		
+	</ul>
+</div>
+
+</body>
+</html>

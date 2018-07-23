@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>table展示</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.box {
+			width: 90%;
+			margin: 0 auto;
+		}
+		.box table{
+			width: 100%;
+			border: 1;
+			text-align: center;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload = function(){
+			function $(id){return document.getElementById(id);}
+			var table = $('tablelist');
+			// 开始请求文件
+			var xhr = new XMLHttpRequest();
+			xhr.open('get','http://zhangjiang1.com/ajax-learn/01-ajaxlearn/012-showData.php');
+			xhr.send();
+			xhr.onreadystatechange = function(){
+				if (this.readyState != 4) return;
+                var tempData =JSON.parse(this.responseText);
+                // 遍历数据加载界面
+                var showData = tempData['data'];
+                for (var i = 0; i < showData.length; i++) {
+                	var trEle = document.createElement('tr');
+                	var infoDict = showData[i];
+                	for (var key in infoDict) {
+                		if (key == 2) {
+                			var tdEle = document.createElement('td');
+                			tdEle.innerHTML = infoDict[key];
+                			trEle.appendChild(tdEle);
+                		}
+
+                		if (key == 3) {
+                			var tdEle = document.createElement('td');
+                			tdEle.innerHTML = infoDict[key];
+                			trEle.appendChild(tdEle);
+                		}
+
+                		if (key == 4) {
+                			var tdEle = document.createElement('td');
+                			tdEle.innerHTML = infoDict[key];
+                			trEle.appendChild(tdEle);
+                		}
+
+                		if (key == 8) {
+                			var tdEle = document.createElement('td');
+                			tdEle.innerHTML = infoDict[key];
+                			trEle.appendChild(tdEle);
+                		}
+
+                	}
+                	table.appendChild(trEle);
+                }
+                
+
+			}
+
+		}
+	</script>
+</head>
+<body>
+
+	<div class="box">
+		<table id="tablelist" border="1">
+			<tr>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>
