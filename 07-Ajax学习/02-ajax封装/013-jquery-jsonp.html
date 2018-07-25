@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JQuery-JSONP</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+        //ajax添加的jsonp请求，参数中修改dataType为jsonp就可以跨域访问
+		$(function(){
+			$.ajax({
+				url:'https://api.douban.com/v2/book/1220562',
+				dataType:'jsonp',
+				success:function(res){
+					console.log(res.summary);
+				}
+			})
+			
+			// 直接在php文件中设置了可以跨域访问，dataType就不用添加到请求中
+			$.ajax({
+				url:'http://zhangjiang1.com/ajax-learn/02-ajax%E5%B0%81%E8%A3%85/014-cross-domain.php',
+				success:function(res){
+					console.log(res);
+				}
+			})
+
+		})
+	</script>
+</head>
+<body>
+
+</body>
+</html>

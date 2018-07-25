@@ -1,4 +1,5 @@
 <?php
+// 于情于理都要设置
 header('Content-Type:application/json');
 // 返回响应的就是json数据
 // 对于返回数据的地址 一般我们称之为API

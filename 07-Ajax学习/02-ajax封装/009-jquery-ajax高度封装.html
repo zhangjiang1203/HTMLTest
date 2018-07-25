@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>高度封装函数</title>
+	<script src="jquery.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+
+            // 以下回调函数是成功之后才会执行的，失败不会执行
+			$.get('http://zhangjiang1.com/ajax-learn/01-ajaxlearn/002-showtime.php',{id:1},function(res){
+				console.log(res);
+
+			});
+
+            // 参数说明 url 请求参数 函数回调
+			$.post('',{id:1},function(){
+
+			});
+
+			$.getJSON('',{id:1},function(){
+
+			});
+
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

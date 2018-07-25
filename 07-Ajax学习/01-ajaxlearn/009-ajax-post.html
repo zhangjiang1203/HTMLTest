@@ -5,6 +5,8 @@
 	<title>ajax传递post请求</title>
 	<script type="text/javascript">
 		window.onload = function(){
+            // 在ie5/6 上面的一个兼容性写法
+			var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
 			// 添加代码做网络请求
 			var btn = document.getElementById('btn');
 			var username = document.getElementById('account');
@@ -12,7 +14,7 @@
 
 
 			btn.onclick = function(){
-				// 获取界面元素 value
+				// 获取界面元素 value 
 				// 发送post请求
 				// 根据服务器反馈 显示在界面上
 				var xhr = new XMLHttpRequest();

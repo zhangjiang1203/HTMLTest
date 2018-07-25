@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jsonp封装</title>
+	<script type="text/javascript">
+		//由于在ajax中不能直接访问跨域的地址，我们采用script中的方法，绕路去拿到返回结果
+		window.onload = function(){
+			// 定义一个函数和服务器端约定好函数名称
+			// 为每一个请求生成一个唯一的函数名
+		 //    var funname = 'jsonp_' + Date.now() + Math.random().toString().substring(2,5);
+
+
+			// var script = document.createElement('script');
+			// script.src = 'http://localhost/ajax-learn/02-ajax%E5%B0%81%E8%A3%85/jsonp%E5%B0%81%E8%A3%85/jsonpServer.php?callback=' + funname;
+			// document.body.appendChild(script);
+
+			// window[funname] = function(data){
+			// 	console.log(data);
+			// }
+
+
+			function jsonp(url,params,callback){
+				// 这种方式只能是get请求直接拼接在后面
+				var funname = 'jsonp_' + Date.now() + Math.random().toString().substring(2,5);
+
+				if (typeof params === 'object') {
+					var tempArr = []
+					for(var key in params){
+						var value = params[key];
+						tempArr.push(key + '=' + value);
+					} 
+					params = tempArr.join('&');
+				}
+
+				url = url + '?' + params;
+
+				var script = document.createElement('script');
+				script.src = url + "&callback=" + funname;
+				document.body.appendChild(script);
+
+				window[funname] = function(data){
+					// 回调函数
+					callback(data);
+					delete window[funname];
+					document.body.removeChild(script);
+
+				}
+			}
+
+			jsonp('http://zhangjiang1.com/ajax-learn/02-ajax%E5%B0%81%E8%A3%85/jsonp%E5%B0%81%E8%A3%85/jsonpServer.php',{},function(res){
+				console.log(res);
+			});
+
+
+		}
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

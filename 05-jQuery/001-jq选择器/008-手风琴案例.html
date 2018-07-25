@@ -40,6 +40,7 @@
         $(function () {
             //思路分析：
             //1. 给所有的span注册点击事件，让当前span的兄弟div显示出来
+            //siblings除了他自己之外的其他兄弟
             $('.groupTitle').click(function () {
                $(this).next().slideDown(100).parent().siblings().children('div').slideUp(100);
             });

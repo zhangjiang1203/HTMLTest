@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jquery全局处理函数</title>
+	<link rel="stylesheet" type="text/css" href="nprogress.css">
+	<script src="jquery.js"></script>
+	<script src="nprogress.js"></script>
+	<script type="text/javascript">
+		//添加全局事件
+		//只要有ajax事件发生就会执行
+		$(document).ajaxStart(function(){
+			console.log('start');
+			NProgress.start();
+		})
+		.ajaxStop(function(){
+			console.log('stop');
+			NProgress.done();
+		});
+		// 添加加载提示
+		$(function(){
+			$.ajax({
+				url:'http://zhangjiang1.com/ajax-learn/01-ajaxlearn/002-showtime.php',
+				type: 'get',
+				beforeSend:function(){
+					console.log('开始执行');
+				},
+				success:function(res){
+					console.log(res);
+				},
+				complete:function(){
+					console.log('执行结束');
+				}
+		    })
+
+		    $.ajax({
+				url:'http://zhangjiang1.com/ajax-learn/01-ajaxlearn/002-showtime.php',
+				type: 'get',
+				beforeSend:function(){
+					console.log('开始执行');
+				},
+				success:function(res){
+					console.log(res);
+				},
+				complete:function(){
+					console.log('执行结束');
+				}
+		    })
+
+
+		})
+	</script>
+</head>
+<body>
+	<!-- <div id="box">正在加载</div> -->
+
+</body>
+</html>

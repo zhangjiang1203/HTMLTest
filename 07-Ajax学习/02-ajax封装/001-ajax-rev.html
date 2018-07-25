@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJax复习</title>
+    <script>
+        // 涉及到ajax操作的页面，不能使用文件协议访问
+
+        //XMLHTTPRequest
+        // 1.发起网络请求
+        var xhr = new XMLHttpRequest();
+        // 2.添加网址
+        xhr.open('get','http://zhangjiang1.com/ajax-learn/01-ajaxlearn/012-showData.php');
+        // 3.开始请求
+        xhr.send();
+        // 通过代码告诉请求代理对象，服务端响应给我们的是json
+        // 这种方式不兼容，ie10之后才支持
+        xhr.responseType = 'json';
+        xhr.onreadystatechange = function(){
+            if (this.readyState != 4) return
+            console.log(this);
+            // this.response 获取到的结果会根据this.responseType的变化而变化
+            // this.responseText 永远获取的是字符串形式的响应体
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>跨域处理函数</title>
+    <script src="jquery.js"></script>
+    <script type="text/javascript">
+    	// 添加一个入口函数
+    	$(function(){
+    		// 当前访问的页面地址和要访问的页面地址
+    		// 协议不同 端口不同 域名也不同 这是两不同的源地址
+    		// 访问的地址不允许不同源地址之间默认不能相互发送ajax请求
+    		// 会在下面直接报错显示不同的信息
+
+    		$.get('https://api.douban.com/v2/book/1220562',{},function(result){
+    			console.log(result);
+
+    		})
+
+    	})
+    </script>    
+</head>
+<body>
+
+</body>
+</html>

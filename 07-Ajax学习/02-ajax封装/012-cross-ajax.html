@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>尝试找到一种可以发送不同源请求的方式</title>
+    <!-- 连入一个文档 通过rel属性申明链入的文档和当前文档之间的关系 -->
+    <!-- <link rel="stylesheet" type="text/css" href=""> -->
+    <script src="jquery.js"></script>
+    <script type="text/javascript">
+    	// 添加一个入口函数
+    	$(function(){
+            // 请求一个不同源的地址实际上就是我们所说的跨域请求
+
+
+    		// img link script iframe a
+            // 都是可以进行网络请求的
+            // 1.img 可以发送不同源地址之间的请求
+            // 但是无法拿到响应结果
+            // var img = new Image()
+            // // 设置不同源地址
+            // img.src = '';
+
+            // 2.link 可以发送请求 拿不到请求结果
+            var link = document.createElement('link');
+            // 必须有rel属性才会发送请求，并且要添加到body中，否则不会执行
+            link.rel = 'stylesheet';
+            link.href = 'https://api.douban.com/v2/book/1220562';
+            document.body.appendChild(link);
+            console.log('haha');
+
+            // 同理script和iframe也是一样 拿不到请求结果
+            // 但是可以在script中当做js引入执行
+
+    		// $.get('https://api.douban.com/v2/book/1220562',{},function(result){
+    		// 	console.log(result);
+
+    		// })
+
+    	})
+    </script>    
+</head>
+<body>
+
+</body>
+</html>

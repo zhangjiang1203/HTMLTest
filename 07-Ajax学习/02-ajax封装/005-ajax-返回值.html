@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ajax添加委托和代理</title>
+	<script type="text/javascript">
+		
+		function ajax(method,url,params,func){
+			// 全部转为大写
+			method = method.toUpperCase()
+			var xhr = new XMLHttpRequest()
+			// 拼接参数
+			if (typeof params == 'object') {
+				var tempArr = []
+				for (var key in params){
+					var value = params[key]
+					tempArr.push(key + '=' + value)
+				}
+				params = tempArr.join('&');
+			}
+
+			xhr.open(method,url)
+			var data = null;
+			if (method == 'GET') {
+				url = url + '?' + params;
+			}
+
+			if (method == 'POST') {
+				xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+				data = params || null;
+			}
+			
+			xhr.onreadystatechange = function(){
+				if (this.readyState !== 4) return;
+				// console.log(this.responseText);
+				// console.log('开始执行');
+				func(this.responseText);
+			}
+
+			xhr.send(data)
+		}
+
+        
+
+		window.onload = function(){
+			// 函数请求的回调，网络请求完成之后调用这个函数
+			var onDone = function (result){
+				console.log("开始执行");
+				console.log(result);
+				console.log("执行完了");
+
+			}
+			//函数作为参数和返回值，进行回调
+
+			// onDone('hhaha ');
+
+			// 开始调用函数
+			ajax('get','http://zhangjiang1.com/ajax-learn/01-ajaxlearn/002-showtime.php',{},onDone);
+			ajax('post','http://zhangjiang1.com/ajax-learn/02-ajax%E5%B0%81%E8%A3%85/004-showpost.php','username=zhangsan&password-123456',onDone);
+		}
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

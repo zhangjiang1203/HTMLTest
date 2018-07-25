@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ajax封装</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			// 1.封装的套路
+			// 写一个相对比较完善的用例
+			// 写一个空函数没有参数,将用例直接作为函数的函数体
+			// 根据使用过程中的需求抽象参数
+			ajax('get','http://zhangjiang1.com/ajax-learn/01-ajaxlearn/002-showtime.php');
+			ajax('post','http://zhangjiang1.com/ajax-learn/02-ajax%E5%B0%81%E8%A3%85/004-showpost.php','username=zhangsan&password-123456')
+		}
+
+		// function ajax(method,url,params){
+		// 	var xhr = new XMLHttpRequest()
+		// 	xhr.open(method,url)
+		// 	var data = null;
+		// 	if (method == 'get' || method == 'GET') {
+		// 		url = url + '?' + params;
+		// 	}
+
+		// 	if (method == 'post' || method == 'POST') {
+		// 		xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+		// 		data = params || null;
+		// 	}
+		// 	xhr.send(data)
+		// 	xhr.onreadystatechange = function(){
+		// 		if (this.readyState != 4) return;
+		// 		console.log(this.responseText);
+		// 	}
+		// }
+		// 版本2 params 是一个对象
+		function ajax(method,url,params){
+			// 全部转为大写
+			method = method.toUpperCase()
+			var xhr = new XMLHttpRequest()
+			// 拼接参数
+			if (typeof params == 'object') {
+				var tempArr = []
+				for (var key in params){
+					var value = params[key]
+					tempArr.push(key + '=' + value)
+				}
+				params = tempArr.join('&');
+			}
+
+			xhr.open(method,url)
+			var data = null;
+			if (method == 'GET') {
+				url = url + '?' + params;
+			}
+
+			if (method == 'POST') {
+				xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+				data = params || null;
+			}
+			xhr.send(data)
+			xhr.onreadystatechange = function(){
+				if (this.readyState != 4) return;
+				console.log(this.responseText);
+			}
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

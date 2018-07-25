@@ -7,12 +7,12 @@
     <script>
         $(function () {
             //获取当前的value的值
-            $('#btn').val();
+            $('#text').val();
             //设置value的值
-            $('#btn').val('洋酒');
+            $('#text').val('洋酒');
             //获取焦点的时候置空
 
-            $('#btn').focus(function () {
+            $('#text').focus(function () {
                 if ($(this).val() == '洋酒') {
                     $(this).val('')
                 }
@@ -29,7 +29,7 @@
 </head>
 <body>
 
-<input type="text" value="hehe" id="btn">
+<input type="text" value="hehe" id="text">
 
 </body>
 </html>
