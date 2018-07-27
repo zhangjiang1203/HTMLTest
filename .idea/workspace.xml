@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/05-jQuery/001-jq选择器/008-手风琴案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-jQuery/001-jq选择器/008-手风琴案例.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/001-js中val用法.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/001-js中val用法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,42 +18,70 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="005-$符号的实质.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/005-$符号的实质.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="008-手风琴案例.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/008-手风琴案例.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="009-index方法详解.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/009-index方法详解.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.50289387">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/08-h5css3/01-购物车宣传页/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="398">
+                  <caret line="49" column="29" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="29" />
+                  <folding>
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/08-h5css3/01-购物车宣传页/js/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/08-h5css3/01-购物车宣传页/js/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="accordion.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/05-jQuery/002-jq操作样式/手风琴案例/accordion.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-729" />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/08-h5css3/01-购物车宣传页/css/index.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="156" column="19" lean-forward="true" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -74,6 +104,8 @@
       <find>&amp;nbsp;</find>
       <find>&amp;</find>
       <find>&gt;</find>
+      <find>position</find>
+      <find>#carshow</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;br /&gt;</replace>
@@ -86,9 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05-jQuery/001-jq选择器/13-突出展示案例/index.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/001-css操作.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/002-class操作.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/03-tab栏切换/index.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/004-属性操作.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/美女相册/index.html" />
@@ -137,6 +166,9 @@
         <option value="$PROJECT_DIR$/07-Ajax学习/01-ajax学习第一天/001-ajax发出请求.html" />
         <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/001-js中val用法.html" />
         <option value="$PROJECT_DIR$/05-jQuery/001-jq选择器/008-手风琴案例.html" />
+        <option value="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/index.html" />
+        <option value="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/js/index.js" />
+        <option value="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/css/index.css" />
       </list>
     </option>
   </component>
@@ -156,13 +188,15 @@
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用/jquery-color-master/jquery-color-master/package.json" />
       <path value="$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用/jquery_lazyload-1.9.5/package.json" />
+      <path value="$PROJECT_DIR$/HTML学习笔记/3-jQuery笔记/01-jquery教学资料4/jquery-plugins/jquery-color-master/jquery-color-master/package.json" />
+      <path value="$PROJECT_DIR$/HTML学习笔记/3-jQuery笔记/01-jquery教学资料4/jquery-plugins/jquery_lazyload-1.9.5/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1476" />
+    <option name="x" value="1441" />
     <option name="y" value="23" />
-    <option name="width" value="1500" />
-    <option name="height" value="1028" />
+    <option name="width" value="1797" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -172,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,17 +222,84 @@
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="001-jq选择器" type="462c0819:PsiDirectoryNode" />
+              <item name="002-jq操作样式" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="07-Ajax学习" type="462c0819:PsiDirectoryNode" />
+              <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="002-jq操作样式" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="002-jq操作样式" type="462c0819:PsiDirectoryNode" />
+              <item name="tab栏切换" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="002-jq操作样式" type="462c0819:PsiDirectoryNode" />
+              <item name="手风琴案例" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="003-jQuery特殊属性操作" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="004-jQuery插件的使用" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="05-jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="005-jquery插件UI的用法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
+              <item name="01-购物车宣传页" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
+              <item name="01-购物车宣传页" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
+              <item name="01-购物车宣传页" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
+              <item name="01-购物车宣传页" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,17 +414,19 @@
       <workItem from="1531893957179" duration="559000" />
       <workItem from="1532307846968" duration="2949000" />
       <workItem from="1532484417931" duration="1152000" />
+      <workItem from="1532508467819" duration="1083000" />
+      <workItem from="1532662307109" duration="16532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359564000" />
+    <option name="totallyTimeSpent" value="377179000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1476" y="23" width="1500" height="1028" extended-state="0" />
+    <frame x="1441" y="23" width="1797" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13466889" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -355,190 +457,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用/custom-jquery-bg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用/jquery.accordion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_222222_256x240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_228ef1_256x240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_ef8c08_256x240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_ffffff_256x240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_flat_10_000000_40x100.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_glass_65_ffffff_1x400.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_glass_100_f6f6f6_1x400.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_glass_100_fdf5ce_1x400.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_ffd27a_256x240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用/001-jQuery插件介绍.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用/002-jquery原型初体验.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用/004-手风琴效果的封装.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用/003-简易版本的jquery插件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/007-offset和position方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/008-jQuery代理委托事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/009-on注册事件的两种方式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="11" selection-end-line="44" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/010-事件的执行顺序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/011-表格删除事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4263">
-          <caret line="203" column="46" selection-start-line="203" selection-start-column="46" selection-end-line="203" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/019-$符号冲突.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-h5学习/001-application.html" />
-    <entry file="file://$PROJECT_DIR$/05-jQuery/005-jquery插件UI的用法/001-事件参数对象的几个属性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-JavaScript/001-js第一天/001-javascript.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-JavaScript/001-js第一天/004-functiontest.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-JavaScript/006-js第四天/002-ie6中的层级问题.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-JavaScript/006-js第四天/004-三角设置问题2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/002-jq操作样式/012-清空删除节点.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/002-jq操作样式/010-jQuery动态创建和添加节点.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/002-jq操作样式/013-微博发布.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-JavaScript/006-js第四天/007-微博发布.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-JavaScript/001-js第一天/003-javascript.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-JavaScript/006-js第四天/008-日期对象.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-JavaScript/006-js第四天/003-三角设置问题.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-PHP基础/05-php和Apache服务配置/001-PHPDemo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-PHP基础/05-php和Apache服务配置/002-php输出.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajax学习第一天/001-ajax发出请求.html" />
     <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/016-五角星案例.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
@@ -550,13 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/001-js中val用法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -601,7 +512,7 @@
     <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/005-$符号的实质.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -614,15 +525,182 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/008-手风琴案例.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        <state relative-caret-position="987">
+          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05-jQuery/001-jq选择器/009-index方法详解.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/005-cssstyle3/002-定位.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/005-cssstyle3/003-测试小练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/001-博雅互动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4483">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/002-博雅互动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="92" column="20" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/anhei.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/taobao.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/wuyifan.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/yun.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/zimubiao.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/pro1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/morebutton.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/leftmorebtn.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/jrwm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/indexmainbg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/govIcon.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/bynewsbg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/byhrbg3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/backtop.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/bg2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/bg3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/dibanzhuan.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用/003-简易版本的jquery插件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/009-on注册事件的两种方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/005-固定导航栏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/007-offset和position方法.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/008-jQuery代理委托事件.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/001-js中val用法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/018-each属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/002-jq操作样式/tab栏切换/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1251" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-jQuery/002-jq操作样式/手风琴案例/accordion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/01-购物车宣传页/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/01-购物车宣传页/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/01-购物车宣传页/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="156" column="19" lean-forward="true" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
         </state>
       </provider>
     </entry>
