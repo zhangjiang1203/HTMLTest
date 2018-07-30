@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <!--引入css-->
+    <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--引入js-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.fullpage.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+<body>
+<div class="go">
+    <a href="#">
+        <img src="images/00-go.png" alt="">
+    </a>
+</div>
+
+<div class="more">
+    <a id="movedown" href="javascript:;">
+        <img src="images/00-more.png" alt="">
+    </a>
+</div>
+
+<div id="carshow">
+    <!--一直执行这个动画-->
+    <div class="section screen01">
+        <!--背景商品列表，沙发，横幅-->
+        <div class="content">
+            <img class="goods" src="images/01-goods.png" alt="">
+            <img class="sofa" src="images/01-sofa.png" alt="">
+            <img class="fly" src="images/01-fly.png" alt="">
+        </div>
+    </div>
+    <!--动画特点，完全进入当前屏的时候执行动画
+    1.什么时候完全进入
+    2.怎么做动画,给大容器追加一个类，
+    利用js在这个类下面可以给需要做动画的元素添加动画属性
+    3.
+    -->
+    <div class="section screen02">
+        <div class="content">
+            <!--商品列表 文字 搜索框-->
+            <div class="sofa">
+                <img src="images/02-sofa.png" alt="">
+            </div>
+            <div class="input">
+                <img class="search" src="images/02-search.png" alt="">
+                <img class="key" src="images/02-key.png" alt="">
+            </div>
+            <div class="textshow">
+                <img class="text01" src="images/02-text1.png" alt="">
+                <img class="text02" src="images/02-text2.png" alt="">
+            </div>
+            <div class="goodslist">
+                <img src="images/02-goods.png" alt="">
+            </div>
+
+
+        </div>
+    </div>
+    <!--active 添加这个类名就是默认显示的页面-->
+    <div class="section screen03">
+        <div class="content">
+            <div class="sofa">
+                <img src="images/02-sofa.png" alt="">
+            </div>
+            <div class="change">
+                <img src="images/03-change01.gif" alt="">
+                <img src="images/03-cart01.gif" alt="">
+            </div>
+            <div class="cart">
+                <img class="color" src="images/03-change02.gif" alt="">
+                <img class="carshop" src="images/03-cart02.gif" alt="">
+
+            </div>
+
+        </div>
+        <!--<h3>这是第3屏</h3>-->
+    </div>
+    <div class="section screen04">
+        <div class="cloud">
+            <img src="images/04-cloud.png" alt="">
+        </div>
+        <div class="content">
+
+            <div class="shopcar">
+                <img class="showtext" src="images/04-text01.png" alt="">
+                <img class="sofa" src="images/04-sofa.png" alt="">
+                <img class="car" src="images/04-cart.png" alt="">
+            </div>
+            <div class="address">
+                <img class="showtext" src="images/04-text02.png" alt="">
+                <img class="add1" src="images/04-address01.png" alt="">
+                <img class="add2" src="images/04-address02.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <h3>这是第5屏</h3>
+    </div>
+    <div class="section">
+        <h3>这是第6屏</h3>
+    </div>
+    <div class="section">
+        <h3>这是第7屏</h3>
+    </div>
+</div>
+
+</body>
+</html>
