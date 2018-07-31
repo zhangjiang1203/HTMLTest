@@ -22,6 +22,26 @@ $(function () {
                 // e.stopPropagation();
                 $.fn.fullpage.moveSectionDown();
             });
+
+            //第八屏跟着鼠标移动
+            $('.screen08').on('mousemove',function (e) {
+                   console.log(e.clientX,e.clientY);
+                   $('.screen08 .hands').css({
+                      left:e.clientX-60,
+                      top:e.clientY
+                   });
+            });
+
+            //重新开始
+            $('.screen08 .again').on('click',function () {
+            //    移除上面添加的now leave show 这三个类名
+                $('.now ,.leaved,.show').removeClass('now').removeClass('leaved').removeClass('show');
+            //    移除css属性，取消jquery中调用的fadein和fadeout等动画
+            //    设置星星的时候添加了style属性，在这边移除
+                $('.content [style]').removeAttr('style');
+            //    跳转返回第一页
+                $.fn.fullpage.moveTo(1);
+            })
         },
         //离开某个页面触发的函数
         //有三个参数 index nextIndex direction  direction的值为up或者down
@@ -30,6 +50,14 @@ $(function () {
             //    第二页到第三页
                 $('.section').eq(index-1).addClass('leaved');
             // }
+            if (index == 6 && nextIndex == 7){
+                //进入第七个界面
+                $('.screen07 .star').addClass('show');
+                $('.screen07 .appraise').addClass('show');
+                $('.screen07 .star img').each(function (i,item) {
+                    $(this).css('transition-delay',i*0.5+'s')
+                })
+            } 
         }
     });
 })
