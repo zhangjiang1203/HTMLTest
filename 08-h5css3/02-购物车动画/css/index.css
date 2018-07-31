@@ -114,9 +114,14 @@
     top:5px;
     /*opacity: 0;*/
 }
+.screen02 .textshow .text01,
 .screen02 .textshow .text02{
     position: absolute;
     top: 0;
+    left: 0;
+}
+
+.screen02 .textshow .text02{
     opacity: 0;
 }
 
@@ -241,6 +246,9 @@
 .screen03 .cart img:last-child,
 .screen03 .change img:last-child{
     position:absolute;
+    top: 150px;
+    left: 0;
+
 
 }
 
@@ -437,6 +445,7 @@
     height: 100%;
     right: 100px;
     top: 0;
+    overflow: hidden;
 
 }
 .screen05 .mouse .mouse1,

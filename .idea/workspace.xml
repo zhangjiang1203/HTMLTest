@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/08-h5css3/02-购物车动画/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/08-h5css3/02-购物车动画/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-h5css3/02-购物车动画/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/08-h5css3/02-购物车动画/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-h5css3/02-购物车动画/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-h5css3/02-购物车动画/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,28 +19,26 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/08-h5css3/02-购物车动画/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="643">
-                  <caret line="162" column="10" lean-forward="true" selection-start-line="162" selection-start-column="10" selection-end-line="162" selection-end-column="10" />
+                <state relative-caret-position="461">
+                  <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
                   <folding>
                     <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/08-h5css3/02-购物车动画/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="341">
+                <state relative-caret-position="-50">
                   <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
                 </state>
               </provider>
@@ -52,8 +51,8 @@
           <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/08-h5css3/02-购物车动画/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+                <state relative-caret-position="468">
+                  <caret line="241" column="16" lean-forward="true" selection-start-line="241" selection-start-column="16" selection-end-line="241" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -156,9 +155,9 @@
         <option value="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/js/index.js" />
         <option value="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/index.html" />
         <option value="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/css/index.css" />
+        <option value="$PROJECT_DIR$/08-h5css3/02-购物车动画/js/index.js" />
         <option value="$PROJECT_DIR$/08-h5css3/02-购物车动画/index.html" />
         <option value="$PROJECT_DIR$/08-h5css3/02-购物车动画/css/index.css" />
-        <option value="$PROJECT_DIR$/08-h5css3/02-购物车动画/js/index.js" />
       </list>
     </option>
   </component>
@@ -345,12 +344,12 @@
       <workItem from="1532913345132" duration="13968000" />
       <workItem from="1532942380820" duration="40000" />
       <workItem from="1532942451882" duration="992000" />
-      <workItem from="1532998703291" duration="19332000" />
+      <workItem from="1532998703291" duration="20549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="411511000" />
+    <option name="totallyTimeSpent" value="412728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1604" y="23" width="1640" height="1016" extended-state="0" />
@@ -611,33 +610,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/02-购物车动画/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/08-h5css3/02-购物车动画/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="162" column="10" lean-forward="true" selection-start-line="162" selection-start-column="10" selection-end-line="162" selection-end-column="10" />
+        <state relative-caret-position="461">
+          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
           <folding>
             <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08-h5css3/02-购物车动画/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-h5css3/02-购物车动画/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="468">
+          <caret line="241" column="16" lean-forward="true" selection-start-line="241" selection-start-column="16" selection-end-line="241" selection-end-column="16" />
         </state>
       </provider>
     </entry>
