@@ -563,7 +563,7 @@
 }
 
 .screen06.now .box{
-    animation: box_fly06 2s linear forwards;
+    animation: box_fly06 2s linear;
 }
 
 @keyframes box_fly06 {
