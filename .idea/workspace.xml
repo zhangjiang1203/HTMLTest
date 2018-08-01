@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/08-h5css3/03-h5属性学习/001-视差效果原理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-h5css3/03-h5属性学习/002-语义化标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-h5css3/03-h5属性学习/002-语义化标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-h5css3/03-h5属性学习/002-语义化标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,20 +22,23 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+                <state relative-caret-position="398">
+                  <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+                  <folding>
+                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="002-语义化标签.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/08-h5css3/03-h5属性学习/002-语义化标签.html">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="35" selection-start-line="35" selection-end-line="35" />
+                <state relative-caret-position="105">
+                  <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -43,38 +47,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/08-h5css3/02-购物车动画/css/index.css">
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="139">
-                  <caret line="777" column="14" selection-start-line="777" selection-start-column="14" selection-end-line="777" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="rotateBanner.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/04-前端基本功/005-网页特效5/旋转轮播图/CSS/rotateBanner.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-260">
-                  <caret line="12" selection-start-line="12" selection-end-line="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="commentTool.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/04-前端基本功/005-网页特效5/旋转轮播图/JavaScript/commentTool.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="371">
-                  <caret line="142" column="16" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="rotatebanner.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/04-前端基本功/005-网页特效5/旋转轮播图/JavaScript/rotatebanner.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="158">
-                  <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+                <state relative-caret-position="790">
+                  <caret line="350" lean-forward="true" selection-start-line="350" selection-end-line="350" />
                 </state>
               </provider>
             </entry>
@@ -86,9 +63,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -129,8 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/006-三组基本动画.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/009-滑入滑出动画.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/008-自定义动画.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/手风琴案例/accordion.html" />
         <option value="$PROJECT_DIR$/05-jQuery/002-jq操作样式/010-jQuery动态创建和添加节点.html" />
@@ -178,8 +153,10 @@
         <option value="$PROJECT_DIR$/08-h5css3/02-购物车动画/index.html" />
         <option value="$PROJECT_DIR$/08-h5css3/02-购物车动画/css/index.css" />
         <option value="$PROJECT_DIR$/08-h5css3/03-h5属性学习/001-视差效果原理.html" />
-        <option value="$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/index.html" />
         <option value="$PROJECT_DIR$/08-h5css3/03-h5属性学习/002-语义化标签.html" />
+        <option value="$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/js/index.js" />
+        <option value="$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/index.html" />
+        <option value="$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/css/index.css" />
       </list>
     </option>
   </component>
@@ -204,8 +181,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1604" />
-    <option name="y" value="23" />
+    <option name="x" value="1660" />
+    <option name="y" value="28" />
     <option name="width" value="1640" />
     <option name="height" value="1016" />
   </component>
@@ -234,6 +211,29 @@
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
               <item name="03-h5属性学习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
+              <item name="03-h5属性学习" type="462c0819:PsiDirectoryNode" />
+              <item name="QQTIM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
+              <item name="03-h5属性学习" type="462c0819:PsiDirectoryNode" />
+              <item name="QQTIM" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
+              <item name="03-h5属性学习" type="462c0819:PsiDirectoryNode" />
+              <item name="QQTIM" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,15 +360,15 @@
       <workItem from="1532942380820" duration="40000" />
       <workItem from="1532942451882" duration="992000" />
       <workItem from="1532998703291" duration="22366000" />
-      <workItem from="1533085277925" duration="5233000" />
+      <workItem from="1533085277925" duration="17398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419778000" />
+    <option name="totallyTimeSpent" value="431943000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1604" y="23" width="1640" height="1016" extended-state="0" />
+    <frame x="1660" y="28" width="1640" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14512195" />
@@ -402,12 +402,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/yun.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/images/zimubiao.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/02-CSS/004-cssstyle2/博雅作业/images/pro1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -653,10 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/index.html">
+    <entry file="file://$PROJECT_DIR$/08-h5css3/03-h5属性学习/002-语义化标签.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="412">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -667,10 +661,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-h5css3/03-h5属性学习/002-语义化标签.html">
+    <entry file="file://$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="105">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/03-h5属性学习/QQTIM/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="350" lean-forward="true" selection-start-line="350" selection-end-line="350" />
         </state>
       </provider>
     </entry>
