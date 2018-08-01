@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>语义化标签</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            height: 100px;
+            background-color: red;
+        }
+
+        header{
+            height: 200px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<!--1.语义化标签的作用-->
+<!--
+1.提高代码的可维护性和可读性
+2.网站的发布者：SEO优化 搜索引擎优化
+
+
+-->
+<!--2.语义化标签的兼容性-->
+<!--
+1.IE9以下不支持H5标签(大部分的css3属性，一些H5的api)
+2.IE9以下不认识，把这些标签当做行内元素去看待
+3.语义化标签需要动态创建 document.createElement('header'),同时设置块级元素
+4.使用插件来完成这件事 html5shiv.js
+5.必须在页面结构之前引入插件
+-->
+<header>
+
+</header>
+
+
+<footer>
+
+</footer>
+
+</body>
+</html>
