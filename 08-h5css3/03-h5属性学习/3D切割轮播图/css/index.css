@@ -15,20 +15,68 @@
     list-style: none;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    transform-style: preserve-3d;
 }
 
 .box ul li{
     float: left;
-    width: 100%;
+    width: 112px;
     height: 100%;
-
+    position: relative;
+    /*视距，呈现近大远小效果,不是真正的3D呈现*/
+    /*perspective: 500px;*/
+    /*3d呈现*/
+    transform-style: preserve-3d;
+    /*添加过渡时间*/
+    transition: all 1s;
 }
 
-.box ul li img{
-    display: block;
-    width: 100%;
+
+.box ul li span{
+    position: absolute;
+    left: 0;
+    top: 0;
     height: 100%;
+    width: 100%;
+    background: url("../images/1.jpg") no-repeat;
+}
+
+/*拼接立体容器*/
+/*1.立体容器旋转中心要在电脑平面上*/
+/*2.立体容器的每一个面的图片正面朝外*/
+.box ul li span:nth-child(1){
+    /*background-position: 0 0;*/
+    background-image: url("../images/1.jpg");
+    transform: translateZ(150px);
+}
+.box ul li span:nth-child(2){
+    background-image: url("../images/2.jpg");
+    /*旋转过后 轴也会跟着旋转*/
+    transform: rotateX(90deg) translateZ(150px);
+}
+.box ul li span:nth-child(3){
+    background-image: url("../images/3.jpg");
+    transform: rotateX(180deg) translateZ(150px);
+}
+.box ul li span:nth-child(4){
+    background-image: url("../images/4.jpg");
+    transform: rotateX(270deg) translateZ(150px);
+}
+
+.box ul li:nth-child(1) span{
+    background-position: 0 0;
+}
+.box ul li:nth-child(2) span{
+    background-position:-112px 0;
+}
+.box ul li:nth-child(3) span{
+    background-position:-224px 0;
+}
+.box ul li:nth-child(4) span{
+    background-position:-336px 0;
+}
+.box ul li:nth-child(5) span{
+    background-position:-448px 0;
 }
 
 .box .left,.box .right{

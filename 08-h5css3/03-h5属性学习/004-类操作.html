@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>类操作</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 400px;
+            height: 50px;
+            margin: 100px auto;
+        }
+
+        .box ul{
+            list-style: none;
+        }
+
+        .box ul li{
+            float: left;
+            width: 100px;
+            height: 50px;
+            color: #fff;
+            line-height: 50px;
+            text-align: center;
+            background-color: skyblue;
+            cursor: pointer;
+        }
+
+        .box ul li.active{
+            background-color: red;
+        }
+    </style>
+
+    <script>
+        /*toggleClass(切换类)
+        * 1.jquery操作类的方法：addClass() removeClass() toggleClass()  hasClass()
+        * 2.h5也有类似的api，基于一个对象的classlist的方法 add remove toggle(切换一个类) contains
+        * 3.获取类
+        * */
+        window.onload = function () {
+            //获取类
+            var dom = document.querySelector('li');
+            //获取这个类上的所有的class
+            console.log(dom.classList);
+            //操作类 add remove toggle contains 等等
+            dom.classList.add('active');
+
+            document.querySelector('ul').onclick = function (e) {
+                var currentli = e.target;
+                //如果之前有active 就返回
+                if (currentli.classList.contains('active')) return false;
+                //如果没有就把之前的移除
+                document.querySelector('li.active').classList.remove('active');
+                //给当前的li添加active类
+                currentli.classList.add('active');
+
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+
+<div class="box">
+    <ul>
+        <li class="active">菜单1</li>
+        <li >菜单2</li>
+        <li>菜单3</li>
+        <li>菜单4</li>
+    </ul>
+</div>
+
+</body>
+</html>

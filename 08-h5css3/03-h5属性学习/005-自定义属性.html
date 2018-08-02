@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义属性</title>
+    <script>
+        window.onload = function () {
+            var div = document.querySelector('div')
+            //获取自定义的所有属性
+            var set = div.dataset;
+            console.log(set)
+            //获取指定的自定义属性
+            var user = set.user;//或者是var user = set['user'];
+            console.log(user);
+
+            //设置单个属性
+            set.user = 'gg';
+
+            //下面是jquery的方式
+            //获取所有的自定义属性
+            var list = $('div').data();
+            //获取单个自定义属性，
+            $('div').data('user')
+            //设置单个属性
+            $('div').data('user','gg');
+
+
+            //h5的dataset 操作的是dom
+            //jquery的data() 操作的是内存
+
+        }
+    </script>
+</head>
+<body>
+
+<!--
+1.自定义属性 data-* 自定义属性
+2.获取元素的自定义属性，jquery方式$('div').data('自定义属性的名称')
+3.自定义属性的名称是什么 data-user==>user  data-user-name==>userName
+4.命名遵循驼峰命名法
+5.获取元素的自定义属性 h5方式
+
+-->
+<div data-user="wl" data-user-age="18"></div>
+</body>
+</html>

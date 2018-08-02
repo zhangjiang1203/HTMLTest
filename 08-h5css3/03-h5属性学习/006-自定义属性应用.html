@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义属性应用</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .nav{
+            width: 400px;
+            height: 50px;
+            margin: 100px auto 0;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        .nav ul li{
+            float: left;
+            width: 100px;
+            height: 50px;
+            color: #fff;
+            line-height: 50px;
+            text-align: center;
+            background-color: skyblue;
+            cursor: pointer;
+        }
+
+        .nav ul li.active{
+            background-color: red;
+        }
+
+        .box li{
+            width: 400px;
+            height: 400px;
+            margin: 0 auto;
+            display: none;
+        }
+
+        .box li.show{
+            background-color: red;
+            display: block;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            //获取点击的li
+            document.querySelector('#menu').onclick = function (e) {
+                var currentli = e.target;
+
+                if (currentli.classList.contains('active')) return false;
+                //移除旧的
+                var oldli = document.querySelector('.nav li.active');
+                oldli.classList.remove('active');
+                //添加新的
+                currentli.classList.add('active');
+
+                //变换下面的内容标签
+                var oldcontent = document.querySelector('#'+oldli.dataset.contentId);
+                oldcontent.classList.remove('show');
+
+                //显示需要的
+                var currentContent = document.querySelector('#'+currentli.dataset.contentId)
+                currentContent.classList.add('show');
+
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="nav">
+    <ul id="menu">
+        <li class="active" data-content-id="content01">菜单01</li>
+        <li data-content-id="content02">菜单02</li>
+        <li data-content-id="content03">菜单03</li>
+        <li data-content-id="content04">菜单04</li>
+    </ul>
+</div>
+<div class="box">
+    <ul id="info">
+        <li id="content01" class="show">内容1</li>
+        <li id="content02">内容2</li>
+        <li id="content03">内容3</li>
+        <li id="content04">内容4</li>
+    </ul>
+</div>
+
+</body>
+</html>
