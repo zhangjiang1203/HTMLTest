@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/08-h5css3/04-h5的api学习/001-浏览器全屏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-h5css3/04-h5的api学习/002-浏览历史.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-前端基本功/004-网页特效4/003-封装基本函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-前端基本功/004-网页特效4/003-封装基本函数.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-h5css3/03-h5属性学习/001-视差效果原理.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-h5css3/03-h5属性学习/001-视差效果原理.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +19,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+                <state relative-caret-position="294">
+                  <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="002-浏览历史.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/002-浏览历史.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -37,20 +41,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+                <state relative-caret-position="252">
+                  <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="533">
-                  <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+                <state relative-caret-position="260">
+                  <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -62,9 +66,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -105,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/007-offset和position方法.html" />
         <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/006-滚动返回顶部.html" />
         <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/008-jQuery代理委托事件.html" />
         <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/009-on注册事件的两种方式.html" />
@@ -153,9 +156,10 @@
         <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/001-浏览器全屏.html" />
         <option value="$PROJECT_DIR$/08-h5css3/03-h5属性学习/001-视差效果原理.html" />
         <option value="$PROJECT_DIR$/04-前端基本功/004-网页特效4/003-封装基本函数.html" />
-        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/index.html" />
-        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/css/index.css" />
         <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/js/index.js" />
+        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/css/index.css" />
+        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/index.html" />
+        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/002-浏览历史.html" />
       </list>
     </option>
   </component>
@@ -180,8 +184,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1972" />
-    <option name="y" value="23" />
+    <option name="x" value="1623" />
+    <option name="y" value="50" />
     <option name="width" value="1616" />
     <option name="height" value="964" />
   </component>
@@ -210,36 +214,6 @@
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
               <item name="04-h5的api学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
-              <item name="04-h5的api学习" type="462c0819:PsiDirectoryNode" />
-              <item name="customPlayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
-              <item name="04-h5的api学习" type="462c0819:PsiDirectoryNode" />
-              <item name="customPlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
-              <item name="04-h5的api学习" type="462c0819:PsiDirectoryNode" />
-              <item name="customPlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="08-h5css3" type="462c0819:PsiDirectoryNode" />
-              <item name="04-h5的api学习" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -369,15 +343,15 @@
       <workItem from="1533085277925" duration="21057000" />
       <workItem from="1533171391190" duration="13378000" />
       <workItem from="1533197368943" duration="2873000" />
-      <workItem from="1533257860248" duration="11053000" />
+      <workItem from="1533257860248" duration="14467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="462906000" />
+    <option name="totallyTimeSpent" value="466320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1667" y="25" width="1616" height="964" extended-state="0" />
+    <frame x="1623" y="50" width="1616" height="964" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17141089" />
@@ -419,9 +393,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/02-ajax封装/001-ajax-rev.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/07-Ajax学习/02-ajax封装/003-ajax-fn.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -719,24 +690,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/css/index.css">
+    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="260">
+          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="294">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/js/index.js">
+    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/002-浏览历史.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="420">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
