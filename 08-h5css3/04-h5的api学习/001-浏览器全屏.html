@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浏览器全屏</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 500px;
+            height: 500px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box"></div>
+
+<video width="500" src="videos/chrome.mp4" controls="controls"></video>
+<button class="btn1">全屏</button>
+<button class="btn2">取消</button>
+
+
+<script>
+    document.querySelector('.btn1').onclick = function () {
+    //    全屏操作，每一个元素都有全屏方法
+    //    h5的API存在兼容问题 IE9以下不支持
+    //    但是在高级浏览器中支持，但是要加上私有前缀
+    //    私有前缀：css(-webkit-:谷歌 -moz-:火狐， -ms-:IE浏览器，-O-:opera浏览器 )
+    //    js中也有私有前缀，在方法属性之前加上就可以了，
+    //    这个是某个指定的元素的显示
+    //     document.querySelector('body').webkitRequestFullScreen();
+
+        //文档全屏显示
+        document.documentElement.webkitRequestFullScreen();
+    }
+    
+    document.querySelector('.btn2').onclick = function () {
+    //    取消全屏 都是一种方法 不管是文档还是某一元素 都是一个方法
+        document.webkitCancelFullScreen();
+    }
+</script>
+
+</body>
+</html>
