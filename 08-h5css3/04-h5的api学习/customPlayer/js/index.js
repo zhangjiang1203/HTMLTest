@@ -55,9 +55,7 @@ $(function () {
         //    取消全屏
             document.webkitCancelFullScreen();
             $expand.removeClass('fa-compress').addClass('fa-arrow-alt');
-
         }
-
     })
 
 //    5.跃进播放

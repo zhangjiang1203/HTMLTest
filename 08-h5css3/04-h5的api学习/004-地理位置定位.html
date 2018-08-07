@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>地理位置定位</title>
+    <script>
+        window.onload = function () {
+            if (navigator.geolocation){
+                //两个参数都是函数 1 定位成功返回经纬度  2 定位失败返回
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    console.log(position);
+                    //获取经纬度
+                    var lat = position.coords.latitude;
+                    var log = position.coords.longitude;
+                },function (error) {
+                    //获取定位信息失败
+                    console.log(error);
+                })
+                // 重复获取当前地理位置信息
+                navigator.geolocation.watchPosition(function () {
+
+                },function () {
+
+                })
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+
+navigator.geolocation.getCurrentPosition
+
+
+</body>
+</html>

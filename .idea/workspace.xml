@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/08-h5css3/04-h5的api学习/002-浏览历史.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-h5css3/04-h5的api学习/003-历史记录.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-h5css3/04-h5的api学习/004-地理位置定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-h5css3/04-h5的api学习/005-drag事件.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,52 +18,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="002-浏览历史.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/002-浏览历史.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/css/index.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/js/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="005-drag事件.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/005-drag事件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,9 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/006-滚动返回顶部.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/008-jQuery代理委托事件.html" />
-        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/009-on注册事件的两种方式.html" />
         <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/010-事件的执行顺序.html" />
         <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/011-表格删除事件.html" />
         <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/012-移除事件绑定.html" />
@@ -160,6 +133,9 @@
         <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/css/index.css" />
         <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/index.html" />
         <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/002-浏览历史.html" />
+        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/003-历史记录.html" />
+        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/004-地理位置定位.html" />
+        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/005-drag事件.html" />
       </list>
     </option>
   </component>
@@ -197,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,7 +196,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,11 +320,12 @@
       <workItem from="1533171391190" duration="13378000" />
       <workItem from="1533197368943" duration="2873000" />
       <workItem from="1533257860248" duration="14467000" />
+      <workItem from="1533602869501" duration="9207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="466320000" />
+    <option name="totallyTimeSpent" value="475527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1623" y="50" width="1616" height="964" extended-state="0" />
@@ -385,7 +362,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/03-JavaScript/003-js第三天/006-函数控制盒子.html</url>
           <line>26</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
@@ -393,23 +369,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/02-ajax封装/003-ajax-fn.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/02-ajax封装/007-jquery-ajax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/02-ajax封装/002-art-template使用.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08-h5css3/03-h5属性学习/3D切割轮播图/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -692,8 +651,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="1008">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/004-地理位置定位.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/003-历史记录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/002-浏览历史.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -704,17 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/002-浏览历史.html">
+    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/005-drag事件.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>

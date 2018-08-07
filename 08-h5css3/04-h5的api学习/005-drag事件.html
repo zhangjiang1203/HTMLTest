@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖拽事件</title>
+    <style>
+        .box{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+
+        .target{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            position: absolute;
+            top: 100px;
+            right: 100px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var box = document.querySelector('.box');
+            var container = document.querySelector('.target');
+            //简单直接的方式就是在 每个方法中修改背景颜色，
+            //整个拖拽都会执行
+            box.addEventListener('drag',function (e) {
+                console.log('drag');
+            })
+            //拖拽的点离开当前的盒子
+            box.addEventListener('dragleave',function () {
+                console.log('dragleave');
+            })
+
+            //拖拽开始
+            box.addEventListener('dragstart',function () {
+                console.log('dragstart');
+            })
+            //拖拽结束
+            box.addEventListener('dragend',function () {
+                console.log('end');
+            })
+
+
+            //在目标元素上移动
+            container.addEventListener('dragover',function (e) {
+                console.log('目标元素上移动');
+                e.preventDefault();
+            })
+            //在目标元素上松开
+            container.addEventListener('drag',function (e) {
+                console.log('目标元素松开');
+                e.preventDefault();
+            })
+
+            container.addEventListener('dragleave',function (e) {
+                console.log('离开目标元素');
+                e.preventDefault();
+            })
+
+
+
+        }
+    </script>
+</head>
+<body>
+<!--实现拖拽效果 添加draggable-->
+<div class="box" draggable="true">
+
+</div>
+
+<div class="target"></div>
+
+</body>
+</html>

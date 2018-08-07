@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>历史记录</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        ul{
+            list-style: none;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+
+            function $(id){
+                return document.getElementById(id);
+            }
+
+            localStorage.setItem('name','张三,李四,王五,赵六');
+            //开始执行
+            var search = localStorage.getItem('name');
+            var mylist = search.split(',');
+            var history = $('history');
+            for (var i = 0; i < mylist.length; i++) {
+                console.log(mylist[i]);
+                var li = document.createElement("li");
+                li.innerHTML = mylist[i];
+                var a = document.createElement('a')
+                a.innerHTML = '删除';
+                li.appendChild(a);
+                history.appendChild(li);
+            }
+
+        }
+    </script>
+</head>
+<body>
+
+<div class="box">
+
+    <input type="text">
+    <button>搜索</button>
+
+    <div class="content">
+        <ul id="history">
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
