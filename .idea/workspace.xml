@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/009-绘制图片.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="008-绘制饼图.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="008-绘制饼图.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="94" column="70" lean-forward="true" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
+            <state relative-caret-position="366">
+              <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="009-绘制图片.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/009-绘制图片.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -109,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05-jQuery/003-jQuery特殊属性操作/001-js中val用法.html" />
         <option value="$PROJECT_DIR$/05-jQuery/001-jq选择器/008-手风琴案例.html" />
         <option value="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/js/index.js" />
         <option value="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/index.html" />
@@ -160,6 +168,7 @@
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/006-绘制饼图.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/007-绘制文字显示.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html" />
+        <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/009-绘制图片.html" />
       </list>
     </option>
   </component>
@@ -208,12 +217,6 @@
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="09-canvas学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="09-canvas学习" type="462c0819:PsiDirectoryNode" />
-              <item name="01-绘制线图" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
@@ -351,12 +354,12 @@
       <workItem from="1533197368943" duration="2873000" />
       <workItem from="1533257860248" duration="14467000" />
       <workItem from="1533602869501" duration="22205000" />
-      <workItem from="1533690802117" duration="23630000" />
+      <workItem from="1533690802117" duration="23752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="512155000" />
+    <option name="totallyTimeSpent" value="512277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1568" y="60" width="1616" height="964" extended-state="0" />
@@ -400,13 +403,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-JavaScript/008-js第六天/009-缓动动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-JavaScript/008-js第六天/010-焦点动画.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
@@ -730,8 +726,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="94" column="70" lean-forward="true" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
+        <state relative-caret-position="366">
+          <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/009-绘制图片.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
