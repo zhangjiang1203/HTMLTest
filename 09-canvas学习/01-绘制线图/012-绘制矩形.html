@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制矩形</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+            //绘制矩形 四个参数 x y width height
+            /*
+            * 不是独立路径
+            * */
+            // ctx.rect(100,100,200,200);
+            // ctx.stroke()
+
+            //这样绘制的矩形 有自己的独立路径
+            ctx.strokeRect(100,100,200,200);
+            ctx.fillRect(100,100,200,200);
+
+            //清除矩形内容
+            ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);
+
+        }
+    </script>
+</head>
+<body>
+
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制渐变的矩形</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+            //线性渐变 方向 起始颜色  结束颜色
+            //两个点的坐标可以控制 渐变方向
+            //创建一个渐变方案，确定长度和方向
+            //放射渐变
+            var radioGradient = ctx.createRadialGradient(100,100,200,500,300,200);
+            //线性渐变
+            // var linearGradient = ctx.createLinearGradient(100,100,500,300);
+            radioGradient.addColorStop(0,'yellow');
+            radioGradient.addColorStop(0.5,'red');
+            radioGradient.addColorStop(1,'blue');
+            ctx.fillStyle = radioGradient
+
+            ctx.fillRect(100,100,400,200);
+
+        }
+    </script>
+</head>
+<body>
+
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制折线图</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            
+            var lineChart = function (ctx) {
+                this.ctx = ctx || document.querySelector('canvas').getContext('2d');
+
+                //网格大小
+                this.gridSize = 10;
+                //坐标系间距
+                this.space = 20;
+                //箭头大小
+                this.arrowsize = 10;
+                //绘制点的大小
+                this.pointsize = 6;
+
+                //图标的宽高
+                this.width = this.ctx.canvas.width;
+                this.height = this.ctx.canvas.height;
+                //坐标系原点
+                this.x0 = this.space;
+                this.y0 = this.height - this.space;
+            }
+
+            //构造函数
+            lineChart.prototype.init = function (data) {
+                //依次来绘制线条
+                this.drawGrid();
+                this.drawAxis();
+                this.drawPoint(data);
+                
+            }
+            //行为方法 绘制网格
+            lineChart.prototype.drawGrid =  function () {
+                //x轴方向
+                var xcount = Math.floor(this.height / this.gridSize);
+
+                for (var i = 0; i < xcount; i++) {
+                    this.ctx.beginPath();
+                    this.ctx.moveTo(0,this.gridSize * i - 0.5);
+                    this.ctx.lineTo(this.width,this.gridSize * i - 0.5);
+                    this.ctx.strokeStyle = '#ccc';
+                    this.ctx.stroke();
+                }
+                //y轴方向
+                var ycount = Math.floor(this.width / this.gridSize);
+                for (var i = 0; i < ycount; i++) {
+                    this.ctx.beginPath();
+                    this.ctx.moveTo(this.gridSize*i-0.5,0);
+                    this.ctx.lineTo(this.gridSize*i-0.5,this.height);
+                    this.ctx.strokeStyle = '#ccc';
+                    this.ctx.stroke();
+                }
+            }
+
+            //行为方法 绘制坐标系
+            lineChart.prototype.drawAxis =  function () {
+                //绘制x轴
+                this.ctx.beginPath();
+                this.ctx.moveTo(this.x0,this.y0);
+                this.ctx.lineTo(this.width-this.space,this.y0);
+                this.ctx.strokeStyle = '#000';
+                this.ctx.stroke();
+                //绘制三角
+                this.ctx.lineTo(this.width-this.space-this.arrowsize,this.y0+this.arrowsize/2);
+                this.ctx.lineTo(this.width-this.space-this.arrowsize,this.y0-this.arrowsize/2);
+                this.ctx.lineTo(this.width-this.space,this.y0);
+                this.ctx.fill();
+
+                //绘制y轴
+                this.ctx.beginPath();
+                this.ctx.moveTo(this.x0,this.y0);
+                this.ctx.lineTo(this.x0,this.space);
+                this.ctx.strokeStyle = '#000';
+                this.ctx.stroke();
+                //绘制三角
+                this.ctx.lineTo(this.x0-this.arrowsize/2,this.space+this.arrowsize);
+                this.ctx.lineTo(this.x0+this.arrowsize/2,this.space+this.arrowsize);
+                this.ctx.lineTo(this.x0,this.space);
+                this.ctx.fill();
+
+            }
+
+            //行为方法 绘制所有点
+            lineChart.prototype.drawPoint =  function (data) {
+                //1.转换坐标点
+                /*
+                * x=原点坐标+数据的坐标
+                * y=原点坐标-数据的坐标
+                * */
+                //记录之前的坐标
+                var prex = 0;
+                var prey = 0;
+                for (var i = 0; i < data.length; i++) {
+                    var point = data[i];
+                    var item = {
+                        x:this.x0+point.x,
+                        y:this.y0-point.y
+                    }
+                    this.ctx.beginPath();
+                    this.ctx.moveTo(item.x-this.pointsize/2,item.y-this.pointsize/2);
+                    this.ctx.lineTo(item.x-this.pointsize/2,item.y+this.pointsize/2);
+                    this.ctx.lineTo(item.x+this.pointsize/2,item.y+this.pointsize/2);
+                    this.ctx.lineTo(item.x+this.pointsize/2,item.y-this.pointsize/2);
+                    this.ctx.closePath();
+                    this.ctx.fill();
+                    //绘制连线
+                    if (i == 0){
+                        this.ctx.beginPath();
+                        this.ctx.moveTo(this.x0,this.y0);
+                        this.ctx.lineTo(item.x,item.y);
+                        this.ctx.strokeStyle = "#000";
+                        this.ctx.stroke();
+                    } else {
+                        this.ctx.beginPath();
+                        this.ctx.moveTo(prex,prey);
+                        this.ctx.lineTo(item.x,item.y);
+                        this.ctx.strokeStyle = '#000';
+                        this.ctx.stroke();
+                    }
+                    prex = item.x;
+                    prey = item.y;
+                }
+            }
+            //初始化
+            var data = [
+                {
+                    x:100,
+                    y:120
+                },
+                {
+                    x:200,
+                    y:160
+                },
+                {
+                    x:300,
+                    y:240
+                },
+                {
+                    x:400,
+                    y:120
+                },
+                {
+                    x:500,
+                    y:80
+                }]
+            var chart = new lineChart();
+            chart.init(data);
+
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+
+</body>
+</html>

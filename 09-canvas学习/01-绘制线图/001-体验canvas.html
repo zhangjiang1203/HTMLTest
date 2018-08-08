@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>体验canvas</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        canvas{
+            /*不在这里设置画布的大小*/
+            border: 1px solid red;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--1.准备画布-->
+<!--画布是白色，默认为300*150大小-->
+<!--直接在元素本身设置宽高-->
+<canvas width="600" height="400"></canvas>
+
+<!--2.准备绘制工具-->
+
+
+<!--3.利用工具绘图-->
+<script>
+    //获取元素
+    var mycarvas = document.querySelector('canvas');
+    /*2.获取上下文，绘制工具 还不能绘制3D的效果*/
+    var ctx = mycarvas.getContext('2d');/*web gl绘制3d效果的技术 */
+    /*3.开始绘制*/
+    ctx.moveTo(100,100);
+    //4.绘制直线(就是轨迹，路径)
+    ctx.lineTo(200,200);
+    //5.描边
+    ctx.stroke();
+</script>
+</body>
+</html>

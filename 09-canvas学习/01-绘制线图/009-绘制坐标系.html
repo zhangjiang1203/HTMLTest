@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制坐标系</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+
+            var space = 20;
+            var arrowsize = 10;
+            //确定原点
+            var width = ctx.canvas.width;
+            var height = ctx.canvas.height;
+
+            var x0 = space;
+            var y0 = height -space;
+
+            //绘制x轴
+            ctx.moveTo(x0,y0-0.5);
+            ctx.lineTo(width-space,y0-0.5);
+            ctx.strokeStyle = '#333';
+            ctx.stroke();
+            //添加箭头
+            ctx.lineTo(width-space-arrowsize,y0-0.5+5);
+            ctx.lineTo(width-space-arrowsize,y0-0.5-5);
+            ctx.lineTo(width-space,y0-0.5);
+            ctx.fillStyle = '#333';
+            ctx.fill();
+
+
+            //绘制y轴
+            ctx.beginPath();
+            ctx.moveTo(x0-0.5,y0);
+            ctx.lineTo(x0-0.5,space);
+            ctx.strokeStyle = '#333';
+            ctx.stroke();
+            //绘制y轴
+            ctx.lineTo(x0-arrowsize/2,space+arrowsize+0.5);
+            ctx.lineTo(x0+arrowsize/2,space+arrowsize+0.5);
+            ctx.lineTo(x0-0.5,space);
+            ctx.lineTo(x0,y0-0.5);
+            ctx.fillStyle = '#333';
+            ctx.fill();
+
+
+
+
+
+            //确定距离画布旁边的距离
+
+            //确定坐标轴的长度
+
+            //确定箭头的大小
+
+            // 绘制箭头填充
+
+
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+
+</body>
+</html>

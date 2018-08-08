@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制镂空的正方形</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+
+            // 绘制镂空正方形,顺时针
+            ctx.moveTo(100,100);
+            ctx.lineTo(300,100);
+            ctx.lineTo(300,300);
+            ctx.lineTo(100,300);
+            ctx.closePath();
+            // ctx.stroke();
+            //逆时针绘制
+            ctx.moveTo(150,150);
+            ctx.lineTo(150,250);
+            ctx.lineTo(250,250);
+            ctx.lineTo(250,150);
+            ctx.closePath();
+            // ctx.stroke();
+
+            //填充矩形
+            /*填充的时候遵循 === 非零环绕
+
+            * */
+            ctx.fill()
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+
+</body>
+</html>

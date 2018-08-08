@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制多条平行线</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+
+            //开启新路径，之前的都是新路径 和我无关,解决样式覆盖问题
+            ctx.beginPath()
+            //    绘制平行线
+            ctx.moveTo(100,100.5);
+            ctx.lineTo(300,100.5);
+            ctx.strokeStyle = 'blue';
+            ctx.lineWidth = 5;
+            //只描边一条
+            ctx.stroke();
+
+            ctx.beginPath()
+            ctx.moveTo(100,200);
+            ctx.lineTo(300,200);
+            ctx.strokeStyle = 'red';
+            ctx.lineWidth = 5;
+            ctx.stroke();
+
+            ctx.beginPath()
+            ctx.moveTo(100,300);
+            ctx.lineTo(300,300);
+            ctx.strokeStyle = 'green';
+            ctx.lineWidth = 5;
+            ctx.stroke();
+            //设置线条的宽度和颜色 默认宽度是1px 颜色是黑色
+            //对齐的点是线的中心位置，会把线分成两个0.5px,显示的是会不饱和的增加宽度
+            //解决办法 ，前后移动0.5px
+
+            // ctx.stroke()
+            // 开启新路径  beginPath()
+
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+
+</body>
+</html>

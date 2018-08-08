@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制网格</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+
+        //    绘制网格
+            var grid = 10;
+            //获取canvas的宽高
+            // var canvasHeight = canvas.height;
+            // var canvarWidth = canvas.width;
+            var width = ctx.canvas.width;
+            var height = ctx.canvas.height;
+            var xlineTotal = Math.floor(height / grid);
+            for (var i = 0; i < xlineTotal; i++) {
+                ctx.beginPath()
+                ctx.moveTo(0,i*grid-0.5);
+                ctx.lineTo(width,i*grid-0.5);
+                ctx.strokeStyle = '#eee';
+                ctx.stroke();
+            }
+
+            //设置y轴的条数
+            var ylinetotal = Math.floor(width/grid);
+            for (var i = 0; i < ylinetotal; i++) {
+                ctx.beginPath()
+                ctx.moveTo(i*grid-0.5,0);
+                ctx.lineTo(i*grid-0.5,height);
+                ctx.strokeStyle = '#eee';
+                ctx.stroke();
+            }
+
+
+
+
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+
+</body>
+</html>

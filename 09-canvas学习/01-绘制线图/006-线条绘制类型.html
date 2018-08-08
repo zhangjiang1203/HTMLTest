@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>线条形状设置</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+
+            //开启新路径，之前的都是新路径 和我无关,解决样式覆盖问题
+            /*
+            lineCap 默认值为butt  可以设置为round square butt
+            lineJoin 可选值为 miter bevel round
+            * */
+            ctx.beginPath()
+            //    绘制平行线
+            ctx.moveTo(100,100);
+            ctx.lineTo(200,30);
+            ctx.lineTo(300,100);
+            ctx.strokeStyle = 'blue';
+            ctx.lineWidth = 5;
+            ctx.lineCap = 'butt';
+            ctx.lineJoin = 'miter';
+            //连续10个长度 空白4个长度，两个值一样都是设置为一样的
+            ctx.setLineDash([10,4]);
+            //获取虚线的排列方式 获取的是不重复的那一段的排列方式
+            ctx.getLineDash();
+            //设置虚线偏移 正值 往后偏移 负值 往前偏移
+            ctx.lineDashOffset = -20;
+            //只描边一条
+            ctx.stroke();
+
+            ctx.beginPath()
+            ctx.moveTo(100,200);
+            ctx.lineTo(200,130);
+            ctx.lineTo(300,200);
+            ctx.strokeStyle = 'red';
+            ctx.lineWidth = 10;
+            //添加了一个帽子
+            ctx.lineCap = 'square';
+            ctx.lineJoin = 'bevel';
+            ctx.stroke();
+
+            ctx.beginPath()
+            ctx.moveTo(100,300);
+            ctx.lineTo(200,230);
+            ctx.lineTo(300,300);
+            ctx.strokeStyle = 'green';
+            ctx.lineWidth = 15;
+            //添加了一个圆形的帽子
+            ctx.lineCap = 'round';
+            ctx.lineJoin = 'round';
+            ctx.stroke();
+            //设置线条的宽度和颜色 默认宽度是1px 颜色是黑色
+            //对齐的点是线的中心位置，会把线分成两个0.5px,显示的是会不饱和的增加宽度
+            //解决办法 ，前后移动0.5px
+
+            // ctx.stroke()
+            // 开启新路径  beginPath()
+
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+
+</body>
+</html>

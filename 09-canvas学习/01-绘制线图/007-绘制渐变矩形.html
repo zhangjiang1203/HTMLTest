@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制渐变矩形</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+
+            // 绘制三角形
+            ctx.moveTo(100,100);
+            ctx.lineTo(200,100);
+            ctx.lineTo(200,200);
+            ctx.lineTo(100,200);
+            // ctx.lineTo(100,100);
+            //使用canvas自动闭合,关闭路径
+            ctx.closePath()
+            ctx.lineWidth = 6;
+            // ctx.lineJoin = 'round';
+            //设置填充 颜色填充
+            ctx.strokeStyle = '#333'
+            ctx.st
+            // ctx.fill()
+            //设置描边
+            ctx.stroke();
+
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+
+</body>
+</html>
