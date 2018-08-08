@@ -26,7 +26,6 @@
            * */
            var pieChart = function (ctx) {
                this.ctx = ctx || document.querySelector('canvas').getContext('2d');
-               console.log(this.ctx)
                //画布大小
                this.width = this.ctx.canvas.width;
                this.height = this.ctx.canvas.height;
@@ -36,6 +35,13 @@
 
                this.x0 = this.width/2 + 100;
                this.y0 = this.height/2;
+
+               //描述的间距和大小
+               this.rectW = 30;
+               this.rectH = 20;
+               this.space = 20;
+               this.padding = 10;
+
 
            }
            
@@ -59,6 +65,7 @@
                    that.ctx.fillStyle = color;
                    that.ctx.fill();
                    that.drawTitle(startAngle,item.angle,color,item.title);
+                   that.drawDesc(index,item.title);
                    startAngle = endAngle;
                })
 
@@ -87,22 +94,32 @@
                //设置文字属性
                this.ctx.textAlign = this.x0 > outx ? 'left' : 'right';
                this.ctx.textBaseline = 'bottom';
-               this.ctx.font = '12px Microsoft YaHei';
+               this.ctx.font = '14px Microsoft YaHei';
                //计算绘制文本的宽度
                var strWidth = this.ctx.measureText(str).width
                //设置方向
                var direction = this.x0 > outx ? -strWidth : strWidth;
                this.ctx.lineTo(outx+direction,outy);
                this.ctx.stroke();
-
                //绘制文字
                this.ctx.fillText(str,outx+direction,outy,200);
-
-
-               
            }
            
-           pieChart.prototype.drawDesc = function () {
+           pieChart.prototype.drawDesc = function (index,title) {
+               var showy = this.space+this.padding*index+this.rectH*index;
+               //绘制矩形
+               this.ctx.fillRect(this.space,showy,this.rectW,this.rectH);
+               //绘制说明文字
+               //设置文字属性
+               this.ctx.beginPath();
+               this.ctx.textAlign = 'left';
+               this.ctx.textBaseline = 'top';
+               this.ctx.font = '12px Microsoft YaHei';
+               //计算绘制文本的宽度
+               var strWidth = this.ctx.measureText(title).width
+               //绘制文字
+               this.ctx.fillText(title,this.space+this.rectW+this.padding,showy,strWidth);
+
                
            }
 

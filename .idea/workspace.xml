@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/001-什么是弧度.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/002-曲线的绘制.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/003-绘制4分之一的圆弧.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/004-绘制扇形.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/005-绘制平分圆.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/006-绘制饼图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/007-绘制文字显示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-canvas学习/01-绘制线图/011-绘制折线图.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-canvas学习/01-绘制线图/011-绘制折线图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,8 +28,8 @@
       <file leaf-file-name="008-绘制饼图.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+            <state relative-caret-position="303">
+              <caret line="94" column="70" lean-forward="true" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -360,12 +351,12 @@
       <workItem from="1533197368943" duration="2873000" />
       <workItem from="1533257860248" duration="14467000" />
       <workItem from="1533602869501" duration="22205000" />
-      <workItem from="1533690802117" duration="22599000" />
+      <workItem from="1533690802117" duration="23630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="511124000" />
+    <option name="totallyTimeSpent" value="512155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1568" y="60" width="1616" height="964" extended-state="0" />
@@ -739,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+        <state relative-caret-position="303">
+          <caret line="94" column="70" lean-forward="true" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
         </state>
       </provider>
     </entry>
