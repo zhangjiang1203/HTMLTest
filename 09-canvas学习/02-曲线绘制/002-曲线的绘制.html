@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制曲线</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+            //线是由点构成的
+            //曲线可以由数学公式得来
+            // ctx.moveTo(100,100);
+            for (var i = 0; i < 600; i++) {
+                var x = i;
+                var y = Math.pow(x/10-30,2)
+                var y = 20*Math.sin(x/10)+100;
+                ctx.lineTo(x,y);
+            }
+            ctx.stroke();
+
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+
+</body>
+</html>

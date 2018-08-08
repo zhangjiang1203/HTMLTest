@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制圆弧</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+            //绘制的起点 x y  开始点 结束点 顺时针 false 逆时针 true
+            ctx.arc(100,100,100,0,Math.PI*0.5,false);
+            ctx.stroke();
+
+
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+
+</body>
+</html>

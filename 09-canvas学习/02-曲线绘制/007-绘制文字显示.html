@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制文字</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+
+            ctx.font = '20px 微软雅黑';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'bottom';
+            var str = '你吃了没';
+
+            //绘制十字架
+            var x0 = ctx.canvas.width;
+            var y0 = ctx.canvas.height;
+            ctx.moveTo(x0/2-0.5,0);
+            ctx.lineTo(x0/2-0.5,y0);
+            ctx.moveTo(0,y0/2-0.5);
+            ctx.lineTo(x0,y0/2-0.5);
+            ctx.stroke()
+
+            //绘制文字，矩形绘制在左上角
+            //绘制文本的时候起点在左下角
+            //描边文字
+            // ctx.strokeText(str,width/2,height/2,100);
+            ctx.fillText(str,x0/2,y0/2,100)
+
+
+            //获取文本的宽度
+            ctx.beginPath();
+            var strwidth = ctx.measureText(str).width;
+            console.log(strwidth);
+            ctx.moveTo(x0/2-strwidth/2,y0/2+5);
+            ctx.lineTo(x0/2+strwidth/2,y0/2+5);
+            ctx.strokeStyle = 'red';
+            ctx.stroke();
+
+            function randomColor() {
+                var r = Math.floor(Math.random()*256);
+                var g = Math.floor(Math.random()*256);
+                var b = Math.floor(Math.random()*256);
+                return 'rgb('+ r + ',' + g + ',' + b + ')';
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+
+</body>
+</html>

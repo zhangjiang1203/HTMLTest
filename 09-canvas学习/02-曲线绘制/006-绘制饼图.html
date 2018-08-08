@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制饼图</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.querySelector('canvas');
+            var ctx = canvas.getContext('2d');
+
+            var x0 = 200-0.5;
+            var y0 = 200-0.5;
+            //根据年龄统计数据
+            var data = [15, 30,10,15];
+            var sum = 0;
+            data.forEach(function (item,index) {
+                sum += item;
+            })
+            //平分的次数
+            var deg = Math.PI * 2 / sum;
+            var startdeg = 0;
+            data.forEach(function (item, index) {
+                var enddeg = startdeg + item * deg;
+                ctx.beginPath();
+                ctx.moveTo(x0,y0);
+                ctx.arc(x0,y0,100,startdeg,enddeg,false);
+                //关闭路径
+                ctx.fillStyle = randomColor();
+                ctx.fill();
+                startdeg = enddeg;
+            })
+
+            function randomColor() {
+                var r = Math.floor(Math.random()*256);
+                var g = Math.floor(Math.random()*256);
+                var b = Math.floor(Math.random()*256);
+                return 'rgb('+ r + ',' + g + ',' + b + ')';
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+
+</body>
+</html>
