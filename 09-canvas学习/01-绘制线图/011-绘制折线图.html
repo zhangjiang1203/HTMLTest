@@ -20,7 +20,6 @@
             
             var lineChart = function (ctx) {
                 this.ctx = ctx || document.querySelector('canvas').getContext('2d');
-
                 //网格大小
                 this.gridSize = 10;
                 //坐标系间距
@@ -29,7 +28,6 @@
                 this.arrowsize = 10;
                 //绘制点的大小
                 this.pointsize = 6;
-
                 //图标的宽高
                 this.width = this.ctx.canvas.width;
                 this.height = this.ctx.canvas.height;
@@ -44,7 +42,6 @@
                 this.drawGrid();
                 this.drawAxis();
                 this.drawPoint(data);
-                
             }
             //行为方法 绘制网格
             lineChart.prototype.drawGrid =  function () {

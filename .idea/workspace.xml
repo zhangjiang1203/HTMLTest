@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/009-绘制图片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/010-帧动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/011-行走的小人.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/012-canvas的坐标转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/alien.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-canvas学习/01-绘制线图/005-绘制镂空的正方形.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-canvas学习/01-绘制线图/005-绘制镂空的正方形.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-canvas学习/01-绘制线图/007-绘制渐变矩形.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-canvas学习/01-绘制线图/007-绘制渐变矩形.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-canvas学习/01-绘制线图/011-绘制折线图.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-canvas学习/01-绘制线图/011-绘制折线图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-canvas学习/01-绘制线图/013-绘制一个渐变的矩形.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-canvas学习/01-绘制线图/013-绘制一个渐变的矩形.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/002-曲线的绘制.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/002-曲线的绘制.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/009-绘制图片.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/009-绘制图片.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,56 +26,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="011-绘制折线图.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/011-绘制折线图.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="008-绘制饼图.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="009-绘制图片.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="009-绘制图片.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/009-绘制图片.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="41" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="007-绘制文字显示.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/007-绘制文字显示.html">
+      <file leaf-file-name="010-帧动画.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/010-帧动画.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+            <state relative-caret-position="612">
+              <caret line="56" selection-start-line="56" selection-end-line="59" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="006-绘制饼图.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/006-绘制饼图.html">
+      <file leaf-file-name="011-行走的小人.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/011-行走的小人.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="688">
+              <caret line="124" column="45" lean-forward="true" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="005-绘制平分圆.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/005-绘制平分圆.html">
+      <file leaf-file-name="012-canvas的坐标转换.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/012-canvas的坐标转换.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="588">
+              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -118,9 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05-jQuery/001-jq选择器/008-手风琴案例.html" />
-        <option value="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/js/index.js" />
-        <option value="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/index.html" />
         <option value="$PROJECT_DIR$/08-h5css3/01-购物车宣传页/css/index.css" />
         <option value="$PROJECT_DIR$/08-h5css3/02-购物车动画/js/index.js" />
         <option value="$PROJECT_DIR$/08-h5css3/02-购物车动画/index.html" />
@@ -151,24 +140,27 @@
         <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/002-绘制平行线.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/03-绘制多条平行线.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/004-绘制填充的三角形.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/005-绘制镂空的正方形.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/006-线条绘制类型.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/007-绘制渐变矩形.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/008-绘制网格.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/009-绘制坐标系.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/010-绘制点.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/012-绘制矩形.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/013-绘制一个渐变的矩形.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/011-绘制折线图.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/001-什么是弧度.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/002-曲线的绘制.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/003-绘制4分之一的圆弧.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/004-绘制扇形.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/005-绘制平分圆.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/006-绘制饼图.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/007-绘制文字显示.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html" />
+        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/005-绘制镂空的正方形.html" />
+        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/007-绘制渐变矩形.html" />
+        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/013-绘制一个渐变的矩形.html" />
+        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/011-绘制折线图.html" />
+        <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/002-曲线的绘制.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/009-绘制图片.html" />
+        <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/010-帧动画.html" />
+        <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/012-canvas的坐标转换.html" />
+        <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/011-行走的小人.html" />
       </list>
     </option>
   </component>
@@ -193,10 +185,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1568" />
-    <option name="y" value="60" />
-    <option name="width" value="1616" />
-    <option name="height" value="964" />
+    <option name="x" value="2049" />
+    <option name="y" value="23" />
+    <option name="width" value="1334" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -206,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,13 +215,18 @@
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="09-canvas学习" type="462c0819:PsiDirectoryNode" />
+              <item name="01-绘制线图" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="09-canvas学习" type="462c0819:PsiDirectoryNode" />
               <item name="02-曲线绘制" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,11 +238,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/09-canvas学习/02-曲线绘制" />
       <recent name="$PROJECT_DIR$/08-h5css3/03-h5属性学习" />
       <recent name="$PROJECT_DIR$/05-jQuery" />
       <recent name="$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用" />
       <recent name="$PROJECT_DIR$/05-jQuery/002-jq操作样式" />
-      <recent name="$PROJECT_DIR$/04-前端基本功" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -355,21 +353,21 @@
       <workItem from="1533257860248" duration="14467000" />
       <workItem from="1533602869501" duration="22205000" />
       <workItem from="1533690802117" duration="23752000" />
+      <workItem from="1533777353278" duration="11956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="512277000" />
+    <option name="totallyTimeSpent" value="524233000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1568" y="60" width="1616" height="964" extended-state="0" />
+    <frame x="2049" y="23" width="1334" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17141089" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20764618" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -382,6 +380,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,30 +402,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-JavaScript/008-js第六天/010-焦点动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-JavaScript/008-js第六天/011-左右焦点动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-前端基本功/004-网页特效4/002-缓动动画原理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-前端基本功/004-网页特效4/003-封装基本函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-前端基本功/004-网页特效4/005-封装基本函数单个属性.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -556,20 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/003-绘制多条平行线.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="47" column="40" selection-end-line="64" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/001-体验canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08-h5css3/01-购物车宣传页/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -584,59 +545,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/005-绘制镂空的正方形.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML学习笔记/7-canvas资料/day01资料/04-代码/06-和线相关的属性和方法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="25" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/004-绘制填充的三角形.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="20" selection-end-line="48" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/007-绘制渐变矩形.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="7" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/008-绘制网格.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/001-什么是弧度.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/002-绘制平行线.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="35" column="13" lean-forward="true" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/002-曲线的绘制.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="33" column="9" lean-forward="true" selection-end-line="44" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -647,94 +559,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/003-绘制4分之一的圆弧.html">
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="13" lean-forward="true" selection-end-line="38" selection-end-column="7" />
+        <state relative-caret-position="2037">
+          <caret line="97" column="23" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/004-绘制扇形.html">
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/001-体验canvas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="28" lean-forward="true" selection-end-line="42" selection-end-column="7" />
+        <state relative-caret-position="591">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/010-绘制点.html">
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/002-绘制平行线.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="40" selection-end-line="55" selection-end-column="7" />
+        <state relative-caret-position="424">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/009-绘制坐标系.html">
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/003-绘制多条平行线.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/006-线条绘制类型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/013-绘制一个渐变的矩形.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/012-绘制矩形.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/011-绘制折线图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/006-绘制饼图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="678">
+          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/007-绘制文字显示.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/004-绘制填充的三角形.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/013-绘制一个渐变的矩形.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/005-绘制镂空的正方形.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/006-线条绘制类型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/007-绘制渐变矩形.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/009-绘制坐标系.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/010-绘制点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="40" selection-end-line="55" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/011-绘制折线图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1380">
+          <caret line="72" column="49" lean-forward="true" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/002-曲线的绘制.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/003-绘制4分之一的圆弧.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/004-绘制扇形.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/005-绘制平分圆.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="441">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html">
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/006-绘制饼图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+        <state relative-caret-position="423">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/001-什么是弧度.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/012-绘制矩形.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="40" selection-start-line="40" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/008-绘制网格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/alien.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/009-绘制图片.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/010-帧动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="56" selection-start-line="56" selection-end-line="59" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/012-canvas的坐标转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/011-行走的小人.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="124" column="45" lean-forward="true" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
         </state>
       </provider>
     </entry>

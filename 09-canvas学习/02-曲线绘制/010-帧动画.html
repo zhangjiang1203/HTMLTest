@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>帧动画</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+
+    </style>
+    <script type="application/javascript">
+        window.onload = function () {
+            var ctx = document.querySelector('canvas').getContext('2d');
+            //加载图片
+            var image = new Image();
+            image.onload = function () {
+                //图片加载完成 ，动态获取图片的尺寸
+                var imageW = image.width;
+                var imageH = image.height;
+
+                //计算每个人物的尺寸
+                var personW = imageW/4;
+                var personH = imageH/4;
+
+                //截取动画 帧动画 在固定的时间间隔显示图片
+                //绘制图片的位置
+                var x0 = ctx.canvas.width/2 - personW/2;
+                var y0 = ctx.canvas.height/2 - personH/2;
+
+
+                var index = 0;
+                setInterval(function () {
+                    //清除之前的动画，防止重影
+                    ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);
+                    ctx.drawImage(image,index*personW,0,personW,personH,x0,y0,personW,personH);
+                    index++;
+                    if (index > 3) index =0;
+                },100)
+
+
+
+            }
+            image.src = 'images/03.png';
+
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+</body>
+</html>

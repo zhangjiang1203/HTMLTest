@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>坐标转换</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+    </style>
+    <script type="application/javascript">
+        window.onload = function () {
+            var ctx = document.querySelector('canvas').getContext('2d');
+            var width = ctx.canvas.width
+            var height = ctx.canvas.height;
+            var startAngle = 0;
+            // setInterval(function () {
+            //     startAngle += Math.PI/180;
+            //     //此时的旋转中心为canvas的原点
+            //     ctx.rotate(startAngle);
+            //     ctx.strokeRect((width-100)/2,(height-100)/2,100,100);
+            // },800);
+            /*设置围绕原点旋转*/
+            ctx.translate(width/2,height/2);
+            setInterval(function () {
+                startAngle += Math.PI/180;
+                ctx.rotate(startAngle);
+                ctx.strokeRect(-50,-50,100,100);
+            },800)
+
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <canvas width="600" height="400"></canvas>
+
+</div>
+
+</body>
+</html>

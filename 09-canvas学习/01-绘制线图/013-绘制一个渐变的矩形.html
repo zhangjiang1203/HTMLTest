@@ -22,14 +22,14 @@
             //线性渐变 方向 起始颜色  结束颜色
             //两个点的坐标可以控制 渐变方向
             //创建一个渐变方案，确定长度和方向
-            //放射渐变
+            //放射渐变 开始的位置  半径  结束的位置  半径
             var radioGradient = ctx.createRadialGradient(100,100,200,500,300,200);
-            //线性渐变
+            //线性渐变 四个参数确定渐变的方向 开始的位置  结束的位置
             // var linearGradient = ctx.createLinearGradient(100,100,500,300);
             radioGradient.addColorStop(0,'yellow');
             radioGradient.addColorStop(0.5,'red');
             radioGradient.addColorStop(1,'blue');
-            ctx.fillStyle = radioGradient
+            ctx.fillStyle = radioGradient;
 
             ctx.fillRect(100,100,400,200);
 
