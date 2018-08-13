@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/013-拼接线条.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/003-绘制4分之一的圆弧.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/003-绘制4分之一的圆弧.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/006-绘制饼图.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/006-绘制饼图.html" afterDir="false" />
-    </list>
+    <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,8 +17,8 @@
       <file leaf-file-name="013-拼接线条.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/013-拼接线条.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="336">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -151,10 +146,33 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/10-nodejs资料/03/code/express-demo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/10-nodejs资料/03/code/npm-demo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/10-nodejs资料/04/code/crud-express - 00/node_modules" />
+    <handled-path value="$PROJECT_DIR$/10-nodejs资料/04/code/crud-express/node_modules" />
+    <handled-path value="$PROJECT_DIR$/10-nodejs资料/04/code/express-demo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/10-nodejs资料/04/code/feedback-express/node_modules" />
+    <handled-path value="$PROJECT_DIR$/10-nodejs资料/04/crud-express/node_modules" />
+    <handled-path value="$PROJECT_DIR$/10-nodejs资料/05/code/crud-express/node_modules" />
+    <handled-path value="$PROJECT_DIR$/10-nodejs资料/07/blog/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用/jquery-color-master/jquery-color-master/package.json" />
       <path value="$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用/jquery_lazyload-1.9.5/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/02/feedback/public/lib/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/03/code/express-demo/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/03/code/npm-demo/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/04/code/crud-express - 00/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/04/code/crud-express/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/04/code/express-demo/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/04/code/feedback-express/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/04/crud-express/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/05/code/crud-express/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/05/code/mongoose-demo/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/05/code/mysql-demo/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs资料/07/blog/package.json" />
       <path value="$PROJECT_DIR$/HTML学习笔记/3-jQuery笔记/01-jquery教学资料4/jquery-plugins/jquery-color-master/jquery-color-master/package.json" />
       <path value="$PROJECT_DIR$/HTML学习笔记/3-jQuery笔记/01-jquery教学资料4/jquery-plugins/jquery_lazyload-1.9.5/package.json" />
     </packageJsonPaths>
@@ -179,23 +197,6 @@
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="09-canvas学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="09-canvas学习" type="462c0819:PsiDirectoryNode" />
-              <item name="01-绘制线图" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="09-canvas学习" type="462c0819:PsiDirectoryNode" />
-              <item name="02-曲线绘制" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,16 +330,15 @@
       <workItem from="1533602869501" duration="22205000" />
       <workItem from="1533690802117" duration="23752000" />
       <workItem from="1533777353278" duration="11956000" />
-      <workItem from="1534123244955" duration="1322000" />
+      <workItem from="1534123244955" duration="1585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="525555000" />
+    <option name="totallyTimeSpent" value="525818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1942" y="23" width="1334" height="958" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20764618" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -708,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/013-拼接线条.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="336">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>
