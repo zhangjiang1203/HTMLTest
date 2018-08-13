@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拼接线条</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 600px;
+            height: 400px;
+            margin: 50px auto 0;
+            border: 1px solid red;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var ctx = document.querySelector('canvas').getContext('2d');
+            ctx.moveTo(100,50-0.5);
+            ctx.lineTo(300,50-0.5);
+            ctx.arcTo(350,50-0.5,350,150-0.5,50);
+            ctx.lineTo(350-0.5,250);
+            ctx.arcTo(350,350-0.5,300,350-0.5,50);
+            ctx.lineTo(100,350-0.5);
+            ctx.arcTo(50,350-0.5,50,300-0.5,50);
+            ctx.lineTo(50-0.5,100-0.5);
+            ctx.arcTo(50,50-0.5,100,50-0.5,50);
+            ctx.stroke()
+        }
+    </script>
+</head>
+<body>
+
+<div class="box">
+    <canvas width="600px" height="400px"></canvas>
+</div>
+
+</body>
+</html>
