@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浏览器使用模板引擎</title>
+    <!--
+    模板引擎不关心内容，只关心自己能认识的模板内容
+    -->
+    <script src="node_modules/art-template/lib/template-web.js"></script>
+    <script type="text/template" id="tp1">
+        <p>{{ name }}</p>
+        <p>{{ age }}</p>
+        <p>{{ address }}</p>
+        我喜欢:{{each hobbies}} {{ $value }} {{/each}}
+    </script>
+    <script>
+        window.onload = function () {
+            //开始根据模板渲染数据，
+            var ret = template('tp1',{
+                name:'Jack',
+                age:18,
+                address:'中国上海',
+                hobbies:['吃','撸代码','听音乐','溜冰','飞行']
+            })
+            console.log(ret)
+
+            document.getElementById('demo').innerHTML = ret
+        }
+    </script>
+</head>
+<body>
+
+<div id="demo">
+
+</div>
+
+</body>
+</html>

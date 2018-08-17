@@ -19,9 +19,9 @@ server.on('request',function (request,response) {
 
 
     //思考 根据不同的请求路径响应不同的结果 request.url 做出响应判断
-    if (request.url == ''){
+    if (request.url == '') {
 
-    } else if (request.url == ''){
+    } else if (request.url == '') {
 
     } else {
         
