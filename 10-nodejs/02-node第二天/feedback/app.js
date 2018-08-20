@@ -57,7 +57,7 @@ server.on('request',function (req,res) {
         showData.push(parseObj.query)
         //表单提交重定向,通过服务器让客户端重定向
         // 1.设置状态码为302 临时重定向 statusCode
-        // 2.设置状态码为301 永久重定向
+        // 2.设置状态码为301 永久重定向 浏览器会记住
         res.statusCode = 302
         // 3.响应头中通过设置Location告诉客户端往哪个重定向 '/' 就是表示根路径
         // 客户端发现收到服务器的响应状态码是302，就会自动去响应头中找Location，进行重定位

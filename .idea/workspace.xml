@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/01-http-helloworld.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/02-读取文件目录.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/03-模板引擎.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/04-浏览器使用模板引擎.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/05-node中使用template模板.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/06-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/07-url模块.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/comments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/03-node第三天/01-node中的模块系统/foo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/03-node第三天/01-node中的模块系统/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/03-node第三天/02-模块原理/foo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/03-node第三天/02-模块原理/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/03-node第三天/04-require标识符分析/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/03-node第三天/05-express/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/03-node第三天/05-express/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-nodejs/01-node第一天/006-response.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/01-node第一天/006-response.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-nodejs/01-node第一天/009-loadPackage.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/01-node第一天/009-loadPackage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/comments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/03/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/03/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,39 +28,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/app.js">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/02/feedback/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07-url模块.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/07-url模块.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="010-设置显示的中文字符.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/010-设置显示的中文字符.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="527">
+              <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/index.html">
+        <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/02/feedback/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="244">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -67,8 +53,26 @@
       <file leaf-file-name="comments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/comments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="294">
+              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -110,6 +114,7 @@
       <find>clould_fly</find>
       <find>person</find>
       <find>template-web.js</find>
+      <find>public</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;br /&gt;</replace>
@@ -122,18 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/003-历史记录.html" />
-        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/004-地理位置定位.html" />
-        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/005-drag事件.html" />
-        <option value="$PROJECT_DIR$/08-h5css3/04-h5的api学习/customPlayer/js/index.js" />
-        <option value="$PROJECT_DIR$/09-react学习/01-react基础/react-demos/001-babel-standalone的作用.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/001-体验canvas.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/002-绘制平行线.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/03-绘制多条平行线.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/004-绘制填充的三角形.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/006-线条绘制类型.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/008-绘制网格.html" />
-        <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/009-绘制坐标系.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/010-绘制点.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/01-绘制线图/012-绘制矩形.html" />
         <option value="$PROJECT_DIR$/09-canvas学习/02-曲线绘制/001-什么是弧度.html" />
@@ -173,6 +166,18 @@
         <option value="$PROJECT_DIR$/10-nodejs/02-node第二天/07-url模块.js" />
         <option value="$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/comments.html" />
         <option value="$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/app.js" />
+        <option value="$PROJECT_DIR$/HTML学习笔记/main.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/01-node中的模块系统/main.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/01-node中的模块系统/foo.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/02-模块原理/foo.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/02-模块原理/main.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/a.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/b.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/require.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/04-require标识符分析/main.js" />
+        <option value="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/03/README.md" />
+        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/05-express/public/js/main.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/05-express/app.js" />
       </list>
     </option>
   </component>
@@ -456,10 +461,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1852" />
+    <option name="x" value="1442" />
     <option name="y" value="23" />
-    <option name="width" value="1334" />
-    <option name="height" value="958" />
+    <option name="width" value="1896" />
+    <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -469,7 +474,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -480,18 +484,7 @@
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="04-前端基本功" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="01-node第一天" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
@@ -505,6 +498,14 @@
               <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="02-node第二天" type="462c0819:PsiDirectoryNode" />
               <item name="feedback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="02-node第二天" type="462c0819:PsiDirectoryNode" />
+              <item name="feedback" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
@@ -518,6 +519,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,11 +531,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/10-nodejs/03-node第三天/01-node中的模块系统" />
       <recent name="$PROJECT_DIR$/09-canvas学习/02-曲线绘制" />
       <recent name="$PROJECT_DIR$/08-h5css3/03-h5属性学习" />
       <recent name="$PROJECT_DIR$/05-jQuery" />
       <recent name="$PROJECT_DIR$/05-jQuery/004-jQuery插件的使用" />
-      <recent name="$PROJECT_DIR$/05-jQuery/002-jq操作样式" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -649,24 +651,26 @@
       <workItem from="1534295723278" duration="11199000" />
       <workItem from="1534469361811" duration="4743000" />
       <workItem from="1534474661909" duration="3753000" />
+      <workItem from="1534494592790" duration="474000" />
+      <workItem from="1534729806955" duration="15338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="556839000" />
+    <option name="totallyTimeSpent" value="572651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1852" y="23" width="1334" height="958" extended-state="0" />
+    <frame x="1442" y="23" width="1896" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20764618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14609705" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32908705" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4258427" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -697,216 +701,55 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/001-体验canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/002-绘制平行线.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/003-绘制多条平行线.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/004-绘制填充的三角形.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/013-绘制一个渐变的矩形.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/005-绘制镂空的正方形.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/006-线条绘制类型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/007-绘制渐变矩形.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/009-绘制坐标系.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/010-绘制点.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="40" selection-end-line="55" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/011-绘制折线图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1380">
-          <caret line="72" column="49" lean-forward="true" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/012-绘制矩形.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="40" selection-start-line="40" selection-end-line="43" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/01-绘制线图/008-绘制网格.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/alien.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/011-行走的小人.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="109" column="17" lean-forward="true" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/001-什么是弧度.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/002-曲线的绘制.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/003-绘制4分之一的圆弧.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/004-绘制扇形.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/005-绘制平分圆.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/006-绘制饼图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/007-绘制文字显示.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/008-绘制饼图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1536">
-          <caret line="81" column="55" lean-forward="true" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/010-帧动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/009-绘制图片.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/013-拼接线条.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-canvas学习/02-曲线绘制/012-canvas的坐标转换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/hello.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-前端基本功/006-网页特效6/014-prototype原型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-779">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML学习笔记/5-Ajax资料/day-12/code/03-ajax-dynamic-table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="40" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/004-写文件.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript/001-js第一天/001-javascript.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript/001-js第一天/002-javascript.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript/001-js第一天/003-javascript.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript/001-js第一天/004-functiontest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript/002-js第二天/001-z-index练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-JavaScript/002-js第二天/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -924,17 +767,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/004-写文件.js">
+    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/003-读取文件.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/005-http设置.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="315">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -945,52 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/009-loadPackage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/03-模板引擎.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/04-浏览器使用模板引擎.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/003-读取文件.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/007-conditionresponse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="67" column="4" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/02-读取文件目录.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/01-http-helloworld.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="607">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
@@ -1008,10 +809,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/05-node中使用template模板.js">
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/01-node中的模块系统/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="189">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/01-node中的模块系统/foo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/02-模块原理/foo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/02-模块原理/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/01-购物车宣传页/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-h5css3/01-购物车宣传页/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="377" column="9" lean-forward="true" selection-start-line="377" selection-start-column="9" selection-end-line="377" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/b.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/04-require标识符分析/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/03/code/00-forEach.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/03/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="212" column="24" selection-start-line="212" selection-start-column="24" selection-end-line="212" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/05-express/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/hello.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/07-url模块.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/04-浏览器使用模板引擎.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/009-loadPackage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/02/feedback/public/img/ab3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/02/feedback/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -1022,31 +960,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/07-url模块.js">
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/05-node中使用template模板.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        <state relative-caret-position="399">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/comments.html">
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/05-express/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/01-http-helloworld.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/02-读取文件目录.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/03-模板引擎.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/02/留言本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3749">
+          <caret line="194" column="105" lean-forward="true" selection-start-line="194" selection-start-column="105" selection-end-line="194" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/02/feedback/views/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/02/feedback/views/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/02/feedback/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/02/feedback/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/02/feedback/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="21">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>

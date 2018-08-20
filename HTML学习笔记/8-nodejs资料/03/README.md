@@ -231,3 +231,10 @@ var fakeArr = {
 - Express 基本使用
 
 - 使用 Express 把之前的留言本案例自己动手改造一下
+
+- 加入淘宝镜像 npm
+npm config set registry https://registry.npm.taobao.org
+- 查看npm配置信息
+npm config list
+- 重置下载文件路径也是上面的命令
+
