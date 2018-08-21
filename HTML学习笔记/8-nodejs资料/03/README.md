@@ -236,5 +236,7 @@ var fakeArr = {
 npm config set registry https://registry.npm.taobao.org
 - 查看npm配置信息
 npm config list
+
+之前的registry地址 "https://registry.npmjs.org/"
 - 重置下载文件路径也是上面的命令
 
