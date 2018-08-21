@@ -17,8 +17,20 @@ app.use(bodyParser.json())
 app.use('/node_modules/',express.static('./node_modules/'))
 app.use('/public/',express.static('./public/'))
 
-//引入router 关联router内的路由信息，
-router(app)
+//配置使用art-template模板引擎
+//第一个参数表示当渲染以.art结尾的文件的时候，使用art-template模板引擎
+//express-art-template 是专门用来在express中把art-template整合到express中
+//html这个可以任意写 但是下面渲染的时候文件的后缀名要和这个一致
+app.engine('html',require('express-art-template'))
+//express为response相应对象提供了一个方法 render
+//render方法默认是不可以使用的，但是如果配置了模板引擎就可以使用了
+//res.render('html模板名称',{模板数据})
+//第一个参数不能写路径，默认会去项目中的views目录查找该模板文件
+//也就是说express有一个约定：开发人员把所有的视图文件都放到views目录中
+//修改默认的views目录，第一个参数不是路径，而是一个特定的值
+// app.set('views',render函数的默认路径)
+app.use(router)
+
 
 app.listen(3000,function () {
     console.log('开始运行,访问127.0.0.1:3000去访问')
