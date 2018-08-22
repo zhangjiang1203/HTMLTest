@@ -32,7 +32,7 @@ exports.save = function (student,callback) {
         }
         //获取最后一个学生的id加1
         student.id = students[students.length-1].id + 1
-        students.unshift(student)
+        students.push(student)
         //转成字符串写入文件
         var result = JSON.stringify({students:students})
         fs.writeFile(filePath,result,function (err) {
@@ -58,9 +58,6 @@ exports.update = function (student,callback) {
                 break;
             }
         }
-        // console.log('修改的数据',i)
-        // students.insert(i,student)
-
         //转成字符串写入文件
         var result = JSON.stringify({students:students})
         fs.writeFile(filePath,result,function (err) {
@@ -79,14 +76,11 @@ exports.delete = function (id,callback) {
         if (err){
             return callback && callback(err)
         }
-        var i = 0;
-        for ( i = 0; i < students.length; i++) {
-            if (id == students[i].id){
-                students.splice(i,1)
-                break;
-            }
-        }
-
+        //查找对应的下标
+        var deleteIndex = students.findIndex(function (item) {
+            return item.id == id
+        })
+        students.splice(deleteIndex,1)
         //转成字符串写入文件
         var result = JSON.stringify({students:students})
         fs.writeFile(filePath,result,function (err) {
@@ -104,11 +98,12 @@ exports.search = function (id,callback) {
         if (err){
             return callback && callback(err)
         }
-        for (var i = 0; i < students.length; i++) {
-            if (id == students[i].id){
-                callback && callback(null,students[i])
-                break;
-            }
-        }
+        var ret = students.find(function (item) {
+            return item.id == id
+        })
+        callback && callback(null,ret)
     })
 }
+
+//全等于要保证两边的类型一致
+// 字符串转int数字 parseInt('1')
