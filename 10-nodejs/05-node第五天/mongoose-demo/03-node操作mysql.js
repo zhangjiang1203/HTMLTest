@@ -10,7 +10,7 @@ var  connection = sql.createConnection({
 //连接数据库
 connection.connect()
 
-//执行操作
+//执行操作，就一个query方法执行所有的数据库操作
 connection.query('SELECT * FROM `users`',function (err,result,fields) {
     if (err) {
         console.log(err)
