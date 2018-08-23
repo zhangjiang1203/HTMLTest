@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    //封装异步请求函数
+    function getData(path,callback) {
+        var req = new XMLHttpRequest()
+        req.onload = function () {
+            callback && callback(req.responseText)
+        }
+        req.open('get',path)
+        req.send()
+    }
+    //函数使用
+    getData('showdata.json',function (data) {
+        console.log(data)
+    })
+</script>
+
+</body>
+</html>
