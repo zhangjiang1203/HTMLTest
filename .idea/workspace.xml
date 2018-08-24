@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/10-nodejs/05-node第五天/03-promise语法.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/03-node操作mysql.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/03-node操作mysql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +20,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="03-node操作mysql.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03-node操作mysql.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/03-node操作mysql.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state>
+              <caret selection-end-line="21" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operation-fs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/curd-express/operation-fs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-http-helloworld.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/01-http-helloworld.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="010-设置显示的中文字符.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/010-设置显示的中文字符.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -76,11 +116,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/10-nodejs/02-node第二天/04-浏览器使用模板引擎.html" />
-        <option value="$PROJECT_DIR$/10-nodejs/02-node第二天/06-template.html" />
         <option value="$PROJECT_DIR$/10-nodejs/02-node第二天/05-node中使用template模板.js" />
         <option value="$PROJECT_DIR$/10-nodejs/01-node第一天/009-loadPackage.js" />
-        <option value="$PROJECT_DIR$/10-nodejs/02-node第二天/01-http-helloworld.js" />
         <option value="$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/index.html" />
         <option value="$PROJECT_DIR$/10-nodejs/02-node第二天/07-url模块.js" />
         <option value="$PROJECT_DIR$/10-nodejs/02-node第二天/feedback/views/comments.html" />
@@ -126,7 +163,10 @@
         <option value="$PROJECT_DIR$/10-nodejs/05-node第五天/curd-express/operation-fs.js" />
         <option value="$PROJECT_DIR$/10-nodejs/05-node第五天/curd-express/router.js" />
         <option value="$PROJECT_DIR$/10-nodejs/05-node第五天/03-node操作mysql.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/05-node第五天/03-promise语法.js" />
         <option value="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/03-node操作mysql.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/02-node第二天/01-http-helloworld.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/app.js" />
       </list>
     </option>
   </component>
@@ -606,7 +646,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1572" />
+    <option name="x" value="1784" />
     <option name="y" value="23" />
     <option name="width" value="1576" />
     <option name="height" value="987" />
@@ -630,6 +670,32 @@
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="01-node第一天" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="05-node第五天" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="05-node第五天" type="462c0819:PsiDirectoryNode" />
+              <item name="curd-express" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
+              <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="05-node第五天" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoose-demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -778,24 +844,25 @@
       <workItem from="1534859247634" duration="875000" />
       <workItem from="1534989840481" duration="282000" />
       <workItem from="1534990134274" duration="15540000" />
+      <workItem from="1535073473396" duration="1686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="613839000" />
+    <option name="totallyTimeSpent" value="615525000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1572" y="23" width="1576" height="987" extended-state="0" />
+    <frame x="1784" y="23" width="1576" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19356914" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19356914" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010571" side_tool="true" weight="0.21666667" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4989429" visible="true" weight="0.28539327" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989429" visible="true" weight="0.17977528" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4258427" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -826,94 +893,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/04/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/04/code/promise链式调用.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/04/code/promiseAPI代码图示.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/04/code/crud-express/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="378">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/04-node第四天/curd-express/operationFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajaxlearn/001-ajax发送请求.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajaxlearn/004-readyState.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajaxlearn/005-onload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajaxlearn/006-ajax请求报文.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajaxlearn/007-ajax-get.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajaxlearn/008-getuserinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajaxlearn/009-ajax-post.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajaxlearn/010-ajax-postlogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07-Ajax学习/01-ajaxlearn/011-ajax-async-vs-sync.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -946,9 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,16 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/curd-express/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1000,13 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="11" lean-forward="true" selection-end-column="275" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="1219" column="4" selection-start-line="1219" selection-start-column="4" selection-end-line="1219" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1021,13 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-732">
           <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/curd-express/operation-fs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1049,9 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="122" column="13" lean-forward="true" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,10 +1108,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/03-promise语法.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/curd-express/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/a.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/03-require加载规则/b.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/04-浏览器使用模板引擎.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/001-js-helloworld.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/006-response.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/curd-express/operation-fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/03-node操作mysql.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state>
+          <caret selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/07-url模块.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/05-node中使用template模板.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/02-node第二天/01-http-helloworld.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/007-conditionresponse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-711" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="990" column="25" lean-forward="true" selection-start-line="990" selection-start-column="25" selection-end-line="990" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/01-node第一天/010-设置显示的中文字符.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
         </state>
       </provider>
     </entry>

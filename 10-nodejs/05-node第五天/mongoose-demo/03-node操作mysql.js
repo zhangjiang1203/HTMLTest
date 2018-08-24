@@ -16,7 +16,7 @@ connection.query('SELECT * FROM `users`',function (err,result,fields) {
         console.log(err)
     }else {
 
-        console.log('The solution is: ',result)
+        console.log('The solution is: ',result[0])
     }
 
 })
