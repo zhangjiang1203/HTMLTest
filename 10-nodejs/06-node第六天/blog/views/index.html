@@ -1,0 +1,27 @@
+<!--继承至layout.html 其中的一些公共的组件通过继承添加上去-->
+{{extend './layout.html'}}
+
+<!--重写head-->
+{{ block 'head' }}
+<style>
+  body {
+    background-color: skyblue;
+  }
+</style>
+{{ /block }}
+
+
+<!--重写content-->
+{{ block 'content' }}
+<div>
+  <h1>index 页面填坑内容</h1>
+</div>
+{{ /block }}
+
+
+<!---->
+{{ block 'script' }}
+<script>
+  window.alert('index 页面自己的 js 脚本')
+</script>
+{{ /block }}

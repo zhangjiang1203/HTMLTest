@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/blog" vcs="Git" />
   </component>
 </project>

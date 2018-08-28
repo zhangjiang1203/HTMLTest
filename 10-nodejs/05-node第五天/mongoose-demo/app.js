@@ -54,5 +54,5 @@ app.get('/posts',function (req,res) {
 
 
 app.listen(3000,function () {
-    console.log('开始运行，浏览器访问127.0.0.1：3000')
+    console.log('开始运行，浏览器访问127.0.0.1:3000')
 })

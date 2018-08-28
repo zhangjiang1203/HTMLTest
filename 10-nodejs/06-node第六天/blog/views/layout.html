@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+  <!--定义个head 在子类中去修改这个head中的类容，这个是留个的坑-->
+  {{ block 'head' }}{{ /block }}
+</head>
+<body>
+  <!-- 引入头部文件 -->
+  {{ include './header.html' }}
+  <!-- 留一个坑，将要留给孩子去填坑 -->
+  
+  {{ block 'content' }}
+    <h1>默认内容</h1>
+  {{ /block }}
+
+  <!--引入底部文件-->
+  {{ include './footer.html' }}
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  {{ block 'script' }}{{ /block }}
+
+<!--这是一个公共的界面，添加自己需要显示的界面-->
+<!--block里面定义的head content   script  在子类中都可以重新定义新的添加上去-->
+
+<!--//子类中直接使用-->
+<!--// block head  block content   block script  去补充里面的类容-->
+
+
+</body>
+</html>
+
+
+

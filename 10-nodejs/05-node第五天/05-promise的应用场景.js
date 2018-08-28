@@ -15,6 +15,5 @@ function get(url) {
         }
         req.open('get',url,true)
         req.send()
-
     })
 }
