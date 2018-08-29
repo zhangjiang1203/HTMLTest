@@ -1,6 +1,7 @@
 var express = require('express')
 var prase = require('body-parser')
 var routers = require('./routers')
+var session = require('express-session')
 
 var path = require('path')
 
@@ -30,19 +31,22 @@ app.use(prase.json())
 //设置渲染的模板类型
 app.engine('html',require('express-art-template'))
 
+//express中默认不支持session和cookies，可以使用第三方中间件：express-session来解决
+//npm install express-session
+//配置数据
+//添加数据 req.session.foo = 'bar'
+//访问数据 req.session.foo
+app.use(session({
+    secret:'8dvsd98sdfu89sfdfhfdgh',//配置加密字符串，他会在原有的加密基础之上和这个字符串拼接起来去加密
+    resave: false,
+    saveUninitialized: true //无论是否使用session 都默认分配一把钥匙
+}))
+
+
 
 //设置路由
 app.use(routers)
 
-app.get('/',function (req, res) {
-
-    console.log(req.url);
-    res.render('index.html',{
-        name:'李四'
-    })
-
-    // res.end('hello')
-})
 
 app.listen(3000,function () {
     console.log('开始运行，访问地址:127.0.0.1:3000')

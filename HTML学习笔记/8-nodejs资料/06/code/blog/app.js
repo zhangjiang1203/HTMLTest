@@ -45,6 +45,6 @@ app.use(session({
 // 把路由挂载到 app 中
 app.use(router)
 
-app.listen(5000, function () {
+app.listen(3000, function () {
   console.log('running...')
 })

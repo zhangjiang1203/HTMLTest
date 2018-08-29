@@ -16,12 +16,72 @@
 <div>
   <h1>index 页面填坑内容</h1>
 </div>
+
+<!--
+表单具有默认的提交行为，默认是同步的，同步表单提交，浏览器会锁死等待服务端响应的结果
+
+
+
+-->
+
+<form action="/register" method="post" id="register_account">
+
+  <div class="form-group">
+    <label for="nickname">用户名</label>
+    <input class="form-control" type="text" placeholder="用户名" id="nickname" name="nickname">
+  </div>
+
+  <div class="form-group">
+    <label for="email">邮箱</label>
+    <input class="form-control" type="text" placeholder="邮箱" id="email" name="email">
+  </div>
+
+  <div class="form-group">
+    <label for="password">密码</label>
+    <input class="form-control" type="password" placeholder="密码" id="password" name="password">
+  </div>
+
+
+  <button type="submit" class="btn btn-success btn-block">登录</button>
+</form>
+
+
 {{ /block }}
 
 
 <!---->
 {{ block 'script' }}
 <script>
-  window.alert('index 页面自己的 js 脚本')
+  // window.alert('index 页面自己的 js 脚本')
+
+    $('#register_account').on('submit',function (e) {
+        e.preventDefault()
+        var data = $(this).serialize()
+        $.ajax({
+            url:'/register',
+            type:'post',
+            data:data,
+            typedata:'json',
+            success:function (data) {
+                var code = data.err_code
+                console.log(code)
+                if (code == 1) {
+                    window.alert('昵称或邮箱已存在')
+                } else if (code == 500){
+                    window.alert('服务器忙，请稍后重试')
+                }else if (code == 0) {
+                    window.alert('注册成功')
+                //    成功之后重定向
+                //    服务重定向对异步请求没有效果
+                //    客户端直接重定向对应的url
+                    window.location.href = '/'
+                }
+            },
+            error:function (error) {
+                console.log('返回的错误信息',error)
+            }
+        })
+    })
+
 </script>
 {{ /block }}
