@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/public/images/node模型建立.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/07-node第七天/01-文件路径.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/07-node第七天/02-express-middle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/07-node第七天/03-中间件使用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/cookies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/post-body.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/session.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-nodejs/07-node第七天/template.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/model/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/model/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/routers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/views/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/views/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/session.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/session.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,78 +27,65 @@
     <session id="1238340247">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
           <entry key="html" value="32" />
-          <entry key="js" value="39" />
-          <entry key="json" value="6" />
+          <entry key="js" value="62" />
+          <entry key="json" value="7" />
           <entry key="php" value="6" />
           <entry key="png" value="1" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="32" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="39" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="62" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1057" />
-          <entry key="js" value="3278" />
+          <entry key="js" value="4778" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1057" />
-          <entry key="JavaScript" value="3278" />
+          <entry key="JavaScript" value="4778" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-nodejs/07-node第七天/02-express-middle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/app.js">
+        <entry file="file://$PROJECT_DIR$/10-nodejs/07-node第七天/03-中间件使用.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/routers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-695">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="483">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -156,17 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/04-require标识符分析/main.js" />
-        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/05-express/public/js/main.js" />
-        <option value="$PROJECT_DIR$/10-nodejs/03-node第三天/05-express/app.js" />
-        <option value="$PROJECT_DIR$/10-nodejs/04-node第四天/data/temple.txt" />
-        <option value="$PROJECT_DIR$/10-nodejs/04-node第四天/01-模块标识.js" />
-        <option value="$PROJECT_DIR$/10-nodejs/04-node第四天/data/foo.js" />
-        <option value="$PROJECT_DIR$/10-nodejs/04-node第四天/express-demo/public/login.html" />
-        <option value="$PROJECT_DIR$/10-nodejs/04-node第四天/express-demo/app.js" />
-        <option value="$PROJECT_DIR$/10-nodejs/04-node第四天/feedback-express/public/css/main.css" />
-        <option value="$PROJECT_DIR$/10-nodejs/04-node第四天/feedback-express/views/comments.html" />
-        <option value="$PROJECT_DIR$/10-nodejs/04-node第四天/feedback-express/app.js" />
         <option value="$PROJECT_DIR$/10-nodejs/04-node第四天/curd-express/students.json" />
         <option value="$PROJECT_DIR$/10-nodejs/04-node第四天/curd-express/views/index.html" />
         <option value="$PROJECT_DIR$/10-nodejs/04-node第四天/curd-express/package.json" />
@@ -207,6 +184,17 @@
         <option value="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/views/index.html" />
         <option value="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/routers.js" />
         <option value="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/app.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/07-node第七天/template.txt" />
+        <option value="$PROJECT_DIR$/10-nodejs/07-node第七天/01-文件路径.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/cookies.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/post-body.js" />
+        <option value="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/cookie.js" />
+        <option value="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/query.js" />
+        <option value="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/session.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/query.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/session.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/07-node第七天/02-express-middle.js" />
+        <option value="$PROJECT_DIR$/10-nodejs/07-node第七天/03-中间件使用.js" />
       </list>
     </option>
   </component>
@@ -227,6 +215,7 @@
     <handled-path value="$PROJECT_DIR$/10-nodejs/05-node第五天/curd-express/node_modules" />
     <handled-path value="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/node_modules" />
     <handled-path value="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/node_modules" />
+    <handled-path value="$PROJECT_DIR$/10-nodejs/07-node第七天/node_modules" />
     <handled-path value="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/03/code/express-demo/node_modules" />
     <handled-path value="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/03/code/npm-demo/node_modules" />
     <handled-path value="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/04/code/crud-express - 00/node_modules" />
@@ -468,6 +457,7 @@
       <path value="$PROJECT_DIR$/10-nodejs/05-node第五天/curd-express/package.json" />
       <path value="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/package.json" />
       <path value="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/package.json" />
+      <path value="$PROJECT_DIR$/10-nodejs/07-node第七天/package.json" />
       <path value="$PROJECT_DIR$/HTML学习笔记/3-jQuery笔记/01-jquery教学资料4/jquery-plugins/jquery-color-master/jquery-color-master/package.json" />
       <path value="$PROJECT_DIR$/HTML学习笔记/3-jQuery笔记/01-jquery教学资料4/jquery-plugins/jquery_lazyload-1.9.5/package.json" />
       <path value="$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/02/code/feedback/node_modules/acorn/package.json" />
@@ -690,7 +680,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1787" />
+    <option name="x" value="1784" />
     <option name="y" value="23" />
     <option name="width" value="1576" />
     <option name="height" value="987" />
@@ -703,6 +693,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -713,80 +704,18 @@
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="06-PHP基础" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="06-PHP基础" type="462c0819:PsiDirectoryNode" />
-              <item name="09-php操作cookies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="06-node第六天" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="06-node第六天" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="10-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="06-node第六天" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML学习笔记" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML学习笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="8-nodejs资料" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML学习笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="8-nodejs资料" type="462c0819:PsiDirectoryNode" />
-              <item name="06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML学习笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="8-nodejs资料" type="462c0819:PsiDirectoryNode" />
-              <item name="06" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML学习笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="8-nodejs资料" type="462c0819:PsiDirectoryNode" />
-              <item name="06" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="07-node第七天" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -943,17 +872,19 @@
       <workItem from="1535419571514" duration="221000" />
       <workItem from="1535419965760" duration="16633000" />
       <workItem from="1535504253365" duration="10903000" />
+      <workItem from="1535592224099" duration="1834000" />
+      <workItem from="1535594241261" duration="6428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="651170000" />
+    <option name="totallyTimeSpent" value="659432000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1787" y="23" width="1576" height="987" extended-state="0" />
+    <frame x="1784" y="23" width="1576" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19356914" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19356914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -964,7 +895,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989429" visible="true" weight="0.22905028" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989429" weight="0.22905028" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010571" side_tool="true" weight="0.21666667" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -990,94 +921,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/SQLOperation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/curd-express/operationFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/01-dirname和filename.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/01-path模块介绍.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/curd-express/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/03-node第三天/05-express/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/04-node第四天/curd-express/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/views/list.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/models/topic.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/models/comment.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/views/header.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/views/footer.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/routes/session.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/routes/topic.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1116,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/model/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07-Ajax学习/02-ajax封装/005-ajax-返回值.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-355" />
@@ -1156,13 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="6391" column="14" selection-start-line="6391" selection-start-column="14" selection-end-line="6391" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1202,9 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,34 +1086,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/router.js">
+    <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/public/images/node模型建立.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-695">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="945">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/07-node第七天/template.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/routers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        <state relative-caret-position="1197">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/public/images/node模型建立.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/app.js">
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/06/code/blog/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        <state relative-caret-position="735">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/07-node第七天/01-文件路径.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/02-mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/01-mongooseDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/06-node第六天/blog/model/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/post-body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/04-中间件.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/cookies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/post-body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/query.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/07-node第七天/middlewares/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/07-node第七天/02-express-middle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/07-node第七天/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-nodejs/07-node第七天/03-中间件使用.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
     </entry>
