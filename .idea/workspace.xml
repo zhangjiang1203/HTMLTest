@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e33155-afb4-4d08-8463-5c33460caf1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/11-移动web/01-移动web/001-流式布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-移动web/01-移动web/002-viewPort.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-移动web/01-移动web/003-适配方案.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-移动web/01-移动web/004-移动端不建议使用jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-移动web/01-移动web/005-box-sizing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-移动web/01-移动web/006-点击高亮.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-移动web/01-移动web/MJD/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-移动web/01-移动web/MJD/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-nodejs/01-node第一天/009-loadPackage.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/01-node第一天/009-loadPackage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-nodejs/07-node第七天/01-文件路径.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-nodejs/07-node第七天/01-文件路径.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,17 +65,17 @@
     <session id="2095568754">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
-          <entry key="html" value="17" />
+          <entry key="css" value="6" />
+          <entry key="html" value="21" />
           <entry key="jpg" value="1" />
           <entry key="js" value="17" />
           <entry key="png" value="4" />
@@ -93,23 +83,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="17" />
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="21" />
           <entry key="Image" value="5" />
           <entry key="JavaScript" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1362" />
-          <entry key="html" value="1752" />
+          <entry key="css" value="2813" />
+          <entry key="html" value="2059" />
           <entry key="js" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1362" />
-          <entry key="HTML" value="1752" />
+          <entry key="CSS" value="2813" />
+          <entry key="HTML" value="2059" />
           <entry key="JavaScript" value="18" />
         </counts>
       </usages-collector>
@@ -117,14 +107,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56379586">
+    <splitter split-orientation="horizontal" split-proportion="0.42736357">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/base.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="302">
-                  <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+                <state relative-caret-position="92">
+                  <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -132,8 +122,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="295">
-                  <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+                <state relative-caret-position="480">
+                  <caret line="213" column="14" lean-forward="true" selection-start-line="213" selection-start-column="14" selection-end-line="213" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -141,12 +131,26 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HTML学习笔记/9-移动web/day01/04-代码/jdM/css/index.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="537">
+                  <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="441">
-                  <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+                <state relative-caret-position="177">
+                  <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
+                  <folding>
+                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -260,8 +264,8 @@
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/006-点击高亮.html" />
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/001-流式布局.html" />
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/base.css" />
-        <option value="$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html" />
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/index.css" />
+        <option value="$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html" />
       </list>
     </option>
   </component>
@@ -826,7 +830,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
+    <option name="x" value="1455" />
     <option name="y" value="23" />
     <option name="width" value="1576" />
     <option name="height" value="987" />
@@ -872,14 +876,6 @@
               <item name="MJD" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
-              <item name="11-移动web" type="462c0819:PsiDirectoryNode" />
-              <item name="01-移动web" type="462c0819:PsiDirectoryNode" />
-              <item name="MJD" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -896,15 +892,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/10-nodejs/05-node第五天" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HTML学习笔记" />
       <recent name="$PROJECT_DIR$/10-nodejs/06-node第六天/blog/public/images" />
       <recent name="$PROJECT_DIR$/10-nodejs/06-node第六天/blog" />
       <recent name="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo" />
       <recent name="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/node_modules" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/10-nodejs/05-node第五天" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1046,18 +1042,19 @@
       <workItem from="1536023330308" duration="1013000" />
       <workItem from="1536809396479" duration="9653000" />
       <workItem from="1536826324341" duration="3313000" />
-      <workItem from="1536886361007" duration="4113000" />
+      <workItem from="1536886361007" duration="12139000" />
+      <workItem from="1536910388122" duration="2476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="677524000" />
+    <option name="totallyTimeSpent" value="688026000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1576" height="987" extended-state="0" />
+    <frame x="1455" y="23" width="1576" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19356914" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16334406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1345,24 +1342,10 @@
     <entry file="file://$PROJECT_DIR$/HTML学习笔记/9-移动web/day01/04-代码/jdM/js/common.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/9-移动web/day01/04-代码/jdM/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/001-流式布局.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/9-移动web/day01/04-代码/jdM/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1384,22 +1367,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="92">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/9-移动web/day01/04-代码/jdM/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="-1483">
+          <caret line="34" column="22" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习笔记/9-移动web/day01/04-代码/jdM/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="480">
+          <caret line="213" column="14" lean-forward="true" selection-start-line="213" selection-start-column="14" selection-end-line="213" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

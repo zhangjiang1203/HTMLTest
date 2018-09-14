@@ -50,6 +50,7 @@
     float: right;
 }
 /*清除左右浮动*/
+ /*清除浮动 子控件撑开父控件*/
 .clearFix::before,
 .clearFix::after{
     content: '';
@@ -71,4 +72,12 @@
 }
 .m_b10{
     margin-bottom: 10px;
+}
+
+/*使用精灵兔的样式设置比例*/
+ /*设置以icon开头 或者是 icon_开头的使用下面的样式*/
+[class^="icon_"],[class*=" icon_"]{
+    background-repeat: no-repeat;
+    background-image: url("../images/sprites.png");
+    background-size: 200px 200px;
 }
