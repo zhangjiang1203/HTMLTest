@@ -65,67 +65,79 @@
     <session id="2095568754">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="6" />
-          <entry key="html" value="21" />
+          <entry key="html" value="24" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="17" />
+          <entry key="js" value="22" />
           <entry key="png" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="6" />
-          <entry key="HTML" value="21" />
+          <entry key="HTML" value="24" />
           <entry key="Image" value="5" />
-          <entry key="JavaScript" value="17" />
+          <entry key="JavaScript" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="3768" />
-          <entry key="html" value="2498" />
-          <entry key="js" value="18" />
+          <entry key="html" value="3557" />
+          <entry key="js" value="787" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3768" />
-          <entry key="HTML" value="2498" />
-          <entry key="JavaScript" value="18" />
+          <entry key="HTML" value="3557" />
+          <entry key="JavaScript" value="787" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="HTMLTest" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46963874">
+    <splitter split-orientation="horizontal" split-proportion="0.51510334">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/base.css">
+            <entry file="file://$PROJECT_DIR$/11-移动web/02-移动web/MJD/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="701">
-                  <caret line="81" column="33" lean-forward="true" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+                <state relative-caret-position="399">
+                  <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/index.css">
+            <entry file="file://$PROJECT_DIR$/11-移动web/02-移动web/MJD/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="320" lean-forward="true" selection-start-line="320" selection-end-line="320" />
+                <state relative-caret-position="332">
+                  <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/11-移动web/02-移动web/001-触摸事件.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="726">
+                  <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
                 </state>
               </provider>
             </entry>
@@ -133,28 +145,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/HTML学习笔记/9-移动web/day01/04-代码/jdM/css/index.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="172" column="17" lean-forward="true" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html">
+            <entry file="file://$PROJECT_DIR$/11-移动web/02-移动web/MJD/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="638">
-                  <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
-                  <folding>
-                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#second#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="e#3505#3509#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="315">
+                  <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -219,8 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/10-nodejs/05-node第五天/01-封装ajax方法.html" />
-        <option value="$PROJECT_DIR$/10-nodejs/05-node第五天/02-find和findIndex.js" />
         <option value="$PROJECT_DIR$/10-nodejs/05-node第五天/笔记.md" />
         <option value="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/01-mongooseDemo.js" />
         <option value="$PROJECT_DIR$/10-nodejs/05-node第五天/mongoose-demo/02-mongoose.js" />
@@ -262,7 +256,6 @@
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/002-viewPort.html" />
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/003-适配方案.html" />
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/MJD/js/common.js" />
-        <option value="$PROJECT_DIR$/11-移动web/01-移动web/MJD/js/index.js" />
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/004-移动端不建议使用jquery.html" />
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/005-box-sizing.html" />
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/006-点击高亮.html" />
@@ -270,6 +263,9 @@
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/base.css" />
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/index.css" />
         <option value="$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html" />
+        <option value="$PROJECT_DIR$/11-移动web/01-移动web/MJD/js/index.js" />
+        <option value="$PROJECT_DIR$/11-移动web/02-移动web/001-触摸事件.html" />
+        <option value="$PROJECT_DIR$/11-移动web/02-移动web/MJD/js/index.js" />
       </list>
     </option>
   </component>
@@ -834,20 +830,34 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1455" />
-    <option name="y" value="23" />
-    <option name="width" value="1576" />
-    <option name="height" value="987" />
+    <option name="x" value="1442" />
+    <option name="y" value="28" />
+    <option name="width" value="1560" />
+    <option name="height" value="1019" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -864,27 +874,28 @@
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="11-移动web" type="462c0819:PsiDirectoryNode" />
-              <item name="01-移动web" type="462c0819:PsiDirectoryNode" />
+              <item name="02-移动web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="11-移动web" type="462c0819:PsiDirectoryNode" />
-              <item name="01-移动web" type="462c0819:PsiDirectoryNode" />
+              <item name="02-移动web" type="462c0819:PsiDirectoryNode" />
               <item name="MJD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTMLTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTMLTest" type="462c0819:PsiDirectoryNode" />
               <item name="11-移动web" type="462c0819:PsiDirectoryNode" />
-              <item name="01-移动web" type="462c0819:PsiDirectoryNode" />
+              <item name="02-移动web" type="462c0819:PsiDirectoryNode" />
               <item name="MJD" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -893,7 +904,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -951,6 +962,9 @@
         <item itemvalue="JavaScript Debug.mousechangeImage.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1049,19 +1063,20 @@
       <workItem from="1536886361007" duration="12139000" />
       <workItem from="1536910388122" duration="2476000" />
       <workItem from="1537319011891" duration="6796000" />
+      <workItem from="1537328862223" duration="7563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="694822000" />
+    <option name="totallyTimeSpent" value="702385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1455" y="23" width="1576" height="987" extended-state="0" />
+    <frame x="1442" y="28" width="1560" height="1019" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16334406" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" sideWeight="0.5052493" side_tool="true" weight="0.19802678" />
+      <window_info id="Favorites" order="1" sideWeight="0.5013123" side_tool="true" weight="0.006342495" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49475065" visible="true" weight="0.18258609" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -1096,27 +1111,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/post-body.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/middlewares/session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML学习笔记/8-nodejs资料/07/code/04-中间件.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1324,9 +1318,6 @@
     <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/js/common.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/js/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/004-移动端不建议使用jquery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1379,38 +1370,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="81" column="33" lean-forward="true" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+        <state relative-caret-position="416">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="313" column="1" selection-start-line="313" selection-start-column="1" selection-end-line="313" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="181" column="17" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#second#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML学习笔记/9-移动web/day01/04-代码/jdM/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="172" column="17" lean-forward="true" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="17" />
+          <caret line="172" column="17" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/css/index.css">
+    <entry file="file://$PROJECT_DIR$/11-移动web/02-移动web/001-触摸事件.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="320" lean-forward="true" selection-start-line="320" selection-end-line="320" />
+        <state relative-caret-position="726">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-移动web/01-移动web/MJD/index.html">
+    <entry file="file://$PROJECT_DIR$/11-移动web/02-移动web/MJD/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#second#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#3505#3509#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="399">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/11-移动web/02-移动web/MJD/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
