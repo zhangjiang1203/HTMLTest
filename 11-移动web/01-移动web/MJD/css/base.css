@@ -74,7 +74,7 @@
     margin-bottom: 10px;
 }
 
-/*使用精灵兔的样式设置比例*/
+/*使用精灵图的样式设置比例*/
  /*设置以icon开头 或者是 icon_开头的使用下面的样式*/
 [class^="icon_"],[class*=" icon_"]{
     background-repeat: no-repeat;
