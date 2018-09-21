@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+    <title>tap事件</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background: red;
+            float: left;
+        }
+    </style>
+    <script src="MJD/js/fastclick.min.js"></script>
+    <script>
+        <!--dom加载完成-->
+        document.addEventListener('DOMContentLoaded',function () {
+            //初始化方法
+            FastClick.attach(document.body);
+        },false)
+    </script>
+    <script>
+        window.onload = function () {
+            //tap事件 比click要快  150ms
+            /*移动端的click事件，区分是滑动还是点击，click点击延时300ms
+            * 1.影响用户体验，相应太慢
+            * 2.解决方法
+            *   1.使用tap事件 ，不是移动端原生的，通过touch相关事件衍生过来的
+            *   2.fastclick.js类库解决点击的慢的问题
+            *   3.https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js*/
+
+            var bindTapEvent = function (dom, callback) {
+                //事件的执行顺序
+                //在touchstart事件和touchmove事件之间，如果超过300ms没有执行move事件，就会执行click事件
+                dom.addEventListener('touchstart',function () {
+
+                })
+
+                dom.addEventListener('touchmove',function () {
+
+                })
+
+                dom.addEventListener('touchend',function () {
+
+                })
+
+                dom.addEventListener('click',function () {
+
+                })
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="box"></div>
+</body>
+</html>

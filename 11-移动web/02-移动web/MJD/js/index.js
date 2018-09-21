@@ -34,7 +34,7 @@ var banner = function () {
     * 2.点要随着图片一起滑动
     * 3.滑动效果
     * 4.滑动结束的时候 滑动距离不超过屏幕的1/3 吸附回去
-    * 5超过屏幕的1/3的时候 切换图片
+    * 5.超过屏幕的1/3的时候 切换图片
     * */
     var banner = document.querySelector('.jd_banner');
     /*屏幕宽度*/
@@ -98,27 +98,84 @@ var banner = function () {
 
     //滑动的时候也是需要无缝的，触摸事件
     var startX = 0;
+    var distanceX = 0;
+    var isMove = false;
     imagebox.addEventListener('touchstart',function (e) {
         console.log('开始触摸');
+        //清除定时器
+        clearInterval(timer )
         startX = e.touches[0].clientX;
     })
 
     imagebox.addEventListener('touchmove',function (e) {
         console.log('手指开始移动');
+        isMove = true;
         var moveX = e.touches[0].clientX;
-        var distanceX = moveX - startX
+        distanceX = moveX - startX;
         //元素的定位就是当前的定位+手指移动的距离
         var translateX = -index*width +distanceX;
         //随着手指的滑动做位置的改变
-        setTranslateX(translateX)
+        removeTransition();//清除过渡
+        setTranslateX(translateX);
     });
 
     imagebox.addEventListener('touchend',function (e) {
-        console.log('触摸结束');
+        if (isMove){
+            //移动的距离不超过三分之一 回退到之前的位置
+            addTransition()
+            if (Math.abs(distanceX) < width/3){
+                /*吸附回去*/
+                setTranslateX(-index*width)
+            } else {
+                /*切换*/
+                /*判断移动的方向*/
+                if (distanceX > 0){
+                    index--;
+                } else {
+                    index++;
+                }
+                setTranslateX(-index*width);
+            }
+        } 
+
+        /*参数重置，*/
+        startX = 0;
+        distanceX = 0;
+        isMove = false;
+        //添加一个定时器
+        clearInterval(timer)
+        timer = setInterval(function () {
+            index++;
+            addTransition();
+            setTranslateX(-index*width);
+        },3000)
     })
 
 }
 
 var downtimer = function () {
+    //倒计时的时间，每隔一秒去更新显示的时间
+    var time = 2 * 60 * 60
+
+    var timeBox = document.querySelector('.time').querySelectorAll('span')
+    var timer = setInterval(function () {
+        time --;
+        var h = Math.floor(time/3600);
+        var m = Math.floor(time%3600/60);
+        var s = Math.floor(time%60);
+        //显示到对应的span上
+        timeBox[0].innerHTML = Math.floor(h/10);
+        timeBox[1].innerHTML = h%10;
+
+        timeBox[3].innerHTML = Math.floor(m/10);
+        timeBox[4].innerHTML = m%10;
+
+        timeBox[6].innerHTML = Math.floor(s/10);
+        timeBox[7].innerHTML = s%10;
+
+        if (time <= 0){
+            clearInterval(timer);
+        }
+    },1000)
 
 }

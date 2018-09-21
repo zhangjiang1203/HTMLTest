@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+    <title>滑动事件</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 100%;
+            height: 500px;
+            background: #00B83F;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            /*1.理解移动端的手势事件
+            * 2.swipe swipeLeft swipeRight swipeUp swipeDown
+            * 3.左滑和右滑手势的实现*/
+            var bindSwipeEvent = function (dom,leftCallBack,rightCallBack) {
+                var startX = 0;
+                var distanceX = 0;
+                var isMove = false;
+                dom.addEventListener('touchstart',function (e) {
+                    startX = e.touches[0].clientX;
+                });
+                dom.addEventListener('touchmove',function (e) {
+                    var moveX = e.touches[0].clientX;
+                    distanceX = moveX - startX;
+                    isMove =  Math.abs(distanceX) > 50;
+                });
+                dom.addEventListener('touchend',function (e) {
+                    if (isMove){
+                        if (distanceX > 0){
+                            //右滑
+                            rightCallBack && rightCallBack(distanceX);
+                        } else {
+                            leftCallBack && leftCallBack(distanceX)
+                        }
+                    }
+
+                    // 每次触摸事件完成之后重置参数
+                    startX = 0;
+                    distanceX = 0;
+                    isMove = false
+
+                });
+
+            }
+            //调用函数
+            bindSwipeEvent(document.querySelector('.box'),function (distance) {
+                console.log(distance);
+            },function (distance) {
+                console.log(distance);
+            })
+        }
+    </script>
+
+</head>
+<body>
+
+<div class="box"></div>
+</body>
+</html>
