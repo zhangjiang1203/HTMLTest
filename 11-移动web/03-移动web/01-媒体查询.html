@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>媒体查询</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 1000px;
+            height: 1000px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+        /*使用媒体查询能针对不同的屏幕区间设置不同的布局和样式
+        关于媒体查询 @media */
+        /*查询 关键字screen 添加条件 and 可以多个值连用*/
+        @media screen and (max-width: 768px) and (min-width: 320px){
+            /*设置样式,会覆盖上面的样式*/
+            .container{
+                background-color: blue;
+                width: 100%;
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+            .container{
+                background-color: green;
+                width: 750px;
+            }
+        }
+
+        @media screen and (min-width: 992px) and (max-width: 1200px) {
+            .container{
+                background-color: red;
+                width:970px;
+            }
+        }
+        @media screen and (min-width: 1200px) {
+            .container{
+                background-color: yellow;
+                width:1170px;
+            }
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+
+        }
+    </script>
+</head>
+<body>
+
+<!--
+ 响应式布局
+ 1. 在超小屏设备的时候 768px以下  当前容器的宽度为100%  背景色为蓝色
+ 2. 在小屏设备的时候   768px-992px 当前容器的宽度为750px  背景色为绿色
+ 3. 在中屏设备的时候   992px-1200px 当前的容器宽度为970px  背景色为红色
+ 4. 在大屏设备的时候   1200px以上   当前容器的宽度为1170px  背景色为黄色
+-->
+<div class="container"></div>
+
+
+</body>
+</html>
