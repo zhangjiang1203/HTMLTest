@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网络问题解决方案</title>
+    <style type="text/css">
+
+    </style>
+
+    <script type="text/javascript">
+
+        //js和其他客户端交互的时候要把方法写在window.onload外面，否则客户端访问不到这个方法
+
+        window.onload = function () {
+            function $(id) {return document.getElementById(id);}
+            var images = document.getElementsByTagName("img")
+            var count = images.length
+            for (var i = 0; i < count ; i++) {
+                images[i].index = i;
+                images[i].onclick = function () {
+                    window.console.log("imageClick" + this.index)
+                    // 点击图片给的回调
+                    window.webkit.messageHandlers['imageClick'].postMessage(this.index)
+                }
+            }
+
+            //返回对应的图片展示数据,给客户端发送消息，返回图片url的列表
+            window.webkit.messageHandlers['imageList'].postMessage(getImageURl())
+            //开始计算对应的方法
+            function getImageURl() {
+                var imagesList = Array()
+                for (var i = 0; i < count; i++){
+                    images[i].index = i;
+                    imagesList.push(images[i].src)
+                }
+                return imagesList
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+<div id="box">
+
+    <img class="showImage" src="image/11.jpg" >
+    <img class="showImage" src="image/22.jpg" >
+    <img class="showImage" src="image/33.jpg" >
+    <img class="showImage" src="image/44.jpg" >
+    <img class="showImage" src="image/55.jpg" >
+    <img class="showImage" src="image/66.jpg" >
+
+
+</div>
+
+
+
+
+</body>
+</html>
